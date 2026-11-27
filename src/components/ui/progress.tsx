@@ -6,9 +6,9 @@ function clamp(value: number) {
 }
 
 /**
- * Halqa ko'rinishidagi progress.
- * `value` null bo'lsa — ma'lumot yo'q: halqa bo'sh, markazda "—".
- * Hech qachon taxminiy qiymat ko'rsatilmaydi.
+ * Halqa ko‘rinishidagi progress.
+ * `value` null bo‘lsa — ma’lumot yo‘q: halqa bo‘sh, markazda "—".
+ * Hech qachon taxminiy qiymat ko‘rsatilmaydi.
  */
 export function ProgressRing({
   value,
@@ -21,9 +21,9 @@ export function ProgressRing({
   value: number | null;
   size?: number;
   strokeWidth?: number;
-  /** Ekran o'quvchilar uchun nom, masalan "Umumiy progress". */
+  /** Ekran o‘quvchilar uchun nom, masalan "Umumiy progress". */
   label: string;
-  /** Markazdagi kontent; berilmasa foiz ko'rsatiladi. */
+  /** Markazdagi kontent; berilmasa foiz ko‘rsatiladi. */
   children?: ReactNode;
   className?: string;
 }) {
@@ -39,7 +39,7 @@ export function ProgressRing({
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={value === null ? undefined : Math.round(pct)}
-      aria-valuetext={value === null ? "Ma'lumot yo'q" : `${Math.round(pct)}%`}
+      aria-valuetext={value === null ? "Ma’lumot yo‘q" : `${Math.round(pct)}%`}
       className={cn("relative inline-grid place-items-center", className)}
       style={{ width: size, height: size }}
     >
@@ -96,7 +96,7 @@ export function ProgressBar({
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={value === null ? undefined : Math.round(pct)}
-      aria-valuetext={value === null ? "Ma'lumot yo'q" : `${Math.round(pct)}%`}
+      aria-valuetext={value === null ? "Ma’lumot yo‘q" : `${Math.round(pct)}%`}
       className={cn("h-2.5 w-full overflow-hidden rounded-full bg-surface-sunken", className)}
     >
       <div

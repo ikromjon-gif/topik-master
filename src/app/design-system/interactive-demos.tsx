@@ -29,7 +29,7 @@ export function ModalDemo() {
         }
       >
         <p className="text-body text-muted">
-          Modal native &lt;dialog&gt; asosida: ESC bilan yopiladi, fokus ichida qoladi, mobile&apos;da
+          Modal native &lt;dialog&gt; asosida: ESC bilan yopiladi, fokus ichida qoladi, mobile’da
           pastdan chiqadi.
         </p>
       </Modal>
@@ -45,16 +45,16 @@ export function FormDemo() {
         <Input
           label="Qidiruv"
           hideLabel
-          placeholder="Qidirish (so'z, grammatika, dars...)"
+          placeholder="Qidirish (so‘z, grammatika, dars...)"
           leadingIcon={<SearchIcon />}
         />
-        <Input label="Ism" placeholder="Ismingiz" hint="Profilda ko'rinadi." />
-        <Input label="Email" defaultValue="noto'g'ri-email" error="Email manzili noto'g'ri." />
-        <Input label="O'chirilgan" placeholder="Tahrirlab bo'lmaydi" disabled />
+        <Input label="Ism" placeholder="Ismingiz" hint="Profilda ko‘rinadi." />
+        <Input label="Email" defaultValue="noto‘g‘ri-email" error="Email manzili noto‘g‘ri." />
+        <Input label="O‘chirilgan" placeholder="Tahrirlab bo‘lmaydi" disabled />
       </div>
       <div className="flex flex-col gap-4">
         <Checkbox
-          label="Lug'at: yangi so'zlar"
+          label="Lug‘at: yangi so‘zlar"
           description="~15 daqiqa"
           checked={tasks[0]}
           onChange={(e) => setTasks([e.target.checked, tasks[1]])}
@@ -65,7 +65,7 @@ export function FormDemo() {
           checked={tasks[1]}
           onChange={(e) => setTasks([tasks[0], e.target.checked])}
         />
-        <Checkbox label="O'chirilgan topshiriq" disabled />
+        <Checkbox label="O‘chirilgan topshiriq" disabled />
       </div>
     </div>
   );

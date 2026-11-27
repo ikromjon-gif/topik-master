@@ -32,7 +32,7 @@ export function Badge({
 
 /**
  * Kontent tekshiruv holati. Faqat `verified` "Mutaxassis tasdiqlagan" deb
- * ko'rsatiladi; qolgan barcha holatlar "Tekshirilmoqda".
+ * ko‘rsatiladi; qolgan barcha holatlar "Tekshirilmoqda".
  */
 export function VerificationBadge({
   status,

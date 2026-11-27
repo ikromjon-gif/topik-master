@@ -58,7 +58,7 @@ const swatches = [
 
 const sections = [
   { title: "Tinglash", ko: "듣기", icon: <HeadphonesIcon />, cls: "bg-listening-soft text-listening" },
-  { title: "O'qish", ko: "읽기", icon: <BookOpenIcon />, cls: "bg-reading-soft text-reading" },
+  { title: "O‘qish", ko: "읽기", icon: <BookOpenIcon />, cls: "bg-reading-soft text-reading" },
   { title: "Yozish", ko: "쓰기", icon: <PenIcon />, cls: "bg-writing-soft text-writing" },
   { title: "Grammatika", ko: "문법", icon: <LayersIcon />, cls: "bg-grammar-soft text-grammar" },
 ];
@@ -79,7 +79,7 @@ export default function DesignSystemPage() {
       <div className="flex items-start gap-3 rounded-card border border-primary/20 bg-primary-soft p-4 text-primary-soft-foreground">
         <InfoIcon className="mt-0.5 size-5 shrink-0" />
         <p className="text-caption">
-          Bu sahifa faqat ishlab chiquvchilar uchun komponentlar ko&apos;rgazmasi. Undagi raqamlar
+          Bu sahifa faqat ishlab chiquvchilar uchun komponentlar ko‘rgazmasi. Undagi raqamlar
           komponent namunasi, haqiqiy foydalanuvchi statistikasi emas.
         </p>
       </div>
@@ -88,9 +88,9 @@ export default function DesignSystemPage() {
         <Card className="flex flex-col gap-3">
           <p className="text-display text-foreground">45 kunda 4급 ga tayyorlaning!</p>
           <p className="text-title font-bold">Bugungi reja</p>
-          <p className="text-heading font-semibold">45 kunlik o&apos;quv rejasi</p>
+          <p className="text-heading font-semibold">45 kunlik o‘quv rejasi</p>
           <p className="text-body">
-            Asosiy matn: rejali o&apos;qish, amaliy testlar va natija tahlili.{" "}
+            Asosiy matn: rejali o‘qish, amaliy testlar va natija tahlili.{" "}
             <span className="ko">다음 대화를 잘 듣고 이어질 수 있는 말을 고르십시오.</span>
           </p>
           <p className="text-caption text-muted">Izoh matni · ~15 daqiqa</p>
@@ -117,14 +117,14 @@ export default function DesignSystemPage() {
             <Button variant="secondary">Pro reja</Button>
             <Button variant="outline">Batafsil</Button>
             <Button variant="ghost">Bekor qilish</Button>
-            <Button variant="danger">O&apos;chirish</Button>
+            <Button variant="danger">O‘chirish</Button>
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <Button size="sm">Kichik</Button>
-            <Button size="md">O&apos;rta</Button>
+            <Button size="md">O‘rta</Button>
             <Button size="lg">Katta</Button>
             <Button loading>Saqlanmoqda</Button>
-            <Button disabled>O&apos;chirilgan</Button>
+            <Button disabled>O‘chirilgan</Button>
           </div>
         </Card>
       </Section>
@@ -141,12 +141,12 @@ export default function DesignSystemPage() {
         </Card>
       </Section>
 
-      <Section title="Ko'rsatkich kartalari">
+      <Section title="Ko‘rsatkich kartalari">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <StatTile icon={<CalendarIcon />} value="12-kun" suffix="/ 45" label="O'quv rejasi" />
+          <StatTile icon={<CalendarIcon />} value="12-kun" suffix="/ 45" label="O‘quv rejasi" />
           <StatTile icon={<TargetIcon />} value="35%" label="Umumiy progress" tone="reading" />
           <StatTile icon={<BarChartIcon />} value="4급" label="Maqsad daraja" />
-          <StatTile icon={<FlameIcon />} value={null} label="Ketma-ket o'qish (ma'lumot yo'q)" tone="streak" />
+          <StatTile icon={<FlameIcon />} value={null} label="Ketma-ket o‘qish (ma’lumot yo‘q)" tone="streak" />
         </div>
       </Section>
 
@@ -158,16 +158,16 @@ export default function DesignSystemPage() {
           </Card>
           <Card className="flex flex-col items-center gap-3">
             <ProgressRing value={null} label="45 kunlik progress" />
-            <p className="text-caption text-muted">Ma&apos;lumot yo&apos;q</p>
+            <p className="text-caption text-muted">Ma’lumot yo‘q</p>
           </Card>
           <Card className="flex flex-col justify-center gap-4">
             <div className="flex justify-between text-caption font-semibold">
               <span>21 / 45 kun</span>
               <span>47%</span>
             </div>
-            <ProgressBar value={47} label="O'quv rejasi" />
+            <ProgressBar value={47} label="O‘quv rejasi" />
             <ProgressBar value={100} label="Bajarilgan" tone="success" />
-            <ProgressBar value={null} label="Ma'lumot yo'q" />
+            <ProgressBar value={null} label="Ma’lumot yo‘q" />
           </Card>
         </div>
       </Section>
@@ -180,15 +180,15 @@ export default function DesignSystemPage() {
               icon={<CalendarIcon />}
               action={<span className="text-muted">2026-11-15</span>}
             />
-            <p className="text-body text-muted">Karta sarlavhasi, ikonka va o&apos;ng tomondagi amal.</p>
+            <p className="text-body text-muted">Karta sarlavhasi, ikonka va o‘ng tomondagi amal.</p>
           </Card>
           <Card>
-            <CardHeader title="So'nggi natijalar" icon={<TrophyIcon />} />
+            <CardHeader title="So‘nggi natijalar" icon={<TrophyIcon />} />
             <EmptyState
               compact
               icon={<FileTextIcon />}
-              title="Hali natija yo'q"
-              description="Birinchi mashqni bajarganingizdan keyin natijalar shu yerda ko'rinadi."
+              title="Hali natija yo‘q"
+              description="Birinchi mashqni bajarganingizdan keyin natijalar shu yerda ko‘rinadi."
             />
           </Card>
         </div>

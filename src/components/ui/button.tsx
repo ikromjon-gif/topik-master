@@ -26,7 +26,7 @@ const sizes: Record<ButtonSize, string> = {
   lg: "h-12 px-5 text-body [&_svg]:size-5",
 };
 
-/** Havola (`<Link>`) uchun ham bir xil ko'rinish beradi. */
+/** Havola (`<Link>`) uchun ham bir xil ko‘rinish beradi. */
 export function buttonClasses({
   variant = "primary",
   size = "md",

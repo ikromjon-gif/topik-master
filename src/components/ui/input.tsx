@@ -3,7 +3,7 @@ import { cn } from "@/lib/cn";
 
 export type InputProps = InputHTMLAttributes<HTMLInputElement> & {
   label?: string;
-  /** Label ko'rinmasin, lekin ekran o'quvchilar uchun qolsin. */
+  /** Label ko‘rinmasin, lekin ekran o‘quvchilar uchun qolsin. */
   hideLabel?: boolean;
   hint?: string;
   error?: string;

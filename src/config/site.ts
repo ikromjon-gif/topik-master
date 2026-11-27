@@ -1,12 +1,12 @@
 /**
- * Platforma nomi va asosiy ma'lumotlar.
- * Brendni almashtirish uchun faqat shu faylni o'zgartirish kifoya.
+ * Platforma nomi va asosiy ma’lumotlar.
+ * Brendni almashtirish uchun faqat shu faylni o‘zgartirish kifoya.
  */
 export const siteConfig = {
   name: "Sabaq",
   tagline: "TOPIK II tayyorgarlik",
   description:
-    "O'zbek tilida TOPIK II (3급–6급) imtihoniga tayyorgarlik platformasi: tinglash, o'qish, yozish va grammatika.",
+    "O‘zbek tilida TOPIK II (3급–6급) imtihoniga tayyorgarlik platformasi: tinglash, o‘qish, yozish va grammatika.",
   locale: "uz",
   timeZone: "Asia/Seoul",
   exam: {

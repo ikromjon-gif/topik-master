@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 /**
- * Bitta ko'rsatkich kartasi (masalan "12-kun / 45 kun").
- * `value` null bo'lsa "—" ko'rsatiladi: ma'lumot yo'qligi ochiq aytiladi.
+ * Bitta ko‘rsatkich kartasi (masalan "12-kun / 45 kun").
+ * `value` null bo‘lsa "—" ko‘rsatiladi: ma’lumot yo‘qligi ochiq aytiladi.
  */
 export function StatTile({
   icon,

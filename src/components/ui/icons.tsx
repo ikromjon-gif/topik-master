@@ -2,8 +2,8 @@ import type { SVGProps } from "react";
 
 /**
  * Inline SVG ikonkalar (tashqi kutubxonasiz).
- * Hammasi 24×24, chiziqli uslub, `currentColor` bilan bo'yaladi.
- * O'lcham `className` orqali beriladi (standart: size-5).
+ * Hammasi 24×24, chiziqli uslub, `currentColor` bilan bo‘yaladi.
+ * O‘lcham `className` orqali beriladi (standart: size-5).
  */
 export type IconProps = SVGProps<SVGSVGElement>;
 

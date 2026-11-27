@@ -23,6 +23,9 @@ zaxira nusxa yozadi.
   (DB triggeri buni majburiy qiladi).
 - **Rasmiy TOPIK savollari, audio va matnlari ko'chirilmaydi.** Ulardan faqat
   havola (`official_reference`) sifatida foydalaniladi.
+- **O‘zbek tipografiyasi:** oʻ/gʻ uchun `‘` (U+2018), tutuq belgisi uchun
+  `’` (U+2019). ASCII `'` va `ʻ` (U+02BB) ishlatilmaydi (qarang:
+  `docs/design-system.md`).
 - **Audio fayllar git'da saqlanmaydi.** Ular yopiq `audio` bucket'ida turadi,
   bu yerda faqat metama'lumot (`media/`) saqlanadi.
 
