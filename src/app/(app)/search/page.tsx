@@ -17,7 +17,7 @@ export default async function SearchPage({
 
   return (
     <PageContainer title="Qidiruv">
-      <SearchField className="mb-5 md:hidden" defaultValue={query} />
+      <SearchField id="search-page-q" className="mb-5 md:hidden" defaultValue={query} />
       <Card>
         <EmptyState
           icon={<SearchIcon />}

@@ -6525,12 +6525,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D01-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 1, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D01-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 1, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6540,12 +6540,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D02-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 2, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D02-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 2, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6555,12 +6555,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D03-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 3, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D03-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 3, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6570,12 +6570,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D04-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 4, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D04-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 4, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6585,7 +6585,7 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D05-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 5, 2,
-  'writing', 'Yozish 54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
+  'writing', '54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6595,12 +6595,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D06-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 6, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D06-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 6, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6610,12 +6610,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D07-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 7, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D07-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 7, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6625,12 +6625,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D08-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 8, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D08-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 8, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6640,12 +6640,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D09-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 9, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D09-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 9, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6665,12 +6665,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D11-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 11, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D11-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 11, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6680,12 +6680,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D12-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 12, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D12-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 12, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6695,12 +6695,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D13-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 13, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D13-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 13, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6710,12 +6710,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D14-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 14, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D14-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 14, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6725,7 +6725,7 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D15-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 15, 2,
-  'writing', 'Yozish 54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
+  'writing', '54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6735,12 +6735,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D16-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 16, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D16-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 16, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6750,12 +6750,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D17-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 17, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D17-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 17, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6765,12 +6765,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D18-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 18, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D18-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 18, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6780,12 +6780,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D19-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 19, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D19-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 19, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6805,12 +6805,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D21-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 21, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D21-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 21, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6820,12 +6820,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D22-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 22, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D22-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 22, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6835,12 +6835,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D23-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 23, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D23-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 23, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6850,12 +6850,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D24-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 24, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D24-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 24, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6865,7 +6865,7 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D25-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 25, 2,
-  'writing', 'Yozish 54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
+  'writing', '54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6875,12 +6875,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D26-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 26, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D26-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 26, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6890,12 +6890,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D27-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 27, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D27-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 27, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6905,12 +6905,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D28-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 28, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D28-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 28, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6920,12 +6920,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D29-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 29, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D29-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 29, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6945,12 +6945,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D31-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 31, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D31-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 31, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6960,12 +6960,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D32-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 32, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D32-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 32, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6975,12 +6975,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D33-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 33, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D33-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 33, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -6990,12 +6990,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D34-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 34, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D34-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 34, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7005,7 +7005,7 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D35-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 35, 2,
-  'writing', 'Yozish 54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
+  'writing', '54: insho (600–700 belgi)', null, 50, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7015,12 +7015,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D36-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 36, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D36-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 36, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7030,12 +7030,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D37-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 37, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D37-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 37, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7045,12 +7045,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D38-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 38, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D38-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 38, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7060,12 +7060,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D39-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 39, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D39-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 39, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7085,12 +7085,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D41-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 41, 2,
-  'grammar', 'Grammatika: yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Yangi ifodalar', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D41-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 41, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7100,12 +7100,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D42-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 42, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D42-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 42, 3,
-  'writing', 'Yozish 51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
+  'writing', '51–52: gap to‘ldirish', null, 20, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7115,12 +7115,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D43-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 43, 2,
-  'grammar', 'Grammatika: takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
+  'grammar', 'Takrorlash va mashq', null, 20, '/grammar', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D43-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 43, 3,
-  'listening', 'Tinglash: TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
+  'listening', 'TOPIK II formatidagi mashq', null, 25, '/listening', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
@@ -7130,12 +7130,12 @@ on conflict (key) do update set day = excluded.day, position = excluded.position
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D44-2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 44, 2,
-  'reading', 'O‘qish: TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
+  'reading', 'TOPIK II formatidagi mashq', null, 25, '/reading', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)
 values ('PLN-45-TOPIK2-L4-D44-3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.plan_templates where key = 'PLN-45-TOPIK2-L4'), 44, 3,
-  'writing', 'Yozish 53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
+  'writing', '53: grafik bo‘yicha matn (200–300 belgi)', null, 30, '/writing', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
 insert into public.plan_template_tasks (key, source_id, authored_by, template_id, day, position, section, title, title_ko, estimated_minutes, href, topic_id, status, reviewed_by)

@@ -106,6 +106,12 @@ export async function updateProfile(_prev: ActionResult | null, formData: FormDa
     .update({ display_name: parsed.data.displayName || null, target_level: parsed.data.targetLevel })
     .eq("id", ctx.userId);
   if (error) return { ok: false, error: "Saqlab bo‘lmadi." };
+  // Maqsad daraja bitta: faol rejada ham yangilanadi (Dashboard "Maqsad daraja" mos bo‘lishi uchun)
+  await ctx.supabase
+    .from("user_plans")
+    .update({ target_level: parsed.data.targetLevel })
+    .eq("user_id", ctx.userId)
+    .eq("status", "active");
   revalidatePath("/profile");
   refresh();
   return { ok: true };

@@ -5,15 +5,24 @@ import { cn } from "@/lib/cn";
  * Qidiruv maydoni: oddiy GET forma (/search?q=...).
  * JavaScript'siz ham ishlaydi; qidiruv natijalari keyingi bosqichda.
  */
-export function SearchField({ className, defaultValue }: { className?: string; defaultValue?: string }) {
+export function SearchField({
+  className,
+  defaultValue,
+  id = "global-search",
+}: {
+  className?: string;
+  defaultValue?: string;
+  /** Sahifada ikkinchi qidiruv maydoni bo‘lsa, takrorlanmaydigan id bering. */
+  id?: string;
+}) {
   return (
-    <form action="/search" method="get" role="search" className={cn("relative", className)}>
-      <label htmlFor="global-search" className="sr-only">
+    <form action="/search" method="get" role="search" aria-label="Sayt bo‘yicha qidiruv" className={cn("relative", className)}>
+      <label htmlFor={id} className="sr-only">
         Qidirish
       </label>
       <SearchIcon className="pointer-events-none absolute top-1/2 left-3.5 size-5 -translate-y-1/2 text-subtle" />
       <input
-        id="global-search"
+        id={id}
         name="q"
         type="search"
         defaultValue={defaultValue}
