@@ -1,31 +1,214 @@
 @import "tailwindcss";
 
 /*
- * Phase 0: minimal asos. To'liq design tokenlar (ranglar, tipografiya,
- * spacing, light/dark) Phase 1 da shu faylga qo'shiladi.
- * Dark mode `.dark` klassi orqali boshqariladi (keyinroq ThemeProvider).
+ * Sabaq design tokenlari.
+ * Ranglar CSS o'zgaruvchilari orqali beriladi va `.dark` klassi bilan
+ * almashadi. Tailwind'da `bg-surface`, `text-muted`, `border-border`,
+ * `bg-primary` kabi semantik klasslar sifatida ishlatiladi.
+ * Komponentlarda xom ranglar (blue-600 va h.k.) o'rniga shu tokenlardan
+ * foydalaning.
  */
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
+  color-scheme: light;
+
+  /* Fon va sirtlar */
+  --background: #f6f8fc;
+  --surface: #ffffff;
+  --surface-muted: #f1f4f9;
+  --surface-sunken: #eaeef5;
+  --border: #e3e8f0;
+  --border-strong: #cfd7e3;
+
+  /* Matn */
   --foreground: #0f172a;
+  --muted: #5b6b82;
+  --subtle: #66758c;
+
+  /* Asosiy rang — Blue */
+  --primary: #1d5bf0;
+  --primary-hover: #174bd0;
+  --primary-active: #133fae;
+  --primary-foreground: #ffffff;
+  --primary-soft: #e8efff;
+  --primary-soft-foreground: #1747c4;
+
+  /* Holat ranglari */
+  --success: #137a3a;
+  --success-soft: #e6f6ec;
+  --warning: #c2410c;
+  --warning-soft: #fff1e6;
+  --danger: #dc2626;
+  --danger-soft: #fdecec;
+  --streak: #f97316;
+
+  /* Bo'lim aksentlari (tezkor kirish kartalari) */
+  --accent-listening: #1d5bf0;
+  --accent-listening-soft: #e8efff;
+  --accent-reading: #7c3aed;
+  --accent-reading-soft: #f1eafe;
+  --accent-writing: #db2777;
+  --accent-writing-soft: #fde9f2;
+  --accent-grammar: #d97706;
+  --accent-grammar-soft: #fef3e2;
+
+  --ring: #1d5bf0;
+  --overlay: rgb(15 23 42 / 0.45);
+
+  --shadow-card: 0 1px 2px rgb(15 23 42 / 0.04), 0 4px 16px rgb(15 23 42 / 0.04);
+  --shadow-raised: 0 2px 4px rgb(15 23 42 / 0.06), 0 12px 32px rgb(15 23 42 / 0.08);
 }
 
 .dark {
-  --background: #0b1120;
-  --foreground: #e2e8f0;
+  color-scheme: dark;
+
+  --background: #0a0f1c;
+  --surface: #111827;
+  --surface-muted: #162033;
+  --surface-sunken: #1f2a3f;
+  --border: #1f2a3f;
+  --border-strong: #2c3a55;
+
+  --foreground: #e6ebf3;
+  --muted: #9aa8bf;
+  --subtle: #7d8ba3;
+
+  --primary: #4c82ff;
+  --primary-hover: #6a97ff;
+  --primary-active: #3b6ff0;
+  --primary-foreground: #0a0f1c;
+  --primary-soft: #16264a;
+  --primary-soft-foreground: #a9c2ff;
+
+  --success: #4ade80;
+  --success-soft: #11291c;
+  --warning: #fb923c;
+  --warning-soft: #2e1b0e;
+  --danger: #f87171;
+  --danger-soft: #2f1515;
+  --streak: #fb923c;
+
+  --accent-listening: #7aa2ff;
+  --accent-listening-soft: #15233f;
+  --accent-reading: #b394f7;
+  --accent-reading-soft: #221a3a;
+  --accent-writing: #f17ab0;
+  --accent-writing-soft: #331526;
+  --accent-grammar: #f5b54a;
+  --accent-grammar-soft: #2e2210;
+
+  --ring: #6a97ff;
+  --overlay: rgb(2 6 23 / 0.7);
+
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-raised: 0 12px 32px rgb(0 0 0 / 0.45);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-active: var(--primary-active);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-soft-foreground: var(--primary-soft-foreground);
+
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-streak: var(--streak);
+
+  --color-listening: var(--accent-listening);
+  --color-listening-soft: var(--accent-listening-soft);
+  --color-reading: var(--accent-reading);
+  --color-reading-soft: var(--accent-reading-soft);
+  --color-writing: var(--accent-writing);
+  --color-writing-soft: var(--accent-writing-soft);
+  --color-grammar: var(--accent-grammar);
+  --color-grammar-soft: var(--accent-grammar-soft);
+
+  --color-ring: var(--ring);
+  --color-overlay: var(--overlay);
+
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo",
-    "Malgun Gothic", "Noto Sans KR", sans-serif;
+    "Malgun Gothic", "Noto Sans KR", "Helvetica Neue", Arial, sans-serif;
+
+  /* Tipografiya shkalasi: [o'lcham, qator balandligi] */
+  --text-display: 2rem;
+  --text-display--line-height: 1.2;
+  --text-display--font-weight: 700;
+  --text-title: 1.375rem;
+  --text-title--line-height: 1.3;
+  --text-heading: 1.125rem;
+  --text-heading--line-height: 1.4;
+  --text-body: 0.9375rem;
+  --text-body--line-height: 1.55;
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.45;
+
+  /* Radiuslar */
+  --radius-control: 0.75rem;
+  --radius-card: 1rem;
+  --radius-panel: 1.25rem;
+
+  --shadow-card: var(--shadow-card);
+  --shadow-raised: var(--shadow-raised);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    font-feature-settings: "tnum" 0;
+  }
+
+  /* Koreyscha matn so'z bo'yicha uzilsin */
+  :lang(ko),
+  .ko {
+    word-break: keep-all;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--primary-soft);
+    color: var(--primary-soft-foreground);
+  }
+
+  dialog::backdrop {
+    background: var(--overlay);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

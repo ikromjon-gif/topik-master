@@ -1,5 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
+import { ThemeProvider } from "@/components/theme/theme-provider";
+import { themeInitScript } from "@/components/theme/theme-script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -10,14 +12,27 @@ export const metadata: Metadata = {
   description: siteConfig.description,
 };
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f6f8fc" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0f1c" },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang={siteConfig.locale}>
-      <body className="antialiased">{children}</body>
+    // suppressHydrationWarning: `.dark` klassini server emas, themeInitScript qo'yadi
+    <html lang={siteConfig.locale} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
+      <body className="antialiased">
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }
