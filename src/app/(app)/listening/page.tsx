@@ -1,7 +1,9 @@
-import { RoutePlaceholder, routeMetadata } from "@/components/layout/route-placeholder";
+import { routeMetadata } from "@/components/layout/route-placeholder";
+import { SectionPracticePage } from "@/components/practice/section-practice-page";
 
 export const metadata = routeMetadata("/listening");
+export const dynamic = "force-dynamic";
 
 export default function Page() {
-  return <RoutePlaceholder href="/listening" note="Tinglash mashqlari huquqi tasdiqlangan original audio tayyor bo‘lgach qo‘shiladi." />;
+  return <SectionPracticePage section="listening" />;
 }
