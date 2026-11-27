@@ -1,0 +1,67 @@
+[
+  {
+    "key": "SRC-SABAQ-ORIGINAL",
+    "kind": "original_content",
+    "name": "Sabaq original kontenti",
+    "holder": "Sabaq",
+    "license": "Sabaq mulki",
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "attribution_required": false,
+    "license_status": "granted",
+    "notes": "Migration 0001 da tizim yozuvi sifatida yaratiladi."
+  },
+  {
+    "key": "SRC-REBELS",
+    "kind": "licensed_third_party",
+    "name": "Rebels TOPIK II lug'ati",
+    "holder": "Jack korean (Rebels)",
+    "license": "Muallif ruxsati",
+    "commercial_use": true,
+    "redistribution_allowed": true,
+    "attribution_required": true,
+    "attribution_text": "Lug'at: Rebels / Jack korean",
+    "license_status": "pending",
+    "proof_url": null,
+    "notes": "Egasi ruxsat olinganini aytgan. `granted` qilish uchun ruxsat dalilini (yozishma skrinshoti yoki shartnoma) legal/ bucket'iga yuklab, proof_url'ni to'ldiring. commercial_use va redistribution_allowed qiymatlarini ruxsat matniga qarab tekshiring."
+  },
+  {
+    "key": "SRC-TOPIK-OFFICIAL",
+    "kind": "official_reference",
+    "name": "TOPIK rasmiy sayti",
+    "holder": "국립국제교육원 (NIIED)",
+    "url": "https://www.topik.go.kr/",
+    "commercial_use": false,
+    "redistribution_allowed": false,
+    "attribution_required": false,
+    "license_status": "granted",
+    "notes": "Faqat havola. Rasmiy savollar, audio va matnlar platformaga ko'chirilmaydi."
+  },
+  {
+    "key": "SRC-NIIED",
+    "kind": "official_reference",
+    "name": "NIIED TOPIK sahifasi",
+    "holder": "국립국제교육원 (NIIED)",
+    "url": "https://www.niied.go.kr/web/niied/contents/niied_topik",
+    "commercial_use": false,
+    "redistribution_allowed": false,
+    "attribution_required": false,
+    "license_status": "granted",
+    "notes": "Faqat havola."
+  },
+  {
+    "key": "SRC-NIKL-KRDICT",
+    "kind": "licensed_third_party",
+    "name": "한국어기초사전 multimedia (audio)",
+    "holder": "국립국어원 (NIKL)",
+    "url": "https://krdict.korean.go.kr/",
+    "license": "Individual multimedia license — tekshirilmagan",
+    "commercial_use": false,
+    "redistribution_allowed": false,
+    "attribution_required": true,
+    "attribution_text": "국립국어원 한국어기초사전",
+    "license_status": "not_requested",
+    "per_item_proof_required": true,
+    "notes": "Har bir audio fayl alohida litsenziya bilan tekshiriladi. Tekshirilmaguncha hech biri foydalanuvchiga chiqmaydi."
+  }
+]
