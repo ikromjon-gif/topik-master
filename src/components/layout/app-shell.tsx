@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { BackendNotice } from "./backend-notice";
 import { BottomNav } from "./bottom-nav";
 import { DesktopHeader } from "./desktop-header";
 import { MobileHeader } from "./mobile-header";
@@ -26,6 +27,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       <div className="flex min-w-0 flex-1 flex-col">
         <MobileHeader />
         <DesktopHeader />
+        <BackendNotice />
         <main
           id="main-content"
           tabIndex={-1}

@@ -1,26 +1,42 @@
-import { siteConfig } from "@/config/site";
-import { toIsoDate } from "./dates.ts";
+import { buildDashboardInput } from "@/lib/learning/mapping.ts";
+import { getActivePlan, getActivity, getLearningContext, getTemplateTasks } from "@/lib/learning/queries";
 import { computeDashboard } from "./metrics.ts";
-import type { DashboardInput, DashboardView } from "./types.ts";
+import type { DashboardView } from "./types.ts";
+
+export type DashboardData = {
+  view: DashboardView;
+  state: "not-configured" | "signed-out" | "signed-in";
+  /** Topshiriqlarni belgilash mumkinmi (login + faol reja). */
+  interactive: boolean;
+};
 
 /**
- * Dashboard ma'lumotlarini yig‘adi.
- *
- * Hozir (Phase 3) ma'lumot manbai ulanmagan: auth va Supabase Phase 4 da.
- * Shuning uchun bu funksiya ataylab bo‘sh kirish qaytaradi va UI barcha
- * bloklarda "ma'lumot yo‘q" holatini ko‘rsatadi. Bu yerda hech qachon
- * namuna yoki soxta raqam qaytarilmaydi.
- *
- * Phase 4: shu funksiya ichida foydalanuvchining plan_tasks,
- * task_completions, study_sessions va test_attempts yozuvlari o‘qiladi.
+ * Dashboard ma'lumotlari. Supabase sozlanmagan yoki foydalanuvchi kirmagan
+ * bo‘lsa — bo‘sh kirish (UI bo‘sh holatlarni ko‘rsatadi). Hech qachon namuna
+ * yoki soxta raqam qaytarilmaydi.
  */
-export async function getDashboardData(now: Date = new Date()): Promise<DashboardView> {
-  const input: DashboardInput = {
-    today: toIsoDate(now, siteConfig.timeZone),
-    plan: null,
-    tasks: [],
-    sessions: [],
-    results: [],
-  };
-  return computeDashboard(input);
+export async function getDashboardData(now: Date = new Date()): Promise<DashboardData> {
+  const ctx = await getLearningContext(now);
+  if (ctx.state !== "signed-in") {
+    return {
+      state: ctx.state,
+      interactive: false,
+      view: computeDashboard({ today: ctx.today, plan: null, tasks: [], sessions: [], results: [] }),
+    };
+  }
+
+  const plan = await getActivePlan(ctx.supabase, ctx.userId);
+  const [tasks, activity] = await Promise.all([
+    plan?.template ? getTemplateTasks(ctx.supabase, plan.template.id) : Promise.resolve([]),
+    getActivity(ctx.supabase, ctx.userId, ctx.today),
+  ]);
+
+  const input = buildDashboardInput({
+    today: ctx.today,
+    profileTargetLevel: ctx.profile?.target_level ?? null,
+    plan,
+    tasks,
+    ...activity,
+  });
+  return { state: "signed-in", interactive: Boolean(plan), view: computeDashboard(input) };
 }

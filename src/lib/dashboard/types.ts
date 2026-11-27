@@ -44,6 +44,10 @@ export type DashboardInput = {
   tasks: PlanTaskInput[];
   sessions: StudySessionInput[];
   results: ResultInput[];
+  /** Profil sozlamasidagi maqsad daraja (reja bo‘lmasa ishlatiladi). */
+  targetLevel?: 3 | 4 | 5 | 6;
+  /** Joriy rejadan tashqari faol kunlar (masalan, oldingi rejalardagi bajarilganlar). */
+  extraActiveDates?: IsoDate[];
 };
 
 /** Hisoblangan ko‘rinish modeli. `null` = ma'lumot yo‘q (UI "—" yoki bo‘sh holat). */

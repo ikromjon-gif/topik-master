@@ -20,8 +20,10 @@ function pct(part: number, whole: number): number {
   return Math.round((part / whole) * 100);
 }
 
-export function activeDates(input: Pick<DashboardInput, "tasks" | "sessions">): Set<IsoDate> {
-  const set = new Set<IsoDate>();
+export function activeDates(
+  input: Pick<DashboardInput, "tasks" | "sessions" | "extraActiveDates">,
+): Set<IsoDate> {
+  const set = new Set<IsoDate>(input.extraActiveDates ?? []);
   for (const t of input.tasks) if (t.completedOn) set.add(t.completedOn);
   for (const s of input.sessions) if (s.minutes > 0) set.add(s.date);
   return set;
@@ -118,7 +120,7 @@ export function computeDashboard(input: DashboardInput): DashboardView {
   return {
     today,
     plan: planView,
-    targetLevel: plan?.targetLevel ?? DEFAULT_TARGET_LEVEL,
+    targetLevel: plan?.targetLevel ?? input.targetLevel ?? DEFAULT_TARGET_LEVEL,
     overallProgressPct: tasks.length ? pct(tasks.filter((t) => t.completedOn).length, tasks.length) : null,
     today_tasks: {
       day: todayDay,
