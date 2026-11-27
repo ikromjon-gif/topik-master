@@ -1,0 +1,2904 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 5,
+    "title_ko": "환경/기후",
+    "title_uz": "atrof muhit/ iqlim"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0369",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "생태계",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "ekotizim",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0370",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "개체 수",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "individlar soni",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0371",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "생존(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "hayot kechirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0372",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 적응(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "moslashish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0373",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이/가 멸종(되다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "yo‘qolish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0374",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "멸종 위기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "yo‘qolish xavfi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0375",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "먹이사슬",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "oziqlanish zanjiri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0376",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "외래종",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "begona tur",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0377",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "토종",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "mahalliy tur",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0378",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "번식",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "Ko‘payish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0379",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "알",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "tuxum",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0380",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "애벌레",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "qurt",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0381",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유충",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "larva",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0382",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "성충",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "katta va o‘sgan hayvon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0383",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "새끼",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "bolalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0384",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자궁",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "qorin",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0385",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "탯줄",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "pupok",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0386",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수정",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "tuxumlanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0387",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수컷",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "erkak",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0388",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "암컷",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "urg‘ochi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0389",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "먹이",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "oziq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0390",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "섭취",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "yutish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0391",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "귀화 식물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "so‘nggi o‘simliklar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0392",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "출산",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "tug‘ilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0393",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "양육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "parvarishlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0394",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "동물의 특징",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "Hayvonlarning xususiyatlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0395",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이상 행동",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "noaniq/xato harakatlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0396",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "특수 감각",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "maxsus sezgi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0397",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "초음파",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "ultrasonik to‘lqinlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0398",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지표 생물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "indikatator organizmlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0399",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기후",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "Iqlim",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0400",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "태풍",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "to‘fon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0401",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "폭우",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "yomg‘ir",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0402",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "폭풍",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "bo‘ron",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0403",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가뭄",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "qurg‘oqchilik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0404",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "폭설",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "kuchli qor yog‘ishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0405",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "폭염",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "issiq to‘fon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0406",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무더위",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "issiqlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0407",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이상 기온",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "g‘ayritabiiy harorat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0408",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "장마",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "생명",
+        "uz": "Hayot"
+      },
+      "meaning": {
+        "text": "musson yomg‘iri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0409",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "봄",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "Bahor",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0410",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "춘곤증",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "bahor charchoqligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0411",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "새싹",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "yangi o‘simliklar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0412",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "개화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "gul ochish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0413",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "아지랑이",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "issiqdan havoning titrashishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0414",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "여름",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "Yoz",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0415",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "녹음",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "o‘simliklar yashilligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0416",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "습도",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "namlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0417",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불쾌지수",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "noqulaylik ko‘rsatkichi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0418",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "열대야",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "tropik kechalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0419",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "모기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "chivinlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0420",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "매미",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "kriketlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0421",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가을",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "Kuz",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0422",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "단풍",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "kuzgi barglar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0423",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "햇과일",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "qaynoq mevalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0424",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "햇곡식",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "qaynoq don mahsulotlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0425",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "천고마비",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "yuqori osmon, boylik davri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0426",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "높은 하늘",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "baland osmon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0427",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "일교차",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "kun va tun harorati farqi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0428",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "겨울",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "Qish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0429",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "눈사태",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "qor toshqini",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0430",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "건조",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "quruqlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0431",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자연 재해",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "Tabiat ofatlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0432",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "산사태",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "tog‘ siljishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0433",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "해일",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "tsunami",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0434",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "범람",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "yopirilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0435",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "침수",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "to‘kilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0436",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지진",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "계절",
+        "uz": "Mavsumlar"
+      },
+      "meaning": {
+        "text": "zilzila",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0437",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "물(수질 오염)",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "Suv (suv ifloslanishi)",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0438",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "생활 하수",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "uyma chiqindilari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0439",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공장 폐수",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "zavod chiqindilari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0440",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "농업용수",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "dehqonchilik suvlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0441",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기름 유출",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "neftning to‘kilishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0442",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수질 오염",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "suvning ifloslanishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0443",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "땅(토양 오염)",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "Yer (tuproq ifloslanishi)",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0444",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "농약",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "pestitsidlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0445",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가축의 배설물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "chorva hayvonlari axlati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0446",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "일회용품 사용",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "bir martalik mahsulotlardan foydalanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0447",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비닐 포장",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "polietilen qadoqlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0448",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "쓰레기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "axlat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0449",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "플라스틱",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "plastmassa",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0450",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공기(대기 오염)",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "Havo (havo ifloslanishi)",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0451",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자동차 배기가스",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "avtomobil gazlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0452",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "쓰레기 태우기(소각)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "axlatni yoqish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0453",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "나무 없애기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "daraxtlarni yo‘qotish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0454",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "아파트",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "ko‘p qavatli uylar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0455",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "골프장 건설",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "golf maydonlari qurilishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0456",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "온실가스 배출",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "issiqxona gazlarini chiqarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0457",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "환경오염의 결과",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "Atrof-muhit ifloslanishining oqibatlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0458",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지구 온난화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "yerning isishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0459",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "오존층 파괴",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "ozon qatlamining buzilishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0460",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "미세 먼지",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "nozik chang",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0461",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "사막화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "sahrolashish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0462",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "물 부족",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "suv yetishmasligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0463",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "환경 문제 해결을 위한 노력",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "Atrof-muhit muammolarini hal qilish uchun sa’y-harakatlar",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "시멘트 생산을 위해 플라스틱 연료로 사용",
+          "uz": {
+            "text": "sement ishlab chiqarish uchun plastmassani yoqilg‘i sifatida ishlatish",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0464",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "썩는 플라스틱 개발",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "parchalanuvchi plastmassani ishlab chiqish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0465",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "새로운 소재 개발",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "yangi materiallar ishlab chiqish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0466",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "일회용품 줄이기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "bir martalik mahsulotlarni kamaytirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0467",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "분리수거",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "ajratib yig‘ish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0468",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "재활용",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "qayta ishlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0469",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "바닷물 담수 처리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "dengiz suvini tozalash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0470",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "하수 처리 시설",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "kanalizatsiya tozalash inshootlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0471",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "폐수 정화 시설",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": {
+        "ko": "환경오염의 원인",
+        "uz": "Atrof-muhit ifloslanishining sabablari"
+      },
+      "meaning": {
+        "text": "suv chiqindilarini tozalash inshootlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0472",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-로 인한 피해가 발생하고/증가하고 있다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "-dan kelib chiqqan zararlar sodir bo‘lmoqda/ko‘paymoqda.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 일회용품 사용으로 인한 피해가 증가하고 있다.",
+          "uz": {
+            "text": "Bir martalik mahsulotlar ishlatilishi natijasida zararlar ko‘paymoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0473",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "A는 B와/과 비교할 수 없을 정도로",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "A B bilan solishtirib bo‘lmaydigan darajada.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 동물들은 사람과 비교할 수 없을 정도로 뛰어난 감각을 가지고 있다.",
+          "uz": {
+            "text": "Hayvonlar inson bilan solishtirib bo‘lmaydigan darajada ajoyib sezgiga ega.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0474",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-라고(간접인용) 생각하기 쉽다. 그러나",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "-deb o‘ylash oson, lekin…",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 나무는 감정이 없다고 생각하기 쉽다. 그러나 나무도 위험을 느낄 수 있다.",
+          "uz": {
+            "text": "Daraxtda his-tuyg‘u yo‘q deb o‘ylash oson, lekin daraxt ham xavfni his qila oladi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0475",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "합리적인 대책이 마련되어야 한다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "Mantiqiy chora-tadbirlar tayyorlanishi kerak.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 일회용품 사용의 급격한 증가를 해결하기 위한 합리적인 대책이 마련되어야 한다.",
+          "uz": {
+            "text": "Bir martalik mahsulotlar ishlatilishining keskin ortishini hal qilish uchun mantiqiy chora-tadbirlar tayyorlanishi kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0476",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에도 불구하고",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "-ga qaramay…",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 환경 단체의 반대에도 불구하고 골프장을 건설해서 문제가 되고 있다.",
+          "uz": {
+            "text": "Atrof-muhit tashkilotlarining qarshiligiga qaramay golf maydonchasi qurildi va bu muammoga aylanyapti.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0477",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-을/를 최우선으로 생각하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "-ni eng birinchi o‘rinda turishi kerak deb o‘ylash.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 이 문제를 해결하기 위해 환경오염을 줄이는 방안을 최우선으로 생각해야 한다.",
+          "uz": {
+            "text": "Ushbu muammoni hal qilish uchun atrof-muhitning ifloslanishini kamaytirish yo‘llarini eng birinchi o‘rinda turishi kerak deb o‘ylashimiz kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0478",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-을 것으로 기대하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "- bo‘lishini kutish.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 새로운 포장재의 개발이 환경 문제에 대한 해결책이 될 것으로 기대하고 있다.",
+          "uz": {
+            "text": "Yangi o‘ralash materialining ishlab chiqilishi atrof-muhit muammolariga yechim bo‘lishini kutishmoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0479",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 대비하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "- ga tayyorlanish.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 물 부족 시대에 대비하기 위한 연구 개발이 필요한 시점이다.",
+          "uz": {
+            "text": "Suv tanqisligi davriga tayyorlanish uchun ilmiy tadqiqotlar va ishlab chiqish kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0480",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "없어서는 안 되다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "Bo‘lmasligi kerak emas.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 숲의 생태계에 없어서는 안 될 존재가 바로 나방이다.",
+          "uz": {
+            "text": "O‘rmon ekotizimida bo‘lmasligi kerak bo‘lmagan mavjudot bu nafar.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0481",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-와/과 마찬가지로",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ENVIRONMENT",
+      "category": null,
+      "meaning": {
+        "text": "-ga o‘xshab.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "Misol: 새끼 상어는 인간과 마찬가지로 어미의 자궁 속에서 약 10개월을 보낸다.",
+          "uz": {
+            "text": "Bola akulalar, insonlarga o‘xshab, onalarining bachadonida taxminan 10 oy o‘tkazadi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    }
+  ]
+}

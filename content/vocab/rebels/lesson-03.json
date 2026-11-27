@@ -1,0 +1,2085 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 3,
+    "title_ko": "과학 / 기술",
+    "title_uz": "Ilm fan/texnologiya"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0188",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "중력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "힘 관련",
+        "uz": "Kuchga oid"
+      },
+      "meaning": {
+        "text": "jismoniy tortish kuchi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0189",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "원심력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "힘 관련",
+        "uz": "Kuchga oid"
+      },
+      "meaning": {
+        "text": "markazdan tashqariga qarab tortuvchi kuch",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0190",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "구심력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "힘 관련",
+        "uz": "Kuchga oid"
+      },
+      "meaning": {
+        "text": "markazga tortuvchi kuch",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0191",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "원동력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "힘 관련",
+        "uz": "Kuchga oid"
+      },
+      "meaning": {
+        "text": "quvvat, harakatga keltiruvchi kuch",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0192",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "상상력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "힘 관련",
+        "uz": "Kuchga oid"
+      },
+      "meaning": {
+        "text": "tasavvur kuchi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0193",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "마찰력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "힘 관련",
+        "uz": "Kuchga oid"
+      },
+      "meaning": {
+        "text": "ishqalanish kuchi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0194",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "회전",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "힘 관련",
+        "uz": "Kuchga oid"
+      },
+      "meaning": {
+        "text": "aylanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0195",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "파장",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "to‘lqin uzunligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0196",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "굴절",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "buralish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0197",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "채광",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "yoritish, tabiiy yorug‘likdan foydalanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0198",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "강하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "kuchli",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0199",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "약하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "zaif",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0200",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "뿌옇다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "tumanli",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0201",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "흐리다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "bulutli",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0202",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "선명하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "aniq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0203",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "도달하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "yetib borish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0204",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "통과하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "o‘tish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0205",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "반사되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "빛 관련",
+        "uz": "Yorug‘likka oid"
+      },
+      "meaning": {
+        "text": "aks etish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0206",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "입자",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "zarrachalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0207",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "알갱이",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "kichik zarrachalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0208",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수증기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "bug‘, suv bug‘i",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0209",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "오므라들다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "siqilish, qisqarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0210",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "새어 나가다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "tashqariga chiqish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0211",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "빠져 나가다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "chiqib ketish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0212",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "산소",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "kislorod",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0213",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "질소",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "azot",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0214",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "산화열",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "oksidlanish issiqligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0215",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "atmosfera",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0216",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대기층",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "atmosfera qatlamlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0217",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대류",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "konveksiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0218",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "단열",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "izolyatsiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0219",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "환기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "havalandirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0220",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "숨구멍",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "공기 관련",
+        "uz": "Havoga oid"
+      },
+      "meaning": {
+        "text": "nafas olish teshigi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0221",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "단서",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "dalil",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0222",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "혈흔",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "qon izlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0223",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "발자국",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "oyoq izlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0224",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "파편",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "bo‘laklar, parchalangan qismlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0225",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "목소리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "ovoz",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0226",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "추정하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "taxmin qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0227",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "재현하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "takrorlash, tiklash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0228",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "사건",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "hodisa, voqea",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0229",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "채취하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "과학 수사",
+        "uz": "Ilmiy tekshiruv"
+      },
+      "meaning": {
+        "text": "olib olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0230",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "성분",
+        "uz": "Tarkib"
+      },
+      "meaning": {
+        "text": "suv",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0231",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "단백질",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "성분",
+        "uz": "Tarkib"
+      },
+      "meaning": {
+        "text": "oqsil",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0232",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "항균 물질",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "성분",
+        "uz": "Tarkib"
+      },
+      "meaning": {
+        "text": "antibakterial modda",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0233",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "노폐물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "성분",
+        "uz": "Tarkib"
+      },
+      "meaning": {
+        "text": "yig‘ilgan chiqindilar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0234",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "미생물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "성분",
+        "uz": "Tarkib"
+      },
+      "meaning": {
+        "text": "mikroorganizmlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0235",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불순물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "성분",
+        "uz": "Tarkib"
+      },
+      "meaning": {
+        "text": "aralashmalar, noxush moddalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0236",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무인 자동차",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "haydovchisiz avtomobil",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0237",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "바이오 산업",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "biotexnologiya sanoati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0238",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "원천 기술",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "asl texnologiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0239",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "원리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "printsip",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0240",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "적용하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "qo‘llash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0241",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "특허",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "patent",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0242",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "특허권",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "patent huquqi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0243",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "출원",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "ariza berish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0244",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "등록",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "ro‘yxatdan o‘tkazish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0245",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "착안하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "diqqatni jalb qilish, e’tibor berish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0246",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "인공지능",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "sun’iy intellekt",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0247",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지식서비스",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "연구 개발 관련",
+        "uz": "Tadqiqot va rivojlanishga oid"
+      },
+      "meaning": {
+        "text": "bilim xizmatlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0248",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유도하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "yo‘naltirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0249",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "독려하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "rag‘batlantirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0250",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지지하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "qo‘llab-quvvatlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0251",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고무적이다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "ilhomlantiruvchi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0252",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "혁신적이다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "innovatsion",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0253",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "우려하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "havotirlanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0254",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지원하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "yordam berish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0255",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "전망하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "kelajakni ko‘rish, taxmin qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0256",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무기력하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "quvvatdan mahrum bo‘lish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0257",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대비하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "tayyorlanish, oldindan tayyorlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0258",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "예측하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "oldindan bashorat qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0259",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "반성하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "태도 관련",
+        "uz": "Munosabatga oid"
+      },
+      "meaning": {
+        "text": "o‘zini tahlil qilish, qayta o‘ylash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0260",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "효율",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "에너지 관련",
+        "uz": "Energiya bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "samaradorlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0261",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "손실",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "에너지 관련",
+        "uz": "Energiya bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "yo‘qotish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0262",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "친환경",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "에너지 관련",
+        "uz": "Energiya bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "atrof-muhitga do‘st",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0263",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "절감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "에너지 관련",
+        "uz": "Energiya bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tejamkorlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0264",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "절약",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": {
+        "ko": "에너지 관련",
+        "uz": "Energiya bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tejash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0265",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "(중요한/큰/결정적인) 역할을 하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": null,
+      "meaning": null,
+      "examples": [
+        {
+          "ko": "이 증거가 사건을 해결하는 데 결정적인 역할을 했다.",
+          "uz": {
+            "text": "(Muhim/Katta/Qaroriy) rol o‘ynash",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tarjima yo‘q — o‘zbekcha tarjima qo‘shilishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "VOC-RB-0266",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "단지 ~~이/가 아니라",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": null,
+      "meaning": null,
+      "examples": [
+        {
+          "ko": "단지 에너지의 절약만이 아니라 환경의 보호를 위해서도 중요한 일이다.",
+          "uz": {
+            "text": "Faqat ~~ emas",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tarjima yo‘q — o‘zbekcha tarjima qo‘shilishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "VOC-RB-0267",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "~은/는 현상이 두드러지게 나타나다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": null,
+      "meaning": null,
+      "examples": [
+        {
+          "ko": "요즘 남자와 여자의 역할에 구분이 없어지는 현상이 두드러지게 나타나고 있다.",
+          "uz": {
+            "text": "~ ning hodisasi sezilarli darajada ko‘rinishi ko‘rinmoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tarjima yo‘q — o‘zbekcha tarjima qo‘shilishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "VOC-RB-0268",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "ㄹ/을 가능성이 (크다/높다/낮다)",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": null,
+      "meaning": null,
+      "examples": [
+        {
+          "ko": "현재의 상황으로 볼 때 드론이 많은 부분에 활용될 가능성이 높다.",
+          "uz": {
+            "text": "~ qilish ehtimoli (yirik/yuqori/past)",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tarjima yo‘q — o‘zbekcha tarjima qo‘shilishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "VOC-RB-0269",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "상황이 점점 심각해지다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-SCIENCE-TECH",
+      "category": null,
+      "meaning": null,
+      "examples": [
+        {
+          "ko": "발전소 건설로 인해 주민들의 피해 상황이 점점 심각해지고 있다.",
+          "uz": {
+            "text": "Vaziyat tobora jiddiylashmoq",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tarjima yo‘q — o‘zbekcha tarjima qo‘shilishi kerak."
+        ]
+      }
+    }
+  ]
+}

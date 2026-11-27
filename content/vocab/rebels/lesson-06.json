@@ -1,0 +1,1695 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 6,
+    "title_ko": "심리/성격",
+    "title_uz": "psihologiya/xarakter"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0482",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "힐링",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "healing",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0483",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "치유",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "davolash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0484",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "위로",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "quvvatlash, tasalli berish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0485",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "마음의 평화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "yurak tinchligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0486",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "휴식",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "dam olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0487",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "편안하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "qulay, huzurli",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0488",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "안도감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "xotirjamlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0489",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "평온함",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "tinchlik, sokinlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0490",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신뢰하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "ishonmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0491",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유사성",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "o‘xshashlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0492",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "믿음",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "ishonch",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0493",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신념",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "e’tiqod",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0494",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "친밀도",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 심리 상태",
+        "uz": "Ijobiy psixologik holat"
+      },
+      "meaning": {
+        "text": "yaqinlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0495",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "외롭다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "yolg‘iz his qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0496",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고독하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "yolg‘izlikni his qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0497",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "두려움",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "qo‘rquv",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0498",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "분노",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "g‘azab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0499",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "적개심",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "dushmanlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0500",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "아쉬움",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "afsuslanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0501",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "긴장감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "konsentratsiya, kuchli shovqin",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0502",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "안타까움",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "afsus, qayg‘u",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0503",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "거부감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "qarshilik his qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0504",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "당황하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "hayratda qolmoq, ajablanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0505",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "끔찍하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "qo‘rqinchli bo‘lish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0506",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이기심",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "kamsitish, o‘zgalar ustidan g‘alaba",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0507",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "좌절하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 심리 상태",
+        "uz": "Salbiy psixologik holat"
+      },
+      "meaning": {
+        "text": "umidsizlikka tushmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0508",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유리하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 상황",
+        "uz": "Ijobiy holat"
+      },
+      "meaning": {
+        "text": "foydali bo‘lish, qulay bo‘lish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0509",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "도움을 받다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 상황",
+        "uz": "Ijobiy holat"
+      },
+      "meaning": {
+        "text": "yordam olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0510",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "돌파구를 찾다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 상황",
+        "uz": "Ijobiy holat"
+      },
+      "meaning": {
+        "text": "yo‘l topish, yechim izlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0511",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이기다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 상황",
+        "uz": "Ijobiy holat"
+      },
+      "meaning": {
+        "text": "g‘alaba qozonmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0512",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "도전하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 상황",
+        "uz": "Ijobiy holat"
+      },
+      "meaning": {
+        "text": "chaqiriq qilish, sinab ko‘rmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0513",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기회를 잡다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "긍정적 상황",
+        "uz": "Ijobiy holat"
+      },
+      "meaning": {
+        "text": "imkoniyatdan foydalanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0514",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불리하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "noqulay bo‘lish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0515",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가난하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "kambag‘al bo‘lish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0516",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "위기에 처하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "xavfli holatga tushmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0517",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고립되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "yolg‘izlanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0518",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고립시키다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "yolg‘izlashtirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0519",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "벽에 부딪히다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "devorga urilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0520",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이/가 부딪히다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "urilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0521",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "충돌하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "to‘qnashmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0522",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "거절당하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "rad etilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0523",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "포기하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "부정적 상황",
+        "uz": "Salbiy holat"
+      },
+      "meaning": {
+        "text": "taslim bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0524",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "진화(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "노력/행동의 결과",
+        "uz": "Harakatlarning natijalari"
+      },
+      "meaning": {
+        "text": "evolyutsiya qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0525",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "퇴보(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "노력/행동의 결과",
+        "uz": "Harakatlarning natijalari"
+      },
+      "meaning": {
+        "text": "orqaga qaytish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0526",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이겨내다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "노력/행동의 결과",
+        "uz": "Harakatlarning natijalari"
+      },
+      "meaning": {
+        "text": "yengib o‘tmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0527",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "극복하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "노력/행동의 결과",
+        "uz": "Harakatlarning natijalari"
+      },
+      "meaning": {
+        "text": "yengib chiqmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0528",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "체감하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "노력/행동의 결과",
+        "uz": "Harakatlarning natijalari"
+      },
+      "meaning": {
+        "text": "his qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0529",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "설득하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "노력/행동의 결과",
+        "uz": "Harakatlarning natijalari"
+      },
+      "meaning": {
+        "text": "ishontirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0530",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "결심하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "마음을 먹다",
+        "uz": "Qaror qabul qilmoq"
+      },
+      "meaning": {
+        "text": "qaror qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0531",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "다짐하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "마음을 먹다",
+        "uz": "Qaror qabul qilmoq"
+      },
+      "meaning": {
+        "text": "qasd qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0532",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "선언하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "마음을 먹다",
+        "uz": "Qaror qabul qilmoq"
+      },
+      "meaning": {
+        "text": "e’lon qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0533",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "약속하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "마음을 먹다",
+        "uz": "Qaror qabul qilmoq"
+      },
+      "meaning": {
+        "text": "va’da berish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0534",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "실천에 옮기다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "행동",
+        "uz": "Harakat"
+      },
+      "meaning": {
+        "text": "amalga oshirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0535",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "책임을 지다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "행동",
+        "uz": "Harakat"
+      },
+      "meaning": {
+        "text": "mas’uliyatni olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0536",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "협상하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": {
+        "ko": "행동",
+        "uz": "Harakat"
+      },
+      "meaning": {
+        "text": "muzokara qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0537",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이/가 점점 많아지고 있다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "- oshib bormoqda.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "온라인을 통해 공부하는 사람들이 점점 많아지고 있다.",
+          "uz": {
+            "text": "Onlayn orqali o‘qiyotgan odamlar tobora ko‘payib bormoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0538",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-을/를 중요하게 생각하는 사람들이 늘고 있다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "-ni muhim deb hisoblovchi odamlar ko‘payib bormoqda.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "직업을 구할 때 사회의 인식보다 개인의 만족을 중요하게 생각하는 사람들이 늘고 있다.",
+          "uz": {
+            "text": "Ish topishda jamiyatning qarashlaridan ko‘ra shaxsiy qoniqishni muhim deb hisoblovchi odamlar ko‘payib bormoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0539",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-을/를 유발하기도 한다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "-ga sabab bo‘lishi mumkin.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "지방이 많이 들어있는 음식은 고혈압을 유발하기도 한다.",
+          "uz": {
+            "text": "Ko‘p yog‘li ovqatlar yuqori qon bosimini keltirib chiqarishi mumkin.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0540",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-은/는 태도가 우선되어야 한다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "- munosabat birinchi o‘rinda bo‘lishi kerak.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "토론을 할 때 다른 사람의 의견을 주의 깊게 듣는 태도가 우선되어야 한다.",
+          "uz": {
+            "text": "Munozara qilishda boshqalar fikrini diqqat bilan tinglash munosabati birinchi o‘rinda bo‘lishi kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0541",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-은/는 것은 사실이다. 그렇지만(하지만, 그런데, 그러나)",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "- bu haqiqat. Ammo…",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "외국어 능력이 업무에 도움이 되는 것은 사실이다. 그렇지만 외국어 능력이 전부는 아니다.",
+          "uz": {
+            "text": "Chet tili bilimi ishga yordam beradi, bu haqiqat. Ammo chet tili bilimi hamma narsaga yetarli emas.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0542",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-A은/는 B와/과 큰 차이가 있다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "-A va B o‘rtasida katta farq bor.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "경험하지 않은 일을 하는 것은 경험한 일을 하는 것과 큰 차이가 있다.",
+          "uz": {
+            "text": "Tajriba qilmagan ishni bajarish, tajriba qilingan ishni bajarishdan katta farq qiladi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0543",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-은/는/ㄴ 이유가 바로 여기에 있다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "-ning sababi aynan shu yerda.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "독서가 필요한 이유가 바로 여기에 있다.",
+          "uz": {
+            "text": "Kitob o‘qishning zarurligi aynan shu yerda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0544",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-이/가 언제나 효과적인 것은 아니다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "- har doim samarali bo‘lmaydi.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "장점만을 강조하는 것이 언제나 효과적인 것은 아니다.",
+          "uz": {
+            "text": "Faqat afzalliklarni ta’kidlash har doim samarali bo‘lmaydi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0545",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "문제는 ~라는/다는 사실이다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "Muammo - bu…",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "문제는 본인 스스로는 그것을 인식하지 못한다는 사실이다.",
+          "uz": {
+            "text": "Muammo shundaki, odam o‘zini tanib yetmaydi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0546",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-임에 틀림없다. (이/가 틀림없다, -은/는 것에 틀림없다)",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-PSYCHOLOGY",
+      "category": null,
+      "meaning": {
+        "text": "- ekanligi shubhasiz.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "그가 사실을 숨기고 있음에 틀림없다. (숨기고 있음이 틀림없다)",
+          "uz": {
+            "text": "U haqiqatni yashirayotgani shubhasiz.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    }
+  ]
+}

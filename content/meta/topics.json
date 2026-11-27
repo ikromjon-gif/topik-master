@@ -5,6 +5,6 @@
   { "key": "TOP-ECONOMY", "name_ko": "경제", "name_uz": "Iqtisodiyot", "sort": 4 },
   { "key": "TOP-ENVIRONMENT", "name_ko": "환경/기후", "name_uz": "Atrof-muhit va iqlim", "sort": 5 },
   { "key": "TOP-PSYCHOLOGY", "name_ko": "심리/성격", "name_uz": "Psixologiya va xarakter", "sort": 6 },
-  { "key": "TOP-EDUCATION", "name_ko": "교육/육아", "name_uz": "Ta'lim va bola tarbiyasi", "sort": 7 },
-  { "key": "TOP-HEALTH", "name_ko": "건강/신체", "name_uz": "Sog'liq va tana", "sort": 8 }
+  { "key": "TOP-EDUCATION", "name_ko": "교육/육아", "name_uz": "Ta’lim va bola tarbiyasi", "sort": 7 },
+  { "key": "TOP-HEALTH", "name_ko": "건강/신체", "name_uz": "Sog‘liq va tana", "sort": 8 }
 ]

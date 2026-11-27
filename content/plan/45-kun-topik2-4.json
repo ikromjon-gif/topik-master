@@ -1,0 +1,1278 @@
+{
+  "key": "PLN-45-TOPIK2-L4",
+  "source": "SRC-SABAQ-ORIGINAL",
+  "authored_by": "ai",
+  "title": "45 kunlik TOPIK II (4급) tayyorgarlik rejasi",
+  "total_days": 45,
+  "target_level": 4,
+  "tasks": [
+    {
+      "day": 1,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Siyosat va farovonlik — 1-qism",
+      "title_ko": "정치/복지",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-POLITICS-WELFARE&part=1",
+      "topic": "TOP-POLITICS-WELFARE"
+    },
+    {
+      "day": 1,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 1,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 2,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Siyosat va farovonlik — 2-qism",
+      "title_ko": "정치/복지",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-POLITICS-WELFARE&part=2",
+      "topic": "TOP-POLITICS-WELFARE"
+    },
+    {
+      "day": 2,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 2,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 3,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Siyosat va farovonlik — 3-qism",
+      "title_ko": "정치/복지",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-POLITICS-WELFARE&part=3",
+      "topic": "TOP-POLITICS-WELFARE"
+    },
+    {
+      "day": 3,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 3,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 4,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Siyosat va farovonlik — 4-qism",
+      "title_ko": "정치/복지",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-POLITICS-WELFARE&part=4",
+      "topic": "TOP-POLITICS-WELFARE"
+    },
+    {
+      "day": 4,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 4,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 5,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Siyosat va farovonlik — 5-qism",
+      "title_ko": "정치/복지",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-POLITICS-WELFARE&part=5",
+      "topic": "TOP-POLITICS-WELFARE"
+    },
+    {
+      "day": 5,
+      "position": 2,
+      "section": "writing",
+      "title": "Yozish 54: insho (600–700 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 50,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 6,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Tarix va madaniyat — 1-qism",
+      "title_ko": "역사/문화",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HISTORY-CULTURE&part=1",
+      "topic": "TOP-HISTORY-CULTURE"
+    },
+    {
+      "day": 6,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 6,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 7,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Tarix va madaniyat — 2-qism",
+      "title_ko": "역사/문화",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HISTORY-CULTURE&part=2",
+      "topic": "TOP-HISTORY-CULTURE"
+    },
+    {
+      "day": 7,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 7,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 8,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Tarix va madaniyat — 3-qism",
+      "title_ko": "역사/문화",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HISTORY-CULTURE&part=3",
+      "topic": "TOP-HISTORY-CULTURE"
+    },
+    {
+      "day": 8,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 8,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 9,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Tarix va madaniyat — 4-qism",
+      "title_ko": "역사/문화",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HISTORY-CULTURE&part=4",
+      "topic": "TOP-HISTORY-CULTURE"
+    },
+    {
+      "day": 9,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 9,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 10,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Tarix va madaniyat — 5-qism",
+      "title_ko": "역사/문화",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HISTORY-CULTURE&part=5",
+      "topic": "TOP-HISTORY-CULTURE"
+    },
+    {
+      "day": 10,
+      "position": 2,
+      "section": "mock",
+      "title": "Bo‘lim sinovi: o‘tgan 10 kunni tekshirish",
+      "title_ko": null,
+      "estimated_minutes": 60,
+      "href": "/mock-tests",
+      "topic": null
+    },
+    {
+      "day": 11,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Fan va texnika — 1-qism",
+      "title_ko": "과학/기술",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-SCIENCE-TECH&part=1",
+      "topic": "TOP-SCIENCE-TECH"
+    },
+    {
+      "day": 11,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 11,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 12,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Fan va texnika — 2-qism",
+      "title_ko": "과학/기술",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-SCIENCE-TECH&part=2",
+      "topic": "TOP-SCIENCE-TECH"
+    },
+    {
+      "day": 12,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 12,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 13,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Fan va texnika — 3-qism",
+      "title_ko": "과학/기술",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-SCIENCE-TECH&part=3",
+      "topic": "TOP-SCIENCE-TECH"
+    },
+    {
+      "day": 13,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 13,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 14,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Fan va texnika — 4-qism",
+      "title_ko": "과학/기술",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-SCIENCE-TECH&part=4",
+      "topic": "TOP-SCIENCE-TECH"
+    },
+    {
+      "day": 14,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 14,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 15,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Fan va texnika — 5-qism",
+      "title_ko": "과학/기술",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-SCIENCE-TECH&part=5",
+      "topic": "TOP-SCIENCE-TECH"
+    },
+    {
+      "day": 15,
+      "position": 2,
+      "section": "writing",
+      "title": "Yozish 54: insho (600–700 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 50,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 16,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Iqtisodiyot — 1-qism",
+      "title_ko": "경제",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ECONOMY&part=1",
+      "topic": "TOP-ECONOMY"
+    },
+    {
+      "day": 16,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 16,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 17,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Iqtisodiyot — 2-qism",
+      "title_ko": "경제",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ECONOMY&part=2",
+      "topic": "TOP-ECONOMY"
+    },
+    {
+      "day": 17,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 17,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 18,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Iqtisodiyot — 3-qism",
+      "title_ko": "경제",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ECONOMY&part=3",
+      "topic": "TOP-ECONOMY"
+    },
+    {
+      "day": 18,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 18,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 19,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Iqtisodiyot — 4-qism",
+      "title_ko": "경제",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ECONOMY&part=4",
+      "topic": "TOP-ECONOMY"
+    },
+    {
+      "day": 19,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 19,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 20,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Iqtisodiyot — 5-qism",
+      "title_ko": "경제",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ECONOMY&part=5",
+      "topic": "TOP-ECONOMY"
+    },
+    {
+      "day": 20,
+      "position": 2,
+      "section": "mock",
+      "title": "Bo‘lim sinovi: o‘tgan 10 kunni tekshirish",
+      "title_ko": null,
+      "estimated_minutes": 60,
+      "href": "/mock-tests",
+      "topic": null
+    },
+    {
+      "day": 21,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Atrof-muhit va iqlim — 1-qism",
+      "title_ko": "환경/기후",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ENVIRONMENT&part=1",
+      "topic": "TOP-ENVIRONMENT"
+    },
+    {
+      "day": 21,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 21,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 22,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Atrof-muhit va iqlim — 2-qism",
+      "title_ko": "환경/기후",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ENVIRONMENT&part=2",
+      "topic": "TOP-ENVIRONMENT"
+    },
+    {
+      "day": 22,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 22,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 23,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Atrof-muhit va iqlim — 3-qism",
+      "title_ko": "환경/기후",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ENVIRONMENT&part=3",
+      "topic": "TOP-ENVIRONMENT"
+    },
+    {
+      "day": 23,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 23,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 24,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Atrof-muhit va iqlim — 4-qism",
+      "title_ko": "환경/기후",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ENVIRONMENT&part=4",
+      "topic": "TOP-ENVIRONMENT"
+    },
+    {
+      "day": 24,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 24,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 25,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Atrof-muhit va iqlim — 5-qism",
+      "title_ko": "환경/기후",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-ENVIRONMENT&part=5",
+      "topic": "TOP-ENVIRONMENT"
+    },
+    {
+      "day": 25,
+      "position": 2,
+      "section": "writing",
+      "title": "Yozish 54: insho (600–700 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 50,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 26,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Psixologiya va xarakter — 1-qism",
+      "title_ko": "심리/성격",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-PSYCHOLOGY&part=1",
+      "topic": "TOP-PSYCHOLOGY"
+    },
+    {
+      "day": 26,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 26,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 27,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Psixologiya va xarakter — 2-qism",
+      "title_ko": "심리/성격",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-PSYCHOLOGY&part=2",
+      "topic": "TOP-PSYCHOLOGY"
+    },
+    {
+      "day": 27,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 27,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 28,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Psixologiya va xarakter — 3-qism",
+      "title_ko": "심리/성격",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-PSYCHOLOGY&part=3",
+      "topic": "TOP-PSYCHOLOGY"
+    },
+    {
+      "day": 28,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 28,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 29,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Psixologiya va xarakter — 4-qism",
+      "title_ko": "심리/성격",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-PSYCHOLOGY&part=4",
+      "topic": "TOP-PSYCHOLOGY"
+    },
+    {
+      "day": 29,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 29,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 30,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Psixologiya va xarakter — 5-qism",
+      "title_ko": "심리/성격",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-PSYCHOLOGY&part=5",
+      "topic": "TOP-PSYCHOLOGY"
+    },
+    {
+      "day": 30,
+      "position": 2,
+      "section": "mock",
+      "title": "Bo‘lim sinovi: o‘tgan 10 kunni tekshirish",
+      "title_ko": null,
+      "estimated_minutes": 60,
+      "href": "/mock-tests",
+      "topic": null
+    },
+    {
+      "day": 31,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Ta’lim va bola tarbiyasi — 1-qism",
+      "title_ko": "교육/육아",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-EDUCATION&part=1",
+      "topic": "TOP-EDUCATION"
+    },
+    {
+      "day": 31,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 31,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 32,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Ta’lim va bola tarbiyasi — 2-qism",
+      "title_ko": "교육/육아",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-EDUCATION&part=2",
+      "topic": "TOP-EDUCATION"
+    },
+    {
+      "day": 32,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 32,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 33,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Ta’lim va bola tarbiyasi — 3-qism",
+      "title_ko": "교육/육아",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-EDUCATION&part=3",
+      "topic": "TOP-EDUCATION"
+    },
+    {
+      "day": 33,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 33,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 34,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Ta’lim va bola tarbiyasi — 4-qism",
+      "title_ko": "교육/육아",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-EDUCATION&part=4",
+      "topic": "TOP-EDUCATION"
+    },
+    {
+      "day": 34,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 34,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 35,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Ta’lim va bola tarbiyasi — 5-qism",
+      "title_ko": "교육/육아",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-EDUCATION&part=5",
+      "topic": "TOP-EDUCATION"
+    },
+    {
+      "day": 35,
+      "position": 2,
+      "section": "writing",
+      "title": "Yozish 54: insho (600–700 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 50,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 36,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Sog‘liq va tana — 1-qism",
+      "title_ko": "건강/신체",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HEALTH&part=1",
+      "topic": "TOP-HEALTH"
+    },
+    {
+      "day": 36,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 36,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 37,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Sog‘liq va tana — 2-qism",
+      "title_ko": "건강/신체",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HEALTH&part=2",
+      "topic": "TOP-HEALTH"
+    },
+    {
+      "day": 37,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 37,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 38,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Sog‘liq va tana — 3-qism",
+      "title_ko": "건강/신체",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HEALTH&part=3",
+      "topic": "TOP-HEALTH"
+    },
+    {
+      "day": 38,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 38,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 39,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Sog‘liq va tana — 4-qism",
+      "title_ko": "건강/신체",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HEALTH&part=4",
+      "topic": "TOP-HEALTH"
+    },
+    {
+      "day": 39,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 39,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 40,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Sog‘liq va tana — 5-qism",
+      "title_ko": "건강/신체",
+      "estimated_minutes": 15,
+      "href": "/vocabulary?topic=TOP-HEALTH&part=5",
+      "topic": "TOP-HEALTH"
+    },
+    {
+      "day": 40,
+      "position": 2,
+      "section": "mock",
+      "title": "Bo‘lim sinovi: o‘tgan 10 kunni tekshirish",
+      "title_ko": null,
+      "estimated_minutes": 60,
+      "href": "/mock-tests",
+      "topic": null
+    },
+    {
+      "day": 41,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Takrorlash: barcha mavzular",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/vocabulary",
+      "topic": null
+    },
+    {
+      "day": 41,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: yangi ifodalar",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 41,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 42,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Takrorlash: barcha mavzular",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/vocabulary",
+      "topic": null
+    },
+    {
+      "day": 42,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 42,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 51–52: gap to‘ldirish",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 43,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Takrorlash: barcha mavzular",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/vocabulary",
+      "topic": null
+    },
+    {
+      "day": 43,
+      "position": 2,
+      "section": "grammar",
+      "title": "Grammatika: takrorlash va mashq",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/grammar",
+      "topic": null
+    },
+    {
+      "day": 43,
+      "position": 3,
+      "section": "listening",
+      "title": "Tinglash: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/listening",
+      "topic": null
+    },
+    {
+      "day": 44,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Takrorlash: barcha mavzular",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/vocabulary",
+      "topic": null
+    },
+    {
+      "day": 44,
+      "position": 2,
+      "section": "reading",
+      "title": "O‘qish: TOPIK II formatidagi mashq",
+      "title_ko": null,
+      "estimated_minutes": 25,
+      "href": "/reading",
+      "topic": null
+    },
+    {
+      "day": 44,
+      "position": 3,
+      "section": "writing",
+      "title": "Yozish 53: grafik bo‘yicha matn (200–300 belgi)",
+      "title_ko": null,
+      "estimated_minutes": 30,
+      "href": "/writing",
+      "topic": null
+    },
+    {
+      "day": 45,
+      "position": 1,
+      "section": "vocabulary",
+      "title": "Takrorlash: barcha mavzular",
+      "title_ko": null,
+      "estimated_minutes": 20,
+      "href": "/vocabulary",
+      "topic": null
+    },
+    {
+      "day": 45,
+      "position": 2,
+      "section": "mock",
+      "title": "To‘liq sinov imtihoni (tinglash, yozish, o‘qish)",
+      "title_ko": null,
+      "estimated_minutes": 180,
+      "href": "/mock-tests",
+      "topic": null
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewed_by": null,
+    "notes": [
+      "AI tuzgan reja tuzilmasi — jamoa ko‘rib chiqishi kerak.",
+      "Grammatika, tinglash, o‘qish va yozish topshiriqlari uchun kontent hali tayyorlanmagan."
+    ]
+  }
+}

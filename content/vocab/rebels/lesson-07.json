@@ -1,0 +1,2392 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 7,
+    "title_ko": "교육/육아",
+    "title_uz": "Ta’lim/ Bolalar parvarishi"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0547",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "교육기관",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "Ta’lim muassasalari",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "공교육:",
+          "uz": null,
+          "authored_by": "human"
+        },
+        {
+          "ko": "사교육:",
+          "uz": null,
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0548",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "어린이집",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "bolalar bog‘chasi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0549",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유치원",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "maktabgacha ta’lim muassasasi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0550",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "초등학교",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "boshlang‘ich maktab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0551",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "중학교",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "o‘rta maktab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0552",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고등학교",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "o‘rta maxsus maktab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0553",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대학교",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "universitet",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0554",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "과외",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "qo‘shimcha dars",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0555",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "개인수업",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "shaxsiy dars",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0556",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "학원",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "o‘quv markazi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0557",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "학습지",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "o‘quv materiallari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0558",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "선행학습",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "oldindan o‘rganish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0559",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조기 교육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "erta ta’lim",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0560",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "적기 교육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": null,
+      "meaning": {
+        "text": "to‘g‘ri vaqtda ta’lim",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0561",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공립",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "davlat maktabi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0562",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "사립",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "xususiy maktab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0563",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "국립",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "milliy maktab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0564",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대안학교",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "alternativ maktab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0565",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "서당",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "eski maktab",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0566",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "서원",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "madrasah",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0567",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "향교 - xyonkyo",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "an’anaviy o‘qitish tizimi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0568",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "성균관",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육기관 형태",
+        "uz": "(Ta’lim muassasalari shakllari)"
+      },
+      "meaning": {
+        "text": "Seonggyungwan",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0569",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "토론",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "munozara",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0570",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "발표",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "taqdimot",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0571",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "회의",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "yig‘ilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0572",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조별 활동",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "guruh faoliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0573",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "필기 시험",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "yozma imtihon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0574",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "실기 시험",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "amaliy imtihon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0575",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "질문",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "savol",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0576",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대답",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "javob",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0577",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "현장 학습 - dala o‘qitish",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "yoki amaliy tajriba",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0578",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "체험 학습",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "tajriba o‘rganish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0579",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "안전 교육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "xavfsizlik ta’limi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0580",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "봉사 활동",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "xayriya faoliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0581",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "게임",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "o‘yin",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0582",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가상의 공간",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "virtual makon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0583",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "익명",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "anonim",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0584",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "직접적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "to‘g‘ridan-to‘g‘ri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0585",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "간접적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "bilvosita",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0586",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "계획적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "rejalashtirilgan",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0587",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "정서적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "hissiy",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0588",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "직접 참여",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "수업 방식",
+        "uz": "(Dars o‘tkazish usullari)"
+      },
+      "meaning": {
+        "text": "to‘g‘ridan-to‘g‘ri ishtirok etish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0589",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "정보",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "ma’lumot",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0590",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "칭찬",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "maqtov",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0591",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "훈육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "tarbiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0592",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "놀이",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "o‘yin",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0593",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "감각 발달",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "sezgi rivojlanishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0594",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "문자 교육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "yozma ta’lim",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0595",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "인성 교육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "shaxsiyatni rivojlantirish ta’limi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0596",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "권위",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "obro‘",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0597",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자기 계발",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "육아",
+        "uz": "(Bolalarga qarash)"
+      },
+      "meaning": {
+        "text": "o‘zini o‘stirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0598",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "흥미",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "qiziqish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0599",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "동기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "motivatsiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0600",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "효과적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "samarali",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0601",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "필수적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "majburiy",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0602",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "목표 달성",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "maqsadga erishish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0603",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "긍정적 영향을 미치다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "ijobiy ta’sir ko‘rsatish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0604",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "활용하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "foydalanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0605",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "부작용을 최소화하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육 효과",
+        "uz": "(Ta’lim ta’siri)"
+      },
+      "meaning": {
+        "text": "nojo‘ya ta’sirlarni minimallashtirish",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "개발에 대한 부작용을 최소화하려는 노력이 필요하다.",
+          "uz": {
+            "text": "Rivojlanishning nojo‘ya ta’sirlarini minimallashtirish uchun harakat qilish kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0606",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "인지능력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "idrok qobiliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0607",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지각능력 (지능)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "sezish qobiliyati (aqlli)",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0608",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "관찰력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "kuzatish qobiliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0609",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "어휘력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "lug‘at qobiliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0610",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "습득력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "o‘zlashtirish qobiliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0611",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "창의력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "ijodkorlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0612",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "통찰력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "anglash qobiliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0613",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "분석력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "tahlil qilish qobiliyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0614",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기억력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "능력",
+        "uz": "(Qobiliyat)"
+      },
+      "meaning": {
+        "text": "xotira",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0615",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "적극적/소극적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "faollik/inersiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0616",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "활발하다/조용하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "faol/sokin",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0617",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "내성적/외향적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "ichki/ochiq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0618",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "개방적/보수적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "ochiq/yopiq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0619",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "의존적/독립적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "bog‘liqlik/mustaqillik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0620",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "능동적/수동적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "faollik/pasivlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0621",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "부끄러움을 타다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "uyatli",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0622",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공격적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "hujumkor",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0623",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "개성이 강하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "성격",
+        "uz": "(Shaxsiyat)"
+      },
+      "meaning": {
+        "text": "kuchli shaxsiyatga ega",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0624",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유대감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "정서, 감정",
+        "uz": "(Hissiyotlar, emotsiyalar)"
+      },
+      "meaning": {
+        "text": "bog‘lanish hissi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0625",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신뢰감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "정서, 감정",
+        "uz": "(Hissiyotlar, emotsiyalar)"
+      },
+      "meaning": {
+        "text": "ishonch hissi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0626",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "차분하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "정서, 감정",
+        "uz": "(Hissiyotlar, emotsiyalar)"
+      },
+      "meaning": {
+        "text": "tinch",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0627",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자신감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "정서, 감정",
+        "uz": "(Hissiyotlar, emotsiyalar)"
+      },
+      "meaning": {
+        "text": "o‘ziga ishonch",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0628",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "부담감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "정서, 감정",
+        "uz": "(Hissiyotlar, emotsiyalar)"
+      },
+      "meaning": {
+        "text": "bosim hissi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0629",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "육아 휴직",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "ota-ona ta’tili",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0630",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유급/무급 휴직",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "to‘langan/to‘lanmagan ta’til",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0631",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "장학 제도",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "stipendiya tizimi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0632",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "탄력적 근무제",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "moslashuvchan ish tartibi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0633",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "을/를 보장하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "ta’minlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0634",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이/가 보장되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "ta’minlanishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0635",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "말처럼 쉬운 일이 아니다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "Gapirgandek oson emas",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "매일 단어를 3개씩 외우는 것은 말처럼 쉬운 일이 아니다.",
+          "uz": {
+            "text": "Har kuni 3 ta so‘zni yodlash, gapirgandek oson emas.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0636",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "거의 불가능하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "Deyarli imkonsiz",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "탄수화물을 먹지 않고 사는 것은 거의 불가능하다.",
+          "uz": {
+            "text": "Uglevodlar yemay yashash deyarli imkonsiz.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0637",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-다는 장점도 있다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "-ning ham foydali tomonlari bor",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "재미있게 공부할 수 있다는 장점도 있다.",
+          "uz": {
+            "text": "Qiziqarli o‘rganishning ham foydali tomoni bor.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0638",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 매우 중요하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "- juda muhim",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "아이의 정서 발달에 매우 중요하다.",
+          "uz": {
+            "text": "Bolaning hissiy rivojlanishi juda muhim.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0639",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-라는 인식이 지배적이다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "- degan tushuncha hukmron",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "외국어 공부는 무조건 일찍 시켜야 한다는 인식이 지배적이었다.",
+          "uz": {
+            "text": "Chet tilda o‘rganishni har doim erta boshlash kerakligi haqidagi tushuncha hukmron edi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0640",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-찬반 의견이 팽팽하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-EDUCATION",
+      "category": {
+        "ko": "교육, 육아 관련 정책",
+        "uz": "(Ta’lim va bolalarga qarashga oid siyosat)"
+      },
+      "meaning": {
+        "text": "-ga qarshi va qo‘llab-quvvatlovchi fikrlar teng",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "공원을 없애고 주차장을 만드는 것에 대한 찬반 의견이 팽팽한 상황이다.",
+          "uz": {
+            "text": "Parkni yo‘q qilib, avtoturargoh qilish haqida qarshi va qo‘llab-quvvatlovchi fikrlar teng.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    }
+  ]
+}
