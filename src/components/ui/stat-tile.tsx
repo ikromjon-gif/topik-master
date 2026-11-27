@@ -2,7 +2,9 @@ import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 /**
- * Bitta ko‘rsatkich kartasi (masalan "12-kun / 45 kun").
+ * Bitta ko‘rsatkich kartasi (masalan "12-kun" + "/ 45 kun").
+ * `suffix` berilsa ikkinchi qatorda u, aks holda `label` ko‘rsatiladi
+ * (`label` ekran o‘quvchilar uchun har doim saqlanadi).
  * `value` null bo‘lsa "—" ko‘rsatiladi: ma’lumot yo‘qligi ochiq aytiladi.
  */
 export function StatTile({
@@ -30,7 +32,7 @@ export function StatTile({
   return (
     <div
       className={cn(
-        "flex items-center gap-3.5 rounded-card border border-border bg-surface p-4 shadow-card",
+        "flex items-center gap-3 rounded-card border border-border bg-surface p-4 shadow-card",
         className,
       )}
     >
@@ -38,11 +40,17 @@ export function StatTile({
         {icon}
       </span>
       <div className="min-w-0">
-        <p className="flex items-baseline gap-1 text-title font-bold tabular-nums text-foreground">
+        <p className="text-title font-bold whitespace-nowrap text-foreground tabular-nums">
           {value ?? <span className="text-subtle">—</span>}
-          {value !== null && suffix && <span className="text-caption font-medium text-muted">{suffix}</span>}
         </p>
-        <p className="truncate text-caption text-muted">{label}</p>
+        {value !== null && suffix ? (
+          <p className="text-caption leading-tight text-muted">
+            <span className="sr-only">{label}: </span>
+            {suffix}
+          </p>
+        ) : (
+          <p className="text-caption leading-tight text-muted">{label}</p>
+        )}
       </div>
     </div>
   );
