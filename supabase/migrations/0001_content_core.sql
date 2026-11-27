@@ -173,13 +173,8 @@ create table public.sources (
 
   constraint sources_attribution_text_required
     check (not attribution_required or nullif(btrim(attribution_text), '') is not null),
-  -- Tashqi litsenziya va native yozuv shartnomasi uchun dalil majburiy.
-  constraint sources_proof_required_when_granted
-    check (
-      license_status <> 'granted'
-      or kind in ('original_content', 'official_reference', 'third_party_link')
-      or nullif(btrim(proof_url), '') is not null
-    ),
+  -- proof_url manba darajasida ixtiyoriy. Audio uchun esa dalil majburiy:
+  -- buni 0002 dagi guard_audio_rights va publishable_audio_assets ta'minlaydi.
   -- Havola turidagi manbalardan kontent ko'chirilmaydi, shuning uchun
   -- ular hech qachon tijoriy/tarqatish huquqiga ega deb belgilanmaydi.
   constraint sources_link_only_no_rights
@@ -192,7 +187,7 @@ create table public.sources (
 comment on table public.sources is
   'Har bir kontent va audio manbasi, uning litsenziya shartlari va ruxsat dalili.';
 comment on column public.sources.proof_url is
-  'Ruxsat dalili. Shartnomalar yopiq `legal` bucket''ida saqlanadi (legal/...), ommaviy URL emas.';
+  'Ruxsat dalili (ixtiyoriy; audio uchun majburiy). Shartnomalar yopiq `legal` bucket''ida saqlanadi (legal/...), ommaviy URL emas.';
 
 create trigger sources_touch before update on public.sources
   for each row execute function public.touch_updated_at();

@@ -64,11 +64,12 @@ insert into public.sources (key, kind, name, holder, license_status, attribution
 values ('SRC-REBELS', 'licensed_third_party', 'Rebels lug''ati', 'Jack korean', 'pending',
         true, 'Lug''at: Rebels / Jack korean');
 
--- 2. Litsenziyalangan manba dalilsiz granted bo'lmaydi ----------------------
+-- 2. Havola turidagi manbaga tijoriy huquq berilmaydi -----------------------
 select pg_temp.expect_error(
-  $q$update public.sources set license_status = 'granted' where key = 'SRC-REBELS'$q$,
-  '%sources_proof_required_when_granted%');
-select pg_temp.ok(true, 'licensed_third_party manba proof_url''siz granted bo''lmaydi');
+  $q$insert into public.sources (key, kind, name, commercial_use)
+     values ('SRC-LINK', 'official_reference', 'Havola', true)$q$,
+  '%sources_link_only_no_rights%');
+select pg_temp.ok(true, 'official_reference manbasiga tijoriy huquq berilmaydi');
 
 -- 3. Lug'at: versiya, revision, status oqimi --------------------------------
 insert into public.vocab_entries (key, source_id, authored_by, term, pos, level)
@@ -164,8 +165,8 @@ select pg_temp.ok(
 reset role;
 
 select pg_temp.act_as(null);
-update public.sources set license_status = 'granted', proof_url = 'legal/rebels/permission.png'
- where key = 'SRC-REBELS';
+-- Matnli manba dalil (proof_url) siz ham granted bo'lishi mumkin.
+update public.sources set license_status = 'granted' where key = 'SRC-REBELS';
 
 select pg_temp.act_as('00000000-0000-0000-0000-00000000000a');
 set role authenticated;
