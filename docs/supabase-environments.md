@@ -7,6 +7,18 @@
 
 Organization: `ikromjon Org` (Free plan — bir vaqtda 2 ta faol loyiha).
 
+## Holat (2026-11-28)
+
+| Muhit | Migratsiyalar | Seed | Security advisor |
+|---|---|---|---|
+| staging | 4/4 qo‘llangan | yo‘q (workflow orqali) | 1 ERROR + 4 WARN — ataylab (pastda) |
+| production | 0/4 | yo‘q | — |
+
+### Advisor'dagi qolgan ogohlantirishlar (ataylab)
+
+- **`security_definer_view` — `publishable_audio_assets`.** View egasi huquqi bilan ishlaydi, chunki o‘quvchi `audio_assets` jadvalini to‘g‘ridan-to‘g‘ri o‘qiy olmaydi. View faqat barcha huquq va sifat shartlaridan o‘tgan yozuvlarni va xavfsiz ustunlarni (dalil/shartnoma yo‘q) qaytaradi; `anon` uchun yopiq.
+- **`authenticated_security_definer_function_executable` — `has_role`, `current_app_role`, `is_published`, `source_is_usable`.** RLS siyosatlari ularni foydalanuvchi nomidan chaqiradi, shuning uchun `authenticated` uchun ochiq bo‘lishi shart. Ular faqat joriy foydalanuvchining o‘z roli yoki manba yaroqliligini qaytaradi. Keyinchalik ularni API'ga ochilmagan `private` sxemaga ko‘chirish mumkin.
+
 ## Qoidalar
 
 - Har bir migratsiya avval **staging**'da qo‘llanadi va tekshiriladi.
