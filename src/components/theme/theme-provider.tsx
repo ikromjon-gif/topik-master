@@ -47,7 +47,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [preference, setPreferenceState] = useState<ThemePreference>("system");
   const [resolvedTheme, setResolvedTheme] = useState<ResolvedTheme>("light");
 
-  // Birinchi render'dan keyin saqlangan sozlamani o'qish
+  // Birinchi render’dan keyin saqlangan sozlamani o‘qish
   useEffect(() => {
     const stored = readStoredPreference();
     setPreferenceState(stored);
@@ -56,7 +56,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     );
   }, []);
 
-  // "system" tanlangan bo'lsa, OS o'zgarishini kuzatish
+  // "system" tanlangan bo‘lsa, OS o‘zgarishini kuzatish
   useEffect(() => {
     if (preference !== "system") return;
     const media = window.matchMedia("(prefers-color-scheme: dark)");
@@ -74,7 +74,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     try {
       window.localStorage.setItem(THEME_STORAGE_KEY, next);
     } catch {
-      // saqlab bo'lmadi — joriy sessiyada baribir ishlaydi
+      // saqlab bo‘lmadi — joriy sessiyada baribir ishlaydi
     }
     const resolved = next === "system" ? (systemPrefersDark() ? "dark" : "light") : next;
     setResolvedTheme(resolved);

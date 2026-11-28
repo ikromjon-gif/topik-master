@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
-/** Ma'lumot hali yo'q bo'lganda: soxta raqamlar o'rniga shu ko'rsatiladi. */
+/** Ma’lumot hali yo‘q bo‘lganda: soxta raqamlar o‘rniga shu ko‘rsatiladi. */
 export function EmptyState({
   icon,
   title,

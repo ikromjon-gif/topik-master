@@ -7,7 +7,7 @@ export type CheckboxProps = Omit<InputHTMLAttributes<HTMLInputElement>, "type"> 
   description?: ReactNode;
 };
 
-/** Native checkbox asosida: klaviatura va ekran o'quvchilar bilan to'liq ishlaydi. */
+/** Native checkbox asosida: klaviatura va ekran o‘quvchilar bilan to‘liq ishlaydi. */
 export const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(function Checkbox(
   { label, description, id, className, disabled, ...props },
   ref,

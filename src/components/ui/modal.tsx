@@ -7,8 +7,8 @@ import { XIcon } from "./icons";
 
 /**
  * Native <dialog> asosidagi modal: fokusni ushlab turish, ESC bilan yopish
- * va fonni bloklash brauzer tomonidan ta'minlanadi.
- * Mobile'da pastdan chiqadigan sheet, desktop'da markazda.
+ * va fonni bloklash brauzer tomonidan ta’minlanadi.
+ * Mobile’da pastdan chiqadigan sheet, desktop’da markazda.
  */
 export function Modal({
   open,

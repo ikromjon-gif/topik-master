@@ -10,7 +10,7 @@ export function ThemeToggle({ className }: { className?: string }) {
 
   return (
     <IconButton
-      label={isDark ? "Yorug' rejimga o'tish" : "Qorong'i rejimga o'tish"}
+      label={isDark ? "Yorug‘ rejimga o‘tish" : "Qorong‘i rejimga o‘tish"}
       onClick={toggle}
       variant="soft"
       className={className}

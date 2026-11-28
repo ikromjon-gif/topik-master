@@ -1,11 +1,32 @@
 @import "tailwindcss";
 
 /*
+ * Pretendard (SIL OFL 1.1) — dynamic subset: brauzer faqat sahifada uchragan
+ * belgilar bo‘laklarini (unicode-range) yuklaydi, `font-display: swap`.
+ * Litsenziya: docs/licenses/Pretendard-OFL-1.1.txt, THIRD_PARTY_NOTICES.md
+ */
+@import "pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css";
+
+/*
+ * Shrift yuklanguncha ishlatiladigan zaxira shrift Pretendard o‘lchamlariga
+ * moslashtirilgan, shuning uchun almashganda matn siljimaydi (CLS).
+ * Pretendard: ascent 0.952, descent 0.241 (em); kengligi Arial’dan ~7.4% katta.
+ */
+@font-face {
+  font-family: "Pretendard Fallback";
+  src: local("Arial"), local("Helvetica Neue"), local("Roboto");
+  size-adjust: 107.4%;
+  ascent-override: 88.65%;
+  descent-override: 22.46%;
+  line-gap-override: 0%;
+}
+
+/*
  * Sabaq design tokenlari.
- * Ranglar CSS o'zgaruvchilari orqali beriladi va `.dark` klassi bilan
- * almashadi. Tailwind'da `bg-surface`, `text-muted`, `border-border`,
+ * Ranglar CSS o‘zgaruvchilari orqali beriladi va `.dark` klassi bilan
+ * almashadi. Tailwind’da `bg-surface`, `text-muted`, `border-border`,
  * `bg-primary` kabi semantik klasslar sifatida ishlatiladi.
- * Komponentlarda xom ranglar (blue-600 va h.k.) o'rniga shu tokenlardan
+ * Komponentlarda xom ranglar (blue-600 va h.k.) o‘rniga shu tokenlardan
  * foydalaning.
  */
 @custom-variant dark (&:where(.dark, .dark *));
@@ -43,7 +64,7 @@
   --danger-soft: #fdecec;
   --streak: #f97316;
 
-  /* Bo'lim aksentlari (tezkor kirish kartalari) */
+  /* Bo‘lim aksentlari (tezkor kirish kartalari) */
   --accent-listening: #1d5bf0;
   --accent-listening-soft: #e8efff;
   --accent-reading: #7c3aed;
@@ -143,10 +164,11 @@
   --color-ring: var(--ring);
   --color-overlay: var(--overlay);
 
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo",
-    "Malgun Gothic", "Noto Sans KR", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: "Pretendard Variable", Pretendard, "Pretendard Fallback", -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+    "Noto Sans KR", "Malgun Gothic", sans-serif;
 
-  /* Tipografiya shkalasi: [o'lcham, qator balandligi] */
+  /* Tipografiya shkalasi: [o‘lcham, qator balandligi] */
   --text-display: 2rem;
   --text-display--line-height: 1.2;
   --text-display--font-weight: 700;
@@ -182,7 +204,7 @@
     font-feature-settings: "tnum" 0;
   }
 
-  /* Koreyscha matn so'z bo'yicha uzilsin */
+  /* Koreyscha matn so‘z bo‘yicha uzilsin */
   :lang(ko),
   .ko {
     word-break: keep-all;

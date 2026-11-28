@@ -13,6 +13,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  // iOS'da safe-area (notch, home indicator) uchun env(safe-area-inset-*) ishlashi kerak
+  viewportFit: "cover",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f6f8fc" },
     { media: "(prefers-color-scheme: dark)", color: "#0a0f1c" },
@@ -25,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // suppressHydrationWarning: `.dark` klassini server emas, themeInitScript qo'yadi
+    // suppressHydrationWarning: `.dark` klassini server emas, themeInitScript qo‘yadi
     <html lang={siteConfig.locale} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
