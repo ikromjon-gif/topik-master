@@ -38,8 +38,11 @@ src/
   lib/            yordamchi kodlar
 content/          o'quv materiallari (qarang: content/README.md)
 supabase/
-  migrations/     0001_content_core, 0002_rights_and_audio
+  config.toml     Supabase CLI sozlamasi (minimal)
+  migrations/     <timestamp>_content_core, _rights_and_audio, _learning
+  seed/           content.sql (content/ dan generatsiya qilinadi)
   tests/          migration testlari
+.github/workflows/supabase-db.yml   migratsiya va seed (qo‘lda, muhit secret'i bilan)
 docs/             arxitektura, design system, litsenziyalar
 ```
 

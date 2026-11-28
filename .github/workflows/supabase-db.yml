@@ -1,0 +1,77 @@
+# Supabase bazasiga migratsiya va kontent seed'ini qo‘llash.
+#
+# Faqat qo‘lda ishga tushiriladi (Actions → "Supabase DB" → Run workflow).
+# Ulanish satri repo'da emas, GitHub Environment secret'ida saqlanadi:
+#   Settings → Environments → staging / production → secret SUPABASE_DB_URL
+# "production" muhitiga "Required reviewers" qo‘yilsa, har ishga tushirish
+# egasining tasdig‘ini kutadi.
+name: Supabase DB
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Qaysi baza"
+        type: choice
+        options: [staging, production]
+        default: staging
+      mode:
+        description: "dry-run — faqat qaysi migratsiyalar qo‘llanishini ko‘rsatadi"
+        type: choice
+        options: [dry-run, apply]
+        default: dry-run
+      seed:
+        description: "Kontent seed'ini ham yuklash (idempotent)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: supabase-db-${{ inputs.target }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  db:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.target }}
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Secret mavjudligini tekshirish
+        run: |
+          if [ -z "$SUPABASE_DB_URL" ]; then
+            echo "::error::'${{ inputs.target }}' muhitida SUPABASE_DB_URL secret'i yo‘q"
+            exit 1
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+
+      - name: Kontent sxemaga mosligini tekshirish
+        run: |
+          npm ci
+          npm run content:validate
+
+      - name: Qo‘llanadigan migratsiyalar (dry-run)
+        run: supabase db push --db-url "$SUPABASE_DB_URL" --dry-run
+
+      - name: Migratsiyalarni qo‘llash
+        if: inputs.mode == 'apply'
+        run: supabase db push --db-url "$SUPABASE_DB_URL"
+
+      - name: Kontent seed'i
+        if: inputs.mode == 'apply' && inputs.seed
+        run: |
+          sudo apt-get install -y -qq postgresql-client >/dev/null
+          psql "$SUPABASE_DB_URL" -v ON_ERROR_STOP=1 -q -f supabase/seed/content.sql
+          psql "$SUPABASE_DB_URL" -At -c "select 'lug‘at: ' || count(*) from public.vocab_entries union all select 'savollar: ' || count(*) from public.questions union all select 'grammatika: ' || count(*) from public.grammar_points"
