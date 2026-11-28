@@ -24,6 +24,7 @@ npm run dev
 | `npm run build` | production build |
 | `npm run lint` | ESLint |
 | `npm run typecheck` | TypeScript tekshiruvi |
+| `npm test` | unit testlar (`node --test`, qo‘shimcha kutubxonasiz) |
 | `npm run db:test` | migration'larni vaqtinchalik lokal PostgreSQL'da sinash (PostgreSQL 15+ kerak, root bo'lmagan foydalanuvchi) |
 
 ## Tuzilma
@@ -43,3 +44,4 @@ docs/             arxitektura, design system, litsenziyalar
 ```
 
 Arxitektura va kontent qoidalari: [docs/architecture.md](docs/architecture.md).
+Dashboard metrikalari: [docs/dashboard-metrics.md](docs/dashboard-metrics.md).

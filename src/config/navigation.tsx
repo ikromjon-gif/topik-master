@@ -114,6 +114,7 @@ export const mobileNav: NavItem[] = [
 /** Navigatsiyada ko'rinmaydigan, lekin header sarlavhasi kerak bo'lgan sahifalar. */
 export const secondaryRoutes: NavItem[] = [
   { href: "/search", label: "Qidiruv", icon: <SearchIcon />, description: "So‘z, grammatika va darslarni qidirish." },
+  { href: "/design-system/dashboard", label: "Dashboard namunasi", icon: <HomeIcon /> },
   { href: "/notifications", label: "Bildirishnomalar", icon: <BellIcon />, description: "Eslatmalar va yangiliklar." },
 ];
 

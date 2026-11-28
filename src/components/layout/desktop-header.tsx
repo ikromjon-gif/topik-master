@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { findRoute } from "@/config/navigation";
+import { siteConfig } from "@/config/site";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { IconLink } from "@/components/ui/icon-button";
 import { BellIcon } from "@/components/ui/icons";
@@ -15,7 +16,7 @@ import { UserAvatarLink } from "./user-avatar-link";
 export function DesktopHeader() {
   const pathname = usePathname();
   const route = findRoute(pathname);
-  const title = route?.title ?? route?.label ?? "";
+  const title = route?.title ?? route?.label ?? siteConfig.name;
 
   return (
     <header className="sticky top-0 z-30 hidden h-18 shrink-0 items-center gap-4 border-b border-border bg-background/85 px-6 backdrop-blur-md md:flex xl:px-8">

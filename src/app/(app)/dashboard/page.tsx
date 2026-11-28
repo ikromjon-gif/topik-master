@@ -1,25 +1,18 @@
+import { DashboardView } from "@/components/dashboard/dashboard-view";
 import { PageContainer } from "@/components/layout/page-container";
 import { routeMetadata } from "@/components/layout/route-placeholder";
-import { Card } from "@/components/ui/card";
-import { EmptyState } from "@/components/ui/empty-state";
-import { HomeIcon } from "@/components/ui/icons";
+import { getDashboardData } from "@/lib/dashboard/data";
 
 export const metadata = routeMetadata("/dashboard");
 
-/**
- * Dashboard karkasi (Phase 2). Bloklar (hero, statistika, bugungi reja,
- * taqvim, tezkor kirish, natijalar) Phase 3 da shu sahifaga quriladi.
- */
-export default function DashboardPage() {
+// "Bugun" har so‘rovda Asia/Seoul bo‘yicha hisoblanadi (build vaqtida qotib qolmasligi uchun).
+export const dynamic = "force-dynamic";
+
+export default async function DashboardPage() {
+  const view = await getDashboardData();
   return (
     <PageContainer title="Bosh sahifa" hideMobileTitle>
-      <Card>
-        <EmptyState
-          icon={<HomeIcon />}
-          title="Dashboard tayyorlanmoqda"
-          description="Bugungi reja, progress va tezkor kirish bloklari keyingi bosqichda shu yerga qo‘shiladi."
-        />
-      </Card>
+      <DashboardView view={view} />
     </PageContainer>
   );
 }
