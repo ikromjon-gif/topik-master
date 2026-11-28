@@ -1,0 +1,2686 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 2,
+    "title_ko": "역사/문화",
+    "title_uz": "Tarix/Madaniyat"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0080",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "원시 시대",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Dastlabki davr",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0081",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "삼국 시대",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Uchlik davlatlar davri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0082",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고구려",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Goguryeo",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0083",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "백제",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Baekje",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0084",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신라",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Silla",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0085",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가야",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Gaya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0086",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "남북국 시대",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Janubiy va Shimoliy davlatlar davri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0087",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "발해",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Balhae",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0088",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고려 시대",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Goryeo davri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0089",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조선 시대",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "한국 역사 속의 나라 이름",
+        "uz": "Koreya tarixidagi davlat nomlari"
+      },
+      "meaning": {
+        "text": "Choson davri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0090",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "책",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Kitob",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0091",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "도자기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Keramika",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0092",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "그릇",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Idishlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0093",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기와",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Chig‘anoqlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0094",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "귀걸이",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Sirg‘alar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0095",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "왕관",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Taxt",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0096",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "팔찌",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Bilakuzuk",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0097",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "탑",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Minora",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0098",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "종",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Qo‘ng‘iroq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0099",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불상",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Budda haykali",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0100",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Budda rasmlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0101",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비석",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Yodgorlik toshlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0102",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "춤",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Raqqoslik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0103",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "노래",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Qo‘shiq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0104",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Ovoz",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0105",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "전통 문화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "An’anaviy madaniyat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0106",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공예",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재",
+        "uz": "Madaniy meros"
+      },
+      "meaning": {
+        "text": "Hunarmandchilik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0107",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "천민 (노비, )",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "Quyoshqozon (qul, )",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0108",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "평민 (농민)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "Oddiy odamlar (dehqonlar)",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0109",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "중인 (지방 하급 관리, 역관)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "O‘rta sinf (hududiy past darajadagi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0110",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "양반 – Yangi sinf",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "qadimgi feodal aristokratiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0111",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "귀족",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "Zodagonlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0112",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "왕족",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "Shoh oilasi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0113",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "왕",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "Shoh",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0114",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "임금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "Qirolichalik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0115",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "권력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "역사 속의 신분/ 지위",
+        "uz": "Tarixdagi ijtimoiy mavqe"
+      },
+      "meaning": {
+        "text": "Hokimiyat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0116",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Buyumlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0117",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Qoldiqlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0118",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "손상되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Zarar ko‘rmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0119",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "측정하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "O‘lchamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0120",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "복원",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Tiklash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0121",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "보존",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Saqlash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0122",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "발굴",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Qazish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0123",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유네스코 세계(기록, 자연, 문화)유산",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "UNESCO",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0124",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "등재되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Ro‘yxatga olinmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0125",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유출되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Tashqariga chiqarilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0126",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "환수",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Qaytarib olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0127",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "반환",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Qaytarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0128",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대여",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Ijaraga berish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0129",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "전승하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Meros qilib qoldirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0130",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "육성하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문화재 보존",
+        "uz": "Madaniy merosni saqlash"
+      },
+      "meaning": {
+        "text": "Tarbiyalamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0131",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "그림",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Rasm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0132",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "풍경화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Manzara rasmi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0133",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "정물화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Ob’ekt rasm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0134",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "초상화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Portret",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0135",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자화상",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "O‘z portreti",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0136",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "산수화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Landshaft rasm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0137",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "세밀화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Detallangan rasm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0138",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "추상화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Abstrakt rasm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0139",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "스케치",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Eskiz",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0140",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조각",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Haykaltaroshlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0141",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "판화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "G‘oya rasm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0142",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "색채",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Ranglar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0143",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "물감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Bo‘yoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0144",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Yog‘li bo‘yoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0145",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수채화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Suv bo‘yoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0146",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "섞다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Aralashtirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0147",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "바르다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Surmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0148",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "칠하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Yopmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0149",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "덧칠하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Qoplamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0150",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "디자인",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Dizayn",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0151",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "문양",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "미술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Nakshta",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0152",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "순수 예술",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Sof san’at",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0153",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "종합 예술",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Umumiy san’at",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0154",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조형 미술",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Shakl san’ati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0155",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "생활 미술",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Hayot san’ati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0156",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고전주의",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Klassitsizm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0157",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "낭만주의",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Romantizm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0158",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "사실주의",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Realizm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0159",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "초현실주의",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Surrealizm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0160",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "현대주의",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "예술",
+        "uz": "San’at"
+      },
+      "meaning": {
+        "text": "Zamonaviyizm",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0161",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "시",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문학",
+        "uz": "Adabiyot"
+      },
+      "meaning": {
+        "text": "She’r",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0162",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소설",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문학",
+        "uz": "Adabiyot"
+      },
+      "meaning": {
+        "text": "Roman",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0163",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수필",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문학",
+        "uz": "Adabiyot"
+      },
+      "meaning": {
+        "text": "Essé",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0164",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "허구",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문학",
+        "uz": "Adabiyot"
+      },
+      "meaning": {
+        "text": "Xayol",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0165",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "실화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "문학",
+        "uz": "Adabiyot"
+      },
+      "meaning": {
+        "text": "Haqiqiy voqea",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0166",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "해방감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Ozodlik hissi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0167",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "연대감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Hamjihatlik hissi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0168",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "즐거움",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Xursandchilik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0169",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "죄책감",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Aybni his qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0170",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "감정을 배제하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Hissiyotlarni chetlab o‘tish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0171",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이국적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Yagona, ekzotik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0172",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "실용적",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Amaliy",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0173",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자유분방하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "감상",
+        "uz": "Baholash"
+      },
+      "meaning": {
+        "text": "Ozod va erkin bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0174",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "다산",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "기원",
+        "uz": "소원을 빌다) – Iltiyoz qilish (tilak tilash"
+      },
+      "meaning": {
+        "text": "Ko‘p farzand",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0175",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "풍요",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "기원",
+        "uz": "소원을 빌다) – Iltiyoz qilish (tilak tilash"
+      },
+      "meaning": {
+        "text": "Boylik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0176",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "욕망",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "기원",
+        "uz": "소원을 빌다) – Iltiyoz qilish (tilak tilash"
+      },
+      "meaning": {
+        "text": "Istak",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0177",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "협동",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "기원",
+        "uz": "소원을 빌다) – Iltiyoz qilish (tilak tilash"
+      },
+      "meaning": {
+        "text": "Hamkorlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0178",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "기원",
+        "uz": "소원을 빌다) – Iltiyoz qilish (tilak tilash"
+      },
+      "meaning": {
+        "text": "Moslik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0179",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "동참",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": {
+        "ko": "기원",
+        "uz": "소원을 빌다) – Iltiyoz qilish (tilak tilash"
+      },
+      "meaning": {
+        "text": "Ishtirok etish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0180",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "N로/으로 인정을 받다 / N을/를 인정받다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "N sifatida tan olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0181",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-가시적 / 가시적인 / 가시적으로",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "Ko‘zga ko‘rinadigan / aniqlanadigan",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0182",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자발적 / 자발적인 / 자발적으로",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "Erkin / o‘z xohishi bilan",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0183",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이러한 현상의 영향으로",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "Ushbu hodisaning ta’siri bilan",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0184",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "염두에 두다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "E’tiborga olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0185",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "~을/ㄹ 수 있는 방안 마련이 필요하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "~ni saqlash imkonini yaratish zarur",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0186",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "을/를 비판하는 사람들이 많다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "~ni tanqid qiluvchi ko‘p",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0187",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "빛을 보다 / 빛을 보지 못하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HISTORY-CULTURE",
+      "category": null,
+      "meaning": {
+        "text": "Nur ko‘rmoq / nur ko‘rmaslik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    }
+  ]
+}

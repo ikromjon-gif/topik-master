@@ -1,0 +1,3139 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 8,
+    "title_ko": "건강/신체",
+    "title_uz": "Sog‘lik/tana"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0641",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "세포",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "hujayra",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0642",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "피부",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "teri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0643",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "근육",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "mushak",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0644",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "뼈",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "suyak",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0645",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "혈관",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qon tomiri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0646",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "관절",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "bo‘g‘im",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0647",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기관: organ",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "ichki a’zo",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0648",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "척추",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "umurtqa",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0649",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "뇌",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "miya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0650",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "팔",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qo‘l",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0651",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "다리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "oyoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0652",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "허리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "bel",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0653",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "손톱",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qo‘l tirnog‘i",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0654",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "발톱",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "oyoq tirnog‘i",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0655",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "치아",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0656",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "잇몸",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신체 기관 관련",
+        "uz": "Tana a’zolari bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "milk",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0657",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "위",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "내장 기관",
+        "uz": "Ichki organlar"
+      },
+      "meaning": {
+        "text": "oshqozon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0658",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "간",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "내장 기관",
+        "uz": "Ichki organlar"
+      },
+      "meaning": {
+        "text": "jigar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0659",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신장(콩팥)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "내장 기관",
+        "uz": "Ichki organlar"
+      },
+      "meaning": {
+        "text": "buyrak",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0660",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "허파(폐)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "내장 기관",
+        "uz": "Ichki organlar"
+      },
+      "meaning": {
+        "text": "o‘pka",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0661",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "심장",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "내장 기관",
+        "uz": "Ichki organlar"
+      },
+      "meaning": {
+        "text": "yurak",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0662",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대장",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "내장 기관",
+        "uz": "Ichki organlar"
+      },
+      "meaning": {
+        "text": "yo‘g‘on ichak",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0663",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신경 세포",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "asab hujayrasi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0664",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "호르몬",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "gormon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0665",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "전달 물질",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "signal moddasi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0666",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "시각",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "ko‘rish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0667",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "청각",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "eshitish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0668",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "후각",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "hid bilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0669",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "미각",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "ta’m bilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0670",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "촉각",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "신경 / 감각",
+        "uz": "Asab / His-tuyg‘u"
+      },
+      "meaning": {
+        "text": "teginish hissi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0671",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-을/를 자극하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "qo‘zg‘atmoq / ta’sir ko‘rsatmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0672",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 반응하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "javob bermoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0673",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 무리가 가다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "zo‘riqmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0674",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 해롭다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "zararli bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0675",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 도움이 되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "foydali bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0676",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-이/가 예민하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "sezgir bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0677",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-이/가 둔하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "nozik emas / bo‘g‘iq bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0678",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-이/가 발달하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "rivojlanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0679",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "퇴화하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "자극, 반응 관련",
+        "uz": "Ta’sir va javob"
+      },
+      "meaning": {
+        "text": "zaiflashmoq / qisqarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0680",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소화 불량",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "hazm bo‘lmaslik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0681",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "통증",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "og‘riq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0682",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불면증",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "uyqusizlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0683",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무기력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "charchoq / quvvat yo‘qligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0684",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "만성 피로",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "surunkali charchoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0685",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "성인병",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "kattalar kasalliklari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0686",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비만",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "semizlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0687",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "당뇨",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "diabet",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0688",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고혈압",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "yuqori qon bosimi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0689",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고지혈증",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "yuqori xolesterin",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0690",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "치매",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "aqli zaiflik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0691",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 걸리다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "(kasallikka) chalinmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0692",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-을/를 일으키다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "sabab bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0693",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "회복되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "tiklanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0694",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "호전되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "yaxshilanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0695",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "악화되다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "yomonlashish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0696",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "심각하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "질병",
+        "uz": "Kasalliklar"
+      },
+      "meaning": {
+        "text": "jiddiy bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0697",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "피로 회복",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "charchoqni tiklash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0698",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "혈압 조절",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "qon bosimini boshqarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0699",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "피부 미용",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "teri go‘zalligi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0700",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소화를 돕다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "hazmni yaxshilash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0701",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유해하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "zararli bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0702",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무해하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "zararsiz bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0703",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무방하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "zarar qilmaslik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0704",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신진대사",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "modda almashinuvi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0705",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기초 대사량",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "효능, 효과",
+        "uz": "Foyda va ta’sir"
+      },
+      "meaning": {
+        "text": "bazal modda almashinuvi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0706",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "약",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "dori",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0707",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "의약품",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "dori vositalari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0708",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "주사",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "in’ektsiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0709",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "처방",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "retsept",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0710",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "안전하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "xavfsiz bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0711",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "내복약",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "ichish uchun dori",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0712",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "외용약",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "tashqi foydalanish uchun dori",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0713",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "복용하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "dori ichmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0714",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "숙지하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "치료",
+        "uz": "Davo"
+      },
+      "meaning": {
+        "text": "tushunib yetmoq / o‘rganmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0715",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "채식",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "vegetarian",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0716",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "육식",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "go‘shtli ovqat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0717",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "채식주의",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "vegetarianlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0718",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "식물성",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "o‘simlik mahsulotlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0719",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "동물성",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "hayvon mahsulotlari",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0720",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "인스턴트 식품",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "tez tayyorlanadigan ovqat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0721",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "발효 식품",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "fermentlangan oziq-ovqat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0722",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "정크푸드",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "junk food",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0723",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "슬로우푸드",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식",
+        "uz": "Oziq-ovqat"
+      },
+      "meaning": {
+        "text": "slow food",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0724",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지방",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "yog‘",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0725",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비타민",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "vitamin",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0726",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "탄수화물",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "uglevodlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0727",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무기질",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "minerallar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0728",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "섬유소",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "tolalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0729",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "열량",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "kaloriyalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0730",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "칼로리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "kaloriya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0731",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "균형",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "balans",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0732",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불균형",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "disbalans",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0733",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "균형 잡힌 식단",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "영양 성분",
+        "uz": "Oziqlanish tarkibi"
+      },
+      "meaning": {
+        "text": "muvozanatli ovqatlanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0734",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조미료",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식 재료 (식재료)",
+        "uz": "ovqat masallig‘i"
+      },
+      "meaning": {
+        "text": "ziravorlar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0735",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수분",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식 재료 (식재료)",
+        "uz": "ovqat masallig‘i"
+      },
+      "meaning": {
+        "text": "namlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0736",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "향",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식 재료 (식재료)",
+        "uz": "ovqat masallig‘i"
+      },
+      "meaning": {
+        "text": "hid",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0737",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "첨가하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식 재료 (식재료)",
+        "uz": "ovqat masallig‘i"
+      },
+      "meaning": {
+        "text": "qo‘shmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0738",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "넣다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식 재료 (식재료)",
+        "uz": "ovqat masallig‘i"
+      },
+      "meaning": {
+        "text": "solmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0739",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "더하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "음식 재료 (식재료)",
+        "uz": "ovqat masallig‘i"
+      },
+      "meaning": {
+        "text": "qo‘shmoq, oshirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0740",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "끓이다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "qaynatmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0741",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가열하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "isitmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0742",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "데우다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "isitmok",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0743",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "삶다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "qovurmoq, qaynatmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0744",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "볶다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "qovurmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0745",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "찌다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "bug‘lash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0746",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "졸이다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "pishirib qoldirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0747",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비비다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "aralashtirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0748",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "젓다 : aralashtirmoq",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "qaynoq suyuqliklar uchun",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0749",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "썰다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "kesmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0750",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "다지다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "maydalamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0751",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "뿌리다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "sepmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0752",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "냉각하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "sovitmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0753",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "응고하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "조리 방법",
+        "uz": "Pishirish usullari"
+      },
+      "meaning": {
+        "text": "qotirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0754",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "식초의 새로운 사용법이 주목을 받고 있다.",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "주목을 받다:",
+        "uz": "e’tibor qozonmoq"
+      },
+      "meaning": {
+        "text": "Sirkani yangi qo‘llanilishi e’tibor qozonmoqda.",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0755",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-이/가 -보다 더 나은 것은 결코 아니다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "주목을 받다:",
+        "uz": "e’tibor qozonmoq"
+      },
+      "meaning": {
+        "text": "-ga qaraganda yaxshiroq bo‘lgan narsa hech qachon yo‘q.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "사람들의 생각처럼 꿀이 설탕보다 더 나은 것은 결코 아니다.",
+          "uz": {
+            "text": "Odamlarning fikriga ko‘ra, asal shakarni qaraganda yaxshiroq emas.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0756",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비만을 걱정하지 않는다면 먹어도 무방하다.",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-아도/어도 무방하다 :",
+        "uz": "hech bo‘lmaganda qilish mumkin"
+      },
+      "meaning": {
+        "text": "Semirib ketishni o‘ylamasangiz, yeyish mumkin.",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0757",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-은/는 경향이 있다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-아도/어도 무방하다 :",
+        "uz": "hech bo‘lmaganda qilish mumkin"
+      },
+      "meaning": {
+        "text": "odatda shunday bo‘ladi",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "사람들은 숫자를 사용한 주장을 쉽게 믿는 경향이 있다.",
+          "uz": {
+            "text": "Odamlar raqamlar bilan keltirilgan dalillarni osonlikcha ishonib qabul qilishadi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0758",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "나쁜 자세는 척추 건강에 부정적 영향을 끼친다.",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-긍정적/부정적 영향을 끼친다 :",
+        "uz": "ijobiy/negativ ta’sir ko‘rsatmoq"
+      },
+      "meaning": {
+        "text": "Yomon holat umurtqa sog‘lig‘iga salbiy ta’sir qiladi.",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0759",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-은/는 추세이다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-긍정적/부정적 영향을 끼친다 :",
+        "uz": "ijobiy/negativ ta’sir ko‘rsatmoq"
+      },
+      "meaning": {
+        "text": "o‘zgarmayotgan tendensiya",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "최근에는 깊은맛에 대한 관심이 높아지는 추세이다.",
+          "uz": {
+            "text": "So‘nggi paytlarda chuqur ta’mga bo‘lgan qiziqish ortib bormoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0760",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "세금을 올리면 판매가격이 높아질 수밖에 없다.",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-을 수밖에 없다 :",
+        "uz": "buni qilishdan boshqa iloj yo‘q"
+      },
+      "meaning": {
+        "text": "Soliqni ko‘tarilsa, narxlar oshishi muqarrar.",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0761",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 대해서 다양한 각도에서 생각해 보다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-을 수밖에 없다 :",
+        "uz": "buni qilishdan boshqa iloj yo‘q"
+      },
+      "meaning": {
+        "text": "turli tomondan o‘ylash",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "그 문제에 대해서는 다양한 각도에서 생각해 봐야 한다.",
+          "uz": {
+            "text": "Shu muammoni turli burchaklardan ko‘rib chiqish kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0762",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "오히려 -기 쉽다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-을 수밖에 없다 :",
+        "uz": "buni qilishdan boshqa iloj yo‘q"
+      },
+      "meaning": {
+        "text": "aksincha, osonroq bo‘ladi",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "지나치게 깨끗한 환경은 오히려 피부를 약하게 만들기 쉽다.",
+          "uz": {
+            "text": "Haddan tashqari toza muhit, aksincha, terini zaiflashtiradi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0763",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-뿐만 아니라 -도",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-HEALTH",
+      "category": {
+        "ko": "-을 수밖에 없다 :",
+        "uz": "buni qilishdan boshqa iloj yo‘q"
+      },
+      "meaning": {
+        "text": "nafaqat balki ham",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "건강을 위해 채소뿐만 아니라 과일도 충분히 섭취하는 것이 좋습니다.",
+          "uz": {
+            "text": "Sog‘lik uchun nafaqat sabzavotlar, balki mevalarni ham yetarlicha iste’mol qilish yaxshi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    }
+  ]
+}

@@ -14,16 +14,16 @@
   {
     "key": "SRC-REBELS",
     "kind": "licensed_third_party",
-    "name": "Rebels TOPIK II lug'ati",
+    "name": "Rebels TOPIK II lug‘ati",
     "holder": "Jack korean (Rebels)",
     "license": "Muallif ruxsati",
     "commercial_use": true,
     "redistribution_allowed": true,
     "attribution_required": true,
-    "attribution_text": "Lug'at: Rebels / Jack korean",
+    "attribution_text": "Lug‘at: Rebels / Jack korean",
     "license_status": "granted",
     "proof_url": null,
-    "notes": "Muallif ruxsati olingan (loyiha egasi tasdiqlagan, 2026-11-27). Lug'at sahifalarida mualliflik matni ko'rsatiladi."
+    "notes": "Muallif ruxsati olingan (loyiha egasi tasdiqlagan, 2026-11-27). Lug‘at sahifalarida mualliflik matni ko‘rsatiladi."
   },
   {
     "key": "SRC-TOPIK-OFFICIAL",
@@ -35,7 +35,7 @@
     "redistribution_allowed": false,
     "attribution_required": false,
     "license_status": "granted",
-    "notes": "Faqat havola. Rasmiy savollar, audio va matnlar platformaga ko'chirilmaydi."
+    "notes": "Faqat havola. Rasmiy savollar, audio va matnlar platformaga ko‘chirilmaydi."
   },
   {
     "key": "SRC-NIIED",

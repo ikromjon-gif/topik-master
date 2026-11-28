@@ -1,0 +1,2530 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 4,
+    "title_ko": "경제",
+    "title_uz": "iqtisodiyot"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0270",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "상품",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "mahsulot",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0271",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "물건",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "tovar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0272",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "제품",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "ishlab chiqarilgan mahsulot",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0273",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "개발",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "ishlab chiqish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0274",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "제작",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "yaratish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0275",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "생산",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "ishlab chiqarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0276",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "판매",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "sotish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0277",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "홍보",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "reklama",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0278",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "마케팅",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "marketing",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0279",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유통",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "tarqatish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0280",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "출하",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "yuborish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0281",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "경쟁력",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "raqobatbardoshlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0282",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수익",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "생산",
+        "uz": "자) - Ishlab chiqarish (Ishlab chiqaruvchi"
+      },
+      "meaning": {
+        "text": "foyda",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0283",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "저금하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "jamg‘arish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0284",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "원금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "asliyot",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0285",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이자",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "foyda",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0286",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "적금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "jamg‘arma",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0287",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "예금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "depozit",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0288",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "펀드",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "fond",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0289",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "주식",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "aktsiyalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0290",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "통장",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "hisob varaqasi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0291",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "계좌번호",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "hisob raqami",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0292",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이체",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "o‘tkazma",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0293",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "송금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "pul yuborish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0294",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수수료",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "komissiya",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0295",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-에 투자하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "은행 (금융) 관련",
+        "uz": "Bank (Moliyaviy) bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "investitsiya qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0296",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "사다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "sotib olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0297",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "구입하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "harid qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0298",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "구매하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "sotib olish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0299",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "충동구매",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "impulsiv xarid",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0300",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "쇼핑",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "xarid qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0301",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "추천",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "tavsiyalash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0302",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "교환",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "almashish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0303",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "환불",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "pulni qaytarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0304",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "결제",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "to‘lov",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0305",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "상품평",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "mahsulot sharhi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0306",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "검색",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "qidirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0307",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소비심리",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "iste’mol ruhiyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0308",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소득",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "소비",
+        "uz": "자) - Iste’mol (Iste’molchi"
+      },
+      "meaning": {
+        "text": "daromad",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0309",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "호황",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "o‘sish davri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0310",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "활황",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "faollik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0311",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불황",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tanazzul",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0312",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "과잉",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "ortiqcha",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0313",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "물가 상승",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "narxlarning o‘sishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0314",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "(생산, 공급, 물가) 불안",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tashvish, noaniqlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0315",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "안정",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "barqarorlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0316",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "급등",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "keskin o‘sish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0317",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불경기",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qiyin iqtisodiy holat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0318",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "긴축 경제",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qattiq iqtisodiy siyosat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0319",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "성장률",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "o‘sish sur’ati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0320",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "균형 발전",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "muvozanatli rivojlanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0321",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "적자",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "kamomad",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0322",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "흑자",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "foyda",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0323",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "억제",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "경제 상황 관련",
+        "uz": "Iqtisodiy holat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "cheklash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0324",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "저렴하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "arzon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0325",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "싸다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "arzon",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0326",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비싸다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qimmat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0327",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "고가",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "yuqori narx",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0328",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가성비",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "narx va sifatga nisbatan qiymat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0329",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "합리적인 가격",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "maqbul narx",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0330",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지폐",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "pul",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0331",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "위조",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "soxta",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0332",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "동전",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "pul tanga",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0333",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "수표",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "chek",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0334",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "일시불",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "bir to‘lovda",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0335",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "할부",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "bo‘lib to‘lash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0336",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "무이자",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "foyidasiz",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0337",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "인하",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "pasayish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0338",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "인상",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "oshirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0339",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "책정하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "belgilash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0340",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소비자가",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "iste’molchi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0341",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "판매가",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "가격 관련",
+        "uz": "Narx bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "sotuv narxi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0342",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "설치하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "건설 관련",
+        "uz": "Qurilish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "o‘rnatish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0343",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "건설하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "건설 관련",
+        "uz": "Qurilish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "bino qurish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0344",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "설계하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "건설 관련",
+        "uz": "Qurilish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "loyihalash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0345",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공사하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "건설 관련",
+        "uz": "Qurilish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qurilish ishlarini bajarish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0346",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "편익",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "foyda",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0347",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "비용",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "xarajat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0348",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "타당성",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "asoslilik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0349",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "효율성",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "samaradorlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0350",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "추진가능성",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "amaliyotga joriy qilish imkoniyati",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0351",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "전문가 의견",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "mutaxassis fikri",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0352",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "환경 영향 평가",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "atmosfera ta’sirini baholash",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0353",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "기한",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "고려할 사항",
+        "uz": "E’tiborga olinishi kerak bo‘lgan omillar"
+      },
+      "meaning": {
+        "text": "muddat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0354",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "검토하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "ko‘rib chiqish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0355",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "결정하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qaror qabul qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0356",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "주저하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "ikkilanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0357",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "망설이다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "shubhalanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0358",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "유보하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "kechiktirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0359",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "확신하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "ishonch hosil qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0360",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "추진하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "boshlash, ilgari surish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0361",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "도입하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "kiritish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0362",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "염려하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "havotirlanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0363",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "촉구하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "majbur qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0364",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공짜(무료)로 끼워주다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "Bepul (harajat) bilan berish",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "무료로 끼워주는 상품 때문에 물건을 사는 경우도 있다.",
+          "uz": {
+            "text": "Bepul beriladigan mahsulot tufayli ba’zida tovar sotib olinadi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0365",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "다양한 목적에 따라",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "Turli maqsadlar bo‘yicha",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "장기적으로 다양한 목적에 따라 자금을 분산시키는 것이 좋다.",
+          "uz": {
+            "text": "Uzoq muddatda turli maqsadlar bo‘yicha mablag‘larni taqsimlash yaxshi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0366",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "이러한 문제를 해결하기 위한 방안의 하나로",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "Bu muammoni hal qilishning bir yo‘li sifatida",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "이러한 문제를 해결하기 위한 방안의 하나로 비대면 회의가 주목받고 있다.",
+          "uz": {
+            "text": "Bu muammoni hal qilishning bir yo‘li sifatida onlayn uchrashuvlar ommalashmoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0367",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "단정하기는 어렵다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "Xulosa qilish qiyin",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "비대면 교육이 효과가 없다고 단정하기는 어렵다.",
+          "uz": {
+            "text": "Masofaviy ta’limning samarasiz ekanligini aytish qiyin.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0368",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "다양한 측면에서",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-ECONOMY",
+      "category": {
+        "ko": "결정 관련",
+        "uz": "Qaror bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "Turli jihatlardan",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "해결 방안을 찾기 위해 다양한 측면에서 살펴봐야 한다.",
+          "uz": {
+            "text": "Yechimni topish uchun turli jihatlarni ko‘rib chiqish kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    }
+  ]
+}

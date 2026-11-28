@@ -1,0 +1,2033 @@
+{
+  "source": "SRC-REBELS",
+  "lesson": {
+    "no": 1,
+    "title_ko": "정치/복지",
+    "title_uz": "Siyosat/Farovonlik"
+  },
+  "entries": [
+    {
+      "key": "VOC-RB-0001",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "실시하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "amalga oshirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0002",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "시행하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "bajarilishini ta’minlamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0003",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "제공하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "taqdim etmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0004",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "동의하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "rozi bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0005",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "해결하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "hal qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0006",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "점검하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tekshirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0007",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공정하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "adolatli bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0008",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "규제하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tartibga solmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0009",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "강화하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "kuchaytirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0010",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대처하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "chora ko‘rmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0011",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "처벌하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도 / 정책 관련",
+        "uz": "Tizim/Siyosat bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "jazolamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0012",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "개선하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도나 정책의 목적",
+        "uz": "Tizim va siyosatning maqsadi"
+      },
+      "meaning": {
+        "text": "yaxshilamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0013",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "부작용을 방지하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도나 정책의 목적",
+        "uz": "Tizim va siyosatning maqsadi"
+      },
+      "meaning": {
+        "text": "nojo‘ya ta’sirlarni oldini olmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0014",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "합리적으로 해결하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도나 정책의 목적",
+        "uz": "Tizim va siyosatning maqsadi"
+      },
+      "meaning": {
+        "text": "oqilona hal qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0015",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "~현상을 줄이다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도나 정책의 목적",
+        "uz": "Tizim va siyosatning maqsadi"
+      },
+      "meaning": {
+        "text": "… holatni kamaytirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0016",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "예방하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도나 정책의 목적",
+        "uz": "Tizim va siyosatning maqsadi"
+      },
+      "meaning": {
+        "text": "oldini olmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0017",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "책임지다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "제도나 정책의 목적",
+        "uz": "Tizim va siyosatning maqsadi"
+      },
+      "meaning": {
+        "text": "javobgar bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0018",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "애용(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "사용 관련",
+        "uz": "Foydalanish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "muntazam foydalanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0019",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "악용(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "사용 관련",
+        "uz": "Foydalanish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "yomon maqsadda foydalanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0020",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "오용(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "사용 관련",
+        "uz": "Foydalanish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "noto‘g‘ri foydalanmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0021",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "남용(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "사용 관련",
+        "uz": "Foydalanish bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "suiiste’mol qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0022",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "재발(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "qayta yuz bermoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0023",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "부작용",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "nojo‘ya ta’sir",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0024",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "반대하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "qarshilik qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0025",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "악화(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "yomonlashmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0026",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "갈등",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "ziddiyat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0027",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "분열(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "bo‘linmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0028",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "불평등(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "tengsizlik (tengsiz bo‘lmoq)",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0029",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "양극화",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "qutblanish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0030",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "떠넘기다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "ayblamoq/yuklamoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tekshirish: ma’nosi ‘mas’uliyatni boshqaga ag‘darmoq/yuklamoq’; ‘ayblamoq’ noaniq."
+        ]
+      }
+    },
+    {
+      "key": "VOC-RB-0031",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "미루다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "kechiktirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0032",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "방해하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "xalaqit bermoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0033",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "저해하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "to‘sqinlik qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0034",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "발생하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "sodir bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0035",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "대립(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "qarama-qarshi bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0036",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "견제(하다)",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "nazorat qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tekshirish: ‘tiyib turmoq, muvozanatlamoq’; ‘nazorat qilmoq’ noaniq."
+        ]
+      }
+    },
+    {
+      "key": "VOC-RB-0037",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "혼란스럽다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "tartibsiz bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0038",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "침해하다: buzmoq",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "부정적인 상황",
+        "uz": "Salbiy holatlar"
+      },
+      "meaning": {
+        "text": "huquqni buzish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0039",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "화합",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "uyg‘unlik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0040",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "타협",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "kelishuv",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0041",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조정",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "muvofiqlashtirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0042",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "통합",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "birlashtirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0043",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "해결",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "hal qilish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0044",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공정",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "adolat",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0045",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "평등",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "tenglik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0046",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "협상",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "muzokara",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0047",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자율",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "mustaqillik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0048",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "취약",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "zaif",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Tekshirish: ‘zaif, himoyasiz’ — salbiy ma’no, lekin ‘Ijobiy holatlar’ bo‘limida turibdi."
+        ]
+      }
+    },
+    {
+      "key": "VOC-RB-0049",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "신속하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "tezkor bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0050",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "참여하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "ishtirok etmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0051",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "조화를 이루다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "uyg‘unlikka erishmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0052",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "균형을 이루다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "muvozanatga erishmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0053",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "반영하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "aks ettirmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0054",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소통하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "muloqot qilmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0055",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "공감하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "hamdard bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0056",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "교류하다: almashmoq",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "긍정적인 상황",
+        "uz": "Ijobiy holatlar"
+      },
+      "meaning": {
+        "text": "fikr, madaniyat va boshqalar",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0057",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "세금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "soliq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0058",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "혜택",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "imtiyoz",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0059",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지원",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "yordam",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0060",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "자립",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "mustaqillik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0061",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "저소득층",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "past daromadli qatlam",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0062",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "노년",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "qarilik",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0063",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "장려금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "rag‘batlantiruvchi mablag‘",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0064",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "지원금",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "yordam puli",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0065",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "설명회",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "tushuntirish yig‘ilishi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0066",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "시설 확충",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "infratuzilmani kengaytirish",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0067",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "예산",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "복지 관련",
+        "uz": "Farovonlik bilan bog‘liq"
+      },
+      "meaning": {
+        "text": "byudjet",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0068",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "가해자",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "갈등 상황 관련",
+        "uz": "Ziddiyatli vaziyatlar"
+      },
+      "meaning": {
+        "text": "hujumchi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0069",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "피해자",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "갈등 상황 관련",
+        "uz": "Ziddiyatli vaziyatlar"
+      },
+      "meaning": {
+        "text": "jabrlanuvchi",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0070",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "소송을 제기하다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "갈등 상황 관련",
+        "uz": "Ziddiyatli vaziyatlar"
+      },
+      "meaning": {
+        "text": "sud ishini ochmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0071",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "분쟁이 생기다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "갈등 상황 관련",
+        "uz": "Ziddiyatli vaziyatlar"
+      },
+      "meaning": {
+        "text": "nizo paydo bo‘lmoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0072",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "다툼이 생기다",
+      "kind": "word",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": {
+        "ko": "갈등 상황 관련",
+        "uz": "Ziddiyatli vaziyatlar"
+      },
+      "meaning": {
+        "text": "janjal yuz bermoq",
+        "status": "draft"
+      },
+      "examples": [],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0073",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-ㄹ/을 것으로 기대되다 / 기대하다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": null,
+      "meaning": {
+        "text": "kutilmoqda / umid qilmoq",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "이 제도가 문제를 해결할 수 있을 것으로 기대하고 있다.",
+          "uz": {
+            "text": "Bu tizim muammoni hal qilishi kutilmoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0074",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-ㄹ/을 것으로 예상되다(전망되다)",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": null,
+      "meaning": {
+        "text": "kutilmoqda / prognoz qilinmoqda",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "부작용을 줄일 수 있을 것으로 예상된다.",
+          "uz": {
+            "text": "Nojo‘ya ta’sirlarni kamaytirish mumkinligi kutilmoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0075",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "단적인 예로",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": null,
+      "meaning": {
+        "text": "aniq misol sifatida",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "최근 K-POP이 세계적으로 인기를 얻고 있다. 단적인 예로 BTS를 들 수 있다.",
+          "uz": {
+            "text": "Yaqinda K-POP dunyo miqyosida mashhurlikka erishdi. Aniqlik uchun BTS misol bo‘la oladi.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0076",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "악용되는 사례가 늘고 있다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": null,
+      "meaning": {
+        "text": "yomon maqsadda foydalanish holatlari ortmoqda",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "초소형 카메라가 원래의 목적과 달리 악용되는 사례가 늘고 있다.",
+          "uz": {
+            "text": "Mini kameralar asl maqsaddan tashqari yomon maqsadda ishlatilayotgan holatlar ortmoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0077",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "큰 폭으로 오르다",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": null,
+      "meaning": {
+        "text": "keskin ko‘tarilmoq",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "추석 전 소비자 물가가 큰 폭으로 올라 불만의 목소리가 높아지고 있다.",
+          "uz": {
+            "text": "Chusok bayrami oldidan iste’molchi narxlari keskin ko‘tarilib, noroziliklar oshmoqda.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0078",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "-은/는 경향이 있다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": null,
+      "meaning": {
+        "text": "… ga moyillik bor",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "피로가 쌓이는 것을 중요하지 않게 생각하는 경향이 있다.",
+          "uz": {
+            "text": "Charchoqqa jiddiy qarashni odatlarida moyillik mavjud.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    },
+    {
+      "key": "VOC-RB-0079",
+      "source": "SRC-REBELS",
+      "authored_by": "human",
+      "term": "잊지 말아야 한다.",
+      "kind": "expression",
+      "pos": null,
+      "sense_no": 1,
+      "level": null,
+      "topic": "TOP-POLITICS-WELFARE",
+      "category": null,
+      "meaning": {
+        "text": "unutmaslik kerak",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "건강이 무엇보다 중요하다는 것을 잊지 말아야 한다.",
+          "uz": {
+            "text": "Sog‘lik hamma narsadan muhim ekanini unutmaslik kerak.",
+            "status": "draft"
+          },
+          "authored_by": "human"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": []
+      }
+    }
+  ]
+}
