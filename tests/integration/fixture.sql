@@ -15,30 +15,26 @@ update public.vocab_examples set status = 'reviewed', reviewed_by = '00000000-00
 update public.translations set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
  where entity_table = 'vocab_examples' and entity_id in (select id from public.vocab_examples where status = 'reviewed');
 
--- Test o‘qish savollari (3 ta)
-insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
-values ('R-01-02', 'reading', 1, 2, '빈칸에 알맞은 것 고르기', 'Bo‘shliqni to‘ldirish (TEST)', 2);
+-- Seed qilingan original kontentdan bir qismini ko‘rib chiqish (draft → reviewed)
+-- O‘qish: QST-R-0001..0003 (to‘g‘ri javoblar: ③, ②, ④)
+update public.question_options set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
+ where question_id in (select id from public.questions where key in ('QST-R-0001', 'QST-R-0002', 'QST-R-0003'));
+update public.explanations set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
+ where question_id in (select id from public.questions where key in ('QST-R-0001', 'QST-R-0002', 'QST-R-0003'));
+update public.questions set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
+ where key in ('QST-R-0001', 'QST-R-0002', 'QST-R-0003');
 
-do $$
-declare
-  v_src uuid := (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL');
-  v_type uuid := (select id from public.question_types where code = 'R-01-02');
-  v_q uuid;
-  i int;
-begin
-  for i in 1..3 loop
-    insert into public.questions (key, source_id, section, question_type_id, number_slot, stem_ko, prompt_ko, points)
-    values ('QST-E2E-' || i, v_src, 'reading', v_type, i, '(TEST) ( )에 들어갈 가장 알맞은 것을 고르십시오.', '비가 ( ) 우산을 가져가세요.', 2)
-    returning id into v_q;
-    insert into public.question_options (key, source_id, question_id, label, text_ko, is_correct) values
-      ('QST-E2E-' || i || '-1', v_src, v_q, 1, '오니까', true),
-      ('QST-E2E-' || i || '-2', v_src, v_q, 2, '오는데', false),
-      ('QST-E2E-' || i || '-3', v_src, v_q, 3, '오거나', false),
-      ('QST-E2E-' || i || '-4', v_src, v_q, 4, '오도록', false);
-    insert into public.explanations (key, source_id, question_id, body_md)
-    values ('EXP-E2E-' || i, v_src, v_q, '(TEST izoh) -(으)니까 sabab bildiradi: yomg‘ir yog‘ayotgani uchun soyabon olish kerak.');
-    update public.question_options set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01' where question_id = v_q;
-    update public.explanations set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01' where question_id = v_q;
-    update public.questions set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01' where id = v_q;
-  end loop;
-end $$;
+-- Grammatika: GRM-3-001..003
+update public.grammar_points set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
+ where key in ('GRM-3-001', 'GRM-3-002', 'GRM-3-003');
+update public.grammar_examples set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
+ where point_id in (select id from public.grammar_points where status = 'reviewed');
+update public.translations set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
+ where (entity_table = 'grammar_points' and entity_id in (select id from public.grammar_points where status = 'reviewed'))
+    or (entity_table = 'grammar_examples' and entity_id in (select id from public.grammar_examples where status = 'reviewed'));
+
+-- Yozish: WRT-53-0001 (jadval, ko‘rsatma, namunaviy javob va izoh)
+update public.writing_tasks set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01' where key = 'WRT-53-0001';
+update public.model_answers set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01' where key = 'WRT-53-0001-MODEL';
+update public.translations set status = 'reviewed', reviewed_by = '00000000-0000-0000-0000-0000000e2e01'
+ where key in ('WRT-53-0001-INSTR-UZ', 'WRT-53-0001-MODEL-COMMENT-UZ');

@@ -2,6 +2,14 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 import {
+  grammarFileSchema,
+  questionFileSchema,
+  questionTypeSchema,
+  writingFileSchema,
+  type GrammarFile,
+  type QuestionFile,
+  type QuestionType,
+  type WritingFile,
   planTemplateSchema,
   reviewerSchema,
   sourceSchema,
@@ -23,6 +31,10 @@ export type Loaded = {
   topics: Topic[];
   vocab: { file: string; data: VocabFile }[];
   plans: { file: string; data: PlanTemplate }[];
+  questionTypes: QuestionType[];
+  grammar: { file: string; data: GrammarFile }[];
+  questions: { file: string; data: QuestionFile }[];
+  writing: { file: string; data: WritingFile }[];
   errors: string[];
   warnings: string[];
 };
@@ -75,6 +87,21 @@ export function loadContent(): Loaded {
     .map((file) => ({ file: rel(file), data: parse(planTemplateSchema, file, readJson(file)) }))
     .filter((x): x is { file: string; data: PlanTemplate } => x.data !== null);
 
+  const qtPath = join(CONTENT, "meta", "question-types.json");
+  let questionTypes: QuestionType[] = [];
+  try {
+    questionTypes = ((readJson(qtPath) as unknown[]) ?? []).map((s) => parse(questionTypeSchema, qtPath, s)).filter(Boolean) as QuestionType[];
+  } catch {
+    questionTypes = [];
+  }
+  const loadDir = <T,>(dir: string, schema: Parameters<typeof parse<T>>[0]) =>
+    jsonFiles(join(CONTENT, dir))
+      .map((file) => ({ file: rel(file), data: parse<T>(schema, file, readJson(file)) }))
+      .filter((x): x is { file: string; data: T } => x.data !== null);
+  const grammar = loadDir<GrammarFile>("grammar", grammarFileSchema as never);
+  const questions = [...loadDir<QuestionFile>("reading", questionFileSchema as never), ...loadDir<QuestionFile>("listening", questionFileSchema as never)];
+  const writing = loadDir<WritingFile>("writing", writingFileSchema as never);
+
   // --- O‘zaro bog‘lanishlar
   const sourceByKey = new Map(sources.map((s) => [s.key, s]));
   const topicKeys = new Set(topics.map((t) => t.key));
@@ -120,5 +147,57 @@ export function loadContent(): Loaded {
     for (const t of data.tasks) if (t.topic && !topicKeys.has(t.topic)) errors.push(`${file}: ${t.day}-kun: mavzu topilmadi: ${t.topic}`);
   }
 
-  return { sources, reviewers, topics, vocab, plans, errors, warnings };
+  const typeByCode = new Map(questionTypes.map((t) => [t.code, t]));
+  const patterns = new Map<string, string>();
+  for (const { file, data } of grammar) {
+    for (const g of data.entries) {
+      claim(g.key, file);
+      checkSource(g.source, `${file} ${g.key}`);
+      checkReview(g.review, `${file} ${g.key}`);
+      if (patterns.has(g.pattern)) errors.push(`${file} ${g.key}: "${g.pattern}" takroriy (${patterns.get(g.pattern)})`);
+      else patterns.set(g.pattern, g.key);
+    }
+  }
+  for (const { file, data } of questions) {
+    for (const p of data.passages) {
+      claim(p.key, file);
+      checkSource(p.source, `${file} ${p.key}`);
+      if (p.topic && !topicKeys.has(p.topic)) errors.push(`${file} ${p.key}: mavzu topilmadi: ${p.topic}`);
+    }
+    for (const q of data.questions) {
+      const where = `${file} ${q.key}`;
+      claim(q.key, file);
+      checkSource(q.source, where);
+      checkReview(q.review, where);
+      const t = typeByCode.get(q.type_code);
+      if (!t) errors.push(`${where}: savol turi topilmadi: ${q.type_code} (meta/question-types.json)`);
+      else {
+        if (t.section !== q.section) errors.push(`${where}: savol turi bo‘limi mos emas`);
+        if (q.number_slot !== null && (q.number_slot < t.number_from || q.number_slot > t.number_to)) {
+          errors.push(`${where}: ${q.number_slot}-raqam ${t.code} oralig‘ida emas (${t.number_from}–${t.number_to})`);
+        }
+      }
+    }
+  }
+  for (const { file, data } of writing) {
+    const rubricKeys = new Set(data.rubrics.map((r) => r.key));
+    for (const r of data.rubrics) {
+      claim(r.key, file);
+      checkSource(r.source, `${file} ${r.key}`);
+    }
+    for (const t of data.tasks) {
+      const where = `${file} ${t.key}`;
+      claim(t.key, file);
+      checkSource(t.source, where);
+      checkReview(t.review, where);
+      if (t.rubric && !rubricKeys.has(t.rubric)) errors.push(`${where}: rubrika topilmadi: ${t.rubric}`);
+      const r = data.rubrics.find((x) => x.key === t.rubric);
+      // 51 va 52 bitta rubrika guruhida baholanadi (RUB-W51-52)
+      const group = (n: number) => (n === 52 ? 51 : n);
+      if (r && group(r.task_no) !== group(t.task_no)) errors.push(`${where}: rubrika boshqa topshiriq uchun (${r.task_no})`);
+      if (r && r.max_points !== t.points) errors.push(`${where}: ball (${t.points}) rubrika maksimumiga (${r.max_points}) teng emas`);
+    }
+  }
+
+  return { sources, reviewers, topics, vocab, plans, questionTypes, grammar, questions, writing, errors, warnings };
 }

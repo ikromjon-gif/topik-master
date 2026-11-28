@@ -22,6 +22,25 @@ select pg_temp.ok((select attribution_required and attribution_text = 'Lug‘at:
                    from public.sources where key = 'SRC-REBELS'), 'Rebels: granted, mualliflik matni bilan');
 select pg_temp.ok((select count(*) = 0 from public.translations where text ~ '[A-Za-z]''[A-Za-z]'), 'tarjimalarda ASCII apostrof yo‘q');
 
+-- Phase 8: grammatika, savollar, yozish
+select pg_temp.ok((select count(*) = 13 from public.question_types), 'seed: 13 ta savol turi');
+select pg_temp.ok((select count(*) = 30 from public.grammar_points) and (select count(*) = 90 from public.grammar_examples),
+  'seed: 30 grammatika, 90 misol');
+select pg_temp.ok((select count(*) = 30 from public.translations where entity_table = 'grammar_points' and field = 'explanation'),
+  'seed: har grammatikada o‘zbekcha izoh');
+select pg_temp.ok((select count(*) = 26 from public.questions) and (select count(*) = 104 from public.question_options),
+  'seed: 26 savol, 104 variant');
+select pg_temp.ok((select bool_and(c = 1) from (select count(*) filter (where is_correct) c from public.question_options group by question_id) x),
+  'har savolda aynan 1 to‘g‘ri javob');
+select pg_temp.ok((select count(*) = 9 from public.passages), 'seed: 9 matn/ssenariy (3 o‘qish, 6 tinglash)');
+select pg_temp.ok((select count(*) = 3 from public.rubrics) and (select count(*) = 8 from public.rubric_criteria),
+  'seed: 3 rubrika, 8 mezon');
+select pg_temp.ok((select count(*) = 8 from public.writing_tasks) and (select count(*) = 8 from public.model_answers),
+  'seed: 8 yozish topshirig‘i va namunaviy javob');
+select pg_temp.ok((select bool_and(status = 'draft') from public.questions) and (select bool_and(status = 'draft') from public.grammar_points),
+  'AI kontent draft holatida');
+select pg_temp.ok((select bool_and(version = 1) from public.questions), 'idempotent: savollar versiyasi oshmadi');
+
 -- O‘quvchi draft kontentni ko‘rmaydi
 insert into auth.users (id, email) values
   ('00000000-0000-0000-0000-00000000aaaa', 'learner@test'),

@@ -24,8 +24,8 @@ async def main():
         b = await p.chromium.launch(executable_path=os.environ.get("CHROME_PATH") or None, args=["--no-sandbox"])
         ctx = await b.new_context(viewport={"width": 1440, "height": 900})
         pg = await ctx.new_page()
-        pg.on("console", lambda m: errs.append(m.text) if m.type == "error" else None)
-        pg.on("pageerror", lambda e: errs.append(str(e)))
+        pg.on("console", lambda m: errs.append(f"{pg.url}: {m.text}") if m.type == "error" else None)
+        pg.on("pageerror", lambda e: errs.append(f"{pg.url}: {e}"))
         ax = []
 
         # 1. Himoya: login'siz → /login
@@ -95,20 +95,38 @@ async def main():
         check("Lug‘at: qidiruv (실시)", n_q >= 1, n_q)
         await axe(pg, "vocabulary", ax)
 
+        # 5b. Grammatika (reviewed: GRM-3-001..003)
+        await pg.goto(BASE + "/grammar", wait_until="networkidle")
+        gt = await pg.locator("main").inner_text()
+        check("Grammatika: 3 ta reviewed qoida, draft yashirin", "-는 바람에" in gt and "-더니" in gt and "-느라고" not in gt, gt[:200])
+        check("Grammatika: o‘zbekcha izoh va misol tarjimasi", "Kutilmagan sabab" in gt and "Uxlab qolganim sababli majlisga kechikdim." in gt)
+        await axe(pg, "grammar", ax)
+
+        # 5c. Yozish (reviewed: WRT-53-0001)
+        await pg.goto(BASE + "/writing", wait_until="networkidle")
+        wt = await pg.locator("main").inner_text()
+        check("Yozish: faqat reviewed topshiriq (53)", wt.count("-topshiriq") == 1 and "53-topshiriq · 30 ball" in wt, wt[:200])
+        check("Yozish: o‘zbekcha ko‘rsatma va ma’lumot jadvali", "200–300 belgilik" in wt and await pg.locator("main table th", has_text="2026년").count() == 1
+              and "Mashq uchun o‘ylab topilgan ma’lumot" in wt)
+        await pg.get_by_role("button", name="Namunaviy javobni ko‘rish").click()
+        wt2 = await pg.locator("main").inner_text()
+        check("Yozish: namunaviy javob, belgi soni va izoh", "독서량" in wt2 and "Namunaviy javob: 225 belgi" in wt2 and "Namuna 4 qismdan iborat" in wt2, wt2[-300:])
+        await axe(pg, "writing", ax)
+
         # 6. O‘qish mashqi → natija saqlanadi → statistika, xatolar
         await pg.goto(BASE + "/reading", wait_until="networkidle")
         qcount = await pg.locator("fieldset").count()
-        check("O‘qish: 3 ta reviewed test savoli", qcount == 3, qcount)
+        check("O‘qish: 3 ta reviewed original savol", qcount == 3, qcount)
         await axe(pg, "reading", ax)
         fs = pg.locator("fieldset")
-        await fs.nth(0).locator("label").nth(0).click()   # to‘g‘ri (①)
-        await fs.nth(1).locator("label").nth(1).click()   # noto‘g‘ri (②)
-        # 3-savol javobsiz
+        await fs.filter(has_text="늦잠을 자는").locator("label", has_text="바람에").click()   # to‘g‘ri
+        await fs.filter(has_text="출발해").locator("label", has_text="보니까").click()        # noto‘g‘ri
+        # 3-savol (데다가) javobsiz
         await pg.get_by_role("button", name="Javoblarni tekshirish").click()
         await pg.wait_for_selector("text=Natija:", timeout=20000)
         rt = await pg.locator("main").inner_text()
         check("O‘qish: serverda baholandi — 1 / 3 to‘g‘ri, 2 / 6 ball", "1 / 3 to‘g‘ri" in rt and "2 / 6 ball" in rt, rt[:200])
-        check("O‘qish: izoh yuborilgandan keyin ko‘rinadi", "(TEST izoh)" in rt)
+        check("O‘qish: izoh yuborilgandan keyin ko‘rinadi", "kutilmagan sabab tufayli" in rt)
         await axe(pg, "reading-graded", ax)
 
         await pg.goto(BASE + "/stats", wait_until="networkidle")

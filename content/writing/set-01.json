@@ -1,0 +1,464 @@
+{
+  "rubrics": [
+    {
+      "key": "RUB-W51-52",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 51,
+      "name": "51–52: gap to‘ldirish",
+      "max_points": 10,
+      "criteria": [
+        {
+          "code": "content",
+          "name_ko": "내용의 적절성",
+          "name_uz": "Mazmun mosligi",
+          "max_points": 6,
+          "bands": [
+            {
+              "points": "5–6",
+              "uz": "Ikkala bo‘shliq ham matn mantiqiga to‘liq mos, oldingi va keyingi gaplar bilan bog‘langan."
+            },
+            {
+              "points": "3–4",
+              "uz": "Mazmun asosan mos, lekin bir bo‘shliqda ma’no to‘liq emas yoki noaniq."
+            },
+            {
+              "points": "0–2",
+              "uz": "Javob matn mazmuniga mos emas yoki yozilmagan."
+            }
+          ]
+        },
+        {
+          "code": "language",
+          "name_ko": "언어 사용",
+          "name_uz": "Til ishlatilishi",
+          "max_points": 4,
+          "bands": [
+            {
+              "points": "4",
+              "uz": "Grammatika, uslub (rasmiy/norasmiy) va gap oxiri matnga mos, xatosiz."
+            },
+            {
+              "points": "2–3",
+              "uz": "Kichik grammatik xatolar yoki uslub nomuvofiqligi bor."
+            },
+            {
+              "points": "0–1",
+              "uz": "Ko‘p xato, gap tugallanmagan."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Sabaq original rubrikasi (AI qoralama). Mezonlar va ball taqsimoti rasmiy TOPIK baholash mezonlari bilan solishtirilishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "RUB-W53",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 53,
+      "name": "53: ma’lumotni tushuntiruvchi matn",
+      "max_points": 30,
+      "criteria": [
+        {
+          "code": "content_task",
+          "name_ko": "내용 및 과제 수행",
+          "name_uz": "Mazmun va topshiriqni bajarish",
+          "max_points": 7,
+          "bands": [
+            {
+              "points": "6–7",
+              "uz": "Berilgan barcha ma’lumot (raqamlar, sabablar, istiqbol) to‘g‘ri va to‘liq yoritilgan, 200–300 belgi."
+            },
+            {
+              "points": "3–5",
+              "uz": "Ma’lumotning bir qismi tushib qolgan yoki noto‘g‘ri berilgan."
+            },
+            {
+              "points": "0–2",
+              "uz": "Topshiriqqa deyarli javob berilmagan yoki o‘z fikri yozilgan (53-topshiriqda shaxsiy fikr kerak emas)."
+            }
+          ]
+        },
+        {
+          "code": "structure",
+          "name_ko": "글의 전개 구조",
+          "name_uz": "Matn tuzilishi",
+          "max_points": 7,
+          "bands": [
+            {
+              "points": "6–7",
+              "uz": "Kirish (so‘rov kim tomonidan o‘tkazilgani) → natija → sabab → istiqbol tartibida, bog‘lovchilar to‘g‘ri."
+            },
+            {
+              "points": "3–5",
+              "uz": "Tartib qisman buzilgan yoki bog‘lovchilar yetarli emas."
+            },
+            {
+              "points": "0–2",
+              "uz": "Gaplar bir-biriga bog‘lanmagan."
+            }
+          ]
+        },
+        {
+          "code": "language",
+          "name_ko": "언어 사용",
+          "name_uz": "Til ishlatilishi",
+          "max_points": 16,
+          "bands": [
+            {
+              "points": "13–16",
+              "uz": "Yozma uslub (-ㄴ다/-았다), xilma-xil grammatika va lug‘at, xatolar deyarli yo‘q."
+            },
+            {
+              "points": "7–12",
+              "uz": "Ma’no tushunarli, lekin takroriy ifodalar va grammatik xatolar bor."
+            },
+            {
+              "points": "0–6",
+              "uz": "Xatolar ko‘p, og‘zaki uslub (-아요/-어요) ishlatilgan."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Sabaq original rubrikasi (AI qoralama). Mezonlar va ball taqsimoti rasmiy TOPIK baholash mezonlari bilan solishtirilishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "RUB-W54",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 54,
+      "name": "54: fikr bildiruvchi insho",
+      "max_points": 50,
+      "criteria": [
+        {
+          "code": "content_task",
+          "name_ko": "내용 및 과제 수행",
+          "name_uz": "Mazmun va topshiriqni bajarish",
+          "max_points": 12,
+          "bands": [
+            {
+              "points": "10–12",
+              "uz": "Uchala savolga ham aniq va asosli javob berilgan, 600–700 belgi."
+            },
+            {
+              "points": "5–9",
+              "uz": "Savollardan biri yuzaki yoritilgan yoki dalillar yetarli emas."
+            },
+            {
+              "points": "0–4",
+              "uz": "Mavzudan chetga chiqilgan yoki hajm juda kam."
+            }
+          ]
+        },
+        {
+          "code": "structure",
+          "name_ko": "글의 전개 구조",
+          "name_uz": "Matn tuzilishi",
+          "max_points": 12,
+          "bands": [
+            {
+              "points": "10–12",
+              "uz": "Kirish — asosiy qism — xulosa aniq, xatboshilar va bog‘lovchilar (우선, 또한, 그러나, 따라서) to‘g‘ri."
+            },
+            {
+              "points": "5–9",
+              "uz": "Tuzilish bor, lekin xatboshilar orasidagi bog‘liqlik kuchsiz."
+            },
+            {
+              "points": "0–4",
+              "uz": "Tuzilish yo‘q, fikrlar tartibsiz."
+            }
+          ]
+        },
+        {
+          "code": "language",
+          "name_ko": "언어 사용",
+          "name_uz": "Til ishlatilishi",
+          "max_points": 26,
+          "bands": [
+            {
+              "points": "21–26",
+              "uz": "Yuqori darajadagi grammatika va akademik lug‘at aniq ishlatilgan, yozma uslub izchil."
+            },
+            {
+              "points": "11–20",
+              "uz": "Ma’no tushunarli, lekin grammatika va lug‘at oddiy yoki takroriy, xatolar bor."
+            },
+            {
+              "points": "0–10",
+              "uz": "Xatolar ma’noni tushunishga xalaqit beradi."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "Sabaq original rubrikasi (AI qoralama). Mezonlar va ball taqsimoti rasmiy TOPIK baholash mezonlari bilan solishtirilishi kerak."
+        ]
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "key": "WRT-51-0001",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 51,
+      "level": 3,
+      "prompt_ko": "다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.\n\n제목: 노트북을 찾습니다\n어제 오후 3시쯤 학생회관 2층 휴게실에 노트북을 두고 왔습니다. 검은색이고 뒷면에 고양이 스티커가 붙어 있습니다. 노트북 안에 (    ㉠    ). 혹시 노트북을 보신 분은 아래 번호로 (    ㉡    ). 꼭 사례하겠습니다.\n연락처: 010-0000-0000",
+      "instruction_uz": "E’londagi ㉠ va ㉡ bo‘shliqlariga mos gap yozing. Oldingi va keyingi gaplarga e’tibor bering: ㉠ — noutbuk nega muhimligi, ㉡ — topgan odamdan iltimos.",
+      "material": {},
+      "min_chars": null,
+      "max_chars": null,
+      "points": 10,
+      "rubric": "RUB-W51-52",
+      "model_answer": {
+        "ko": "㉠ 중요한 과제 파일이 들어 있어서 꼭 찾아야 합니다\n㉡ 연락해 주시기 바랍니다",
+        "commentary_uz": "㉠: “꼭 사례하겠습니다” va izlash sababi bilan bog‘lanadi — ichida muhim fayl borligi. ㉡: e’lon rasmiy uslubda, shuning uchun “연락해 주시기 바랍니다” (bog‘lanishingizni so‘rayman) mos."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "WRT-51-0002",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 51,
+      "level": 3,
+      "prompt_ko": "다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.\n\n제목: 집들이에 초대합니다\n지난주에 새집으로 이사했습니다. 그동안 도와주신 분들께 감사의 마음을 전하고 싶어서 (    ㉠    ). 이번 주 토요일 저녁 6시에 저희 집으로 와 주세요. 집 주소를 잘 모르시는 분은 (    ㉡    ). 지하철역까지 마중을 나가겠습니다.",
+      "instruction_uz": "Taklifnomadagi ㉠ va ㉡ ga mos gap yozing: ㉠ — nima qilmoqchi ekani, ㉡ — manzilni bilmaganlar nima qilishi kerakligi.",
+      "material": {},
+      "min_chars": null,
+      "max_chars": null,
+      "points": 10,
+      "rubric": "RUB-W51-52",
+      "model_answer": {
+        "ko": "㉠ 집들이를 하려고 합니다\n㉡ 미리 연락해 주세요",
+        "commentary_uz": "㉠: sarlavha “집들이에 초대합니다” — demak uyga chaqirib ziyofat qilmoqchi (-(으)려고 하다). ㉡: keyingi gap “bekatgacha kutib olaman” — buning uchun oldindan xabar berish kerak."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "WRT-52-0001",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 52,
+      "level": 4,
+      "prompt_ko": "다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.\n\n사람들은 보통 피곤하면 커피를 마신다. 커피에 들어 있는 카페인이 잠을 깨워 주기 때문이다. 그러나 커피를 너무 많이 마시면 (    ㉠    ). 밤에 잠을 잘 자지 못하거나 가슴이 두근거릴 수 있기 때문이다. 그러므로 커피는 (    ㉡    ).",
+      "instruction_uz": "Tushuntirish matnidagi ㉠ va ㉡ ga mos gap yozing. Yozma uslubda (-ㄴ다/-는다) yozing.",
+      "material": {},
+      "min_chars": null,
+      "max_chars": null,
+      "points": 10,
+      "rubric": "RUB-W51-52",
+      "model_answer": {
+        "ko": "㉠ 오히려 건강에 해로울 수 있다\n㉡ 적당히 마시는 것이 좋다",
+        "commentary_uz": "㉠: 그러나 “biroq” — oldingi ijobiy fikrga qarama-qarshi salbiy natija kerak; keyingi gap uni tushuntiradi. ㉡: 그러므로 “shuning uchun” — xulosa: me’yorida ichish kerak. Uslub yozma (-다)."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "WRT-52-0002",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 52,
+      "level": 4,
+      "prompt_ko": "다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.\n\n칭찬은 사람을 움직이는 힘이 있다. 칭찬을 받으면 자신감이 생기고 더 잘하고 싶은 마음이 든다. 하지만 결과만 칭찬하면 아이들은 (    ㉠    ). 실패할까 봐 어려운 일에 도전하지 않게 되는 것이다. 따라서 결과보다는 (    ㉡    ).",
+      "instruction_uz": "Matndagi ㉠ va ㉡ ga mos gap yozing. ㉠ dan keyingi gap uni izohlaydi, ㉡ esa matnning xulosasi.",
+      "material": {},
+      "min_chars": null,
+      "max_chars": null,
+      "points": 10,
+      "rubric": "RUB-W51-52",
+      "model_answer": {
+        "ko": "㉠ 실패를 두려워하게 된다\n㉡ 노력하는 과정을 칭찬하는 것이 좋다",
+        "commentary_uz": "㉠: keyingi gap “muvaffaqiyatsizlikdan qo‘rqib, qiyin ishga urinmaydi” — demak muvaffaqiyatsizlikdan qo‘rqadigan bo‘ladi. ㉡: 결과보다는 “natijadan ko‘ra” — jarayonni (harakatni) maqtash kerak."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "WRT-53-0001",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 53,
+      "level": 4,
+      "prompt_ko": "다음은 ‘성인의 연간 독서량 변화’에 대한 자료이다. 이 내용을 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오.",
+      "instruction_uz": "Quyidagi ma’lumot asosida 200–300 belgilik tushuntirish matni yozing. Shaxsiy fikr yozilmaydi: so‘rov → natija → sabablar → istiqbol tartibida, yozma uslubda (-ㄴ다/-았다).",
+      "material": {
+        "title": "성인 1인당 연간 독서량 변화",
+        "note": "Mashq uchun o‘ylab topilgan ma’lumot",
+        "survey": "조사 기관: 새솔시 문화재단 / 조사 대상: 성인 1,000명",
+        "columns": [
+          "연도",
+          "독서량"
+        ],
+        "rows": [
+          [
+            "2016년",
+            "12권"
+          ],
+          [
+            "2021년",
+            "9권"
+          ],
+          [
+            "2026년",
+            "6권"
+          ]
+        ],
+        "extra": [
+          "원인: 스마트폰 사용 시간 증가, 여가 시간 부족",
+          "전망: 2031년 4권 예상"
+        ]
+      },
+      "min_chars": 200,
+      "max_chars": 300,
+      "points": 30,
+      "rubric": "RUB-W53",
+      "model_answer": {
+        "ko": "새솔시 문화재단에서 성인 1,000명을 대상으로 연간 독서량을 조사하였다. 그 결과 성인 1인당 연간 독서량은 2016년 12권에서 2021년 9권, 2026년 6권으로 10년 사이에 절반으로 줄어든 것으로 나타났다. 이러한 변화의 원인으로는 스마트폰 사용 시간이 늘어난 것과 여가 시간이 부족한 것을 들 수 있다. 이러한 추세가 계속된다면 2031년에는 연간 독서량이 4권까지 줄어들 것으로 전망된다.",
+        "commentary_uz": "Namuna 4 qismdan iborat: (1) so‘rovni kim, kimlar orasida o‘tkazgani; (2) raqamlar bilan natija (“…에서 …으로 줄어든 것으로 나타났다”); (3) sabablar (“원인으로는 … 을/를 들 수 있다”); (4) istiqbol (“…것으로 전망된다”). Shaxsiy fikr yo‘q."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "WRT-53-0002",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 53,
+      "level": 4,
+      "prompt_ko": "다음은 ‘반려동물 양육 가구 비율’에 대한 자료이다. 이 내용을 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오.",
+      "instruction_uz": "Ma’lumot asosida 200–300 belgilik matn yozing: o‘zgarish raqamlari, sabablar (foizlari bilan) va ulardan kelib chiqadigan xulosa.",
+      "material": {
+        "title": "반려동물 양육 가구 비율",
+        "note": "Mashq uchun o‘ylab topilgan ma’lumot",
+        "survey": "조사 기관: 새솔연구소 / 조사 대상: 2,000가구",
+        "columns": [
+          "연도",
+          "비율"
+        ],
+        "rows": [
+          [
+            "2015년",
+            "18%"
+          ],
+          [
+            "2025년",
+            "30%"
+          ]
+        ],
+        "extra": [
+          "양육 이유: 1인 가구 증가 45%, 정서적 안정 35%, 기타 20%"
+        ]
+      },
+      "min_chars": 200,
+      "max_chars": 300,
+      "points": 30,
+      "rubric": "RUB-W53",
+      "model_answer": {
+        "ko": "새솔연구소에서 2,000가구를 대상으로 반려동물 양육 현황을 조사하였다. 조사 결과 반려동물을 기르는 가구의 비율은 2015년 18%에서 2025년 30%로 크게 증가하였다. 반려동물을 기르는 이유로는 ‘1인 가구 증가’가 45%로 가장 많았고, 그다음으로 ‘정서적 안정’이 35%로 나타났다. 이를 통해 혼자 사는 사람이 늘면서 반려동물을 가족처럼 여기는 사람이 많아졌다는 것을 알 수 있다.",
+        "commentary_uz": "Ko‘tarilish “…에서 …로 크게 증가하였다”, sabablar ketma-ketligi “가장 많았고, 그다음으로…”, xulosa “이를 통해 … 알 수 있다” bilan berilgan. Barcha raqamlar ma’lumotdagidek."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "WRT-54-0001",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 54,
+      "level": 4,
+      "prompt_ko": "다음을 주제로 하여 자신의 생각을 600~700자로 글을 쓰십시오. 단, 문제를 그대로 옮겨 쓰지 마십시오.\n\n최근 많은 학교에서 온라인 수업을 활용하고 있다. 아래의 내용을 중심으로 ‘온라인 수업의 장단점과 바람직한 활용 방안’에 대한 자신의 생각을 쓰라.\n· 온라인 수업의 장점은 무엇인가?\n· 온라인 수업의 문제점은 무엇인가?\n· 온라인 수업을 효과적으로 활용하려면 어떻게 해야 하는가?",
+      "instruction_uz": "600–700 belgilik insho yozing. Uchala savolga ham alohida xatboshida javob bering: afzalliklar → muammolar → samarali foydalanish yo‘llari. Savol matnini ko‘chirmang.",
+      "material": {},
+      "min_chars": 600,
+      "max_chars": 700,
+      "points": 50,
+      "rubric": "RUB-W54",
+      "model_answer": {
+        "ko": "최근 온라인 수업은 학교 교육의 중요한 방법 중 하나가 되었다. 온라인 수업에는 여러 가지 장점이 있다. 우선 시간과 장소의 제약 없이 수업을 들을 수 있다. 학생들은 이동 시간을 줄일 수 있고 이해하지 못한 부분은 녹화된 강의를 다시 보면서 복습할 수 있다. 또한 먼 지역에 사는 학생들도 질 높은 수업을 쉽게 접할 수 있다. 게다가 자신의 속도에 맞춰 공부할 수 있어서 학습 부담도 줄어든다.\n그러나 온라인 수업에는 문제점도 있다. 무엇보다 학생들의 집중력이 떨어지기 쉽다. 화면 앞에 오래 앉아 있으면 다른 일에 신경을 쓰게 되고 교사가 학생 한 명 한 명의 상태를 확인하기도 어렵다. 그리고 친구들과 직접 만나 토론하거나 함께 활동할 기회가 줄어들어 사회성을 기르기 힘들다는 지적도 있다. 또한 인터넷 환경이 좋지 않은 학생은 수업을 제대로 듣지 못하는 경우도 있다.\n따라서 온라인 수업을 효과적으로 활용하려면 다음과 같은 노력이 필요하다. 첫째, 강의를 짧게 나누고 퀴즈나 토론을 넣어 학생들이 적극적으로 참여하도록 해야 한다. 둘째, 온라인 수업과 대면 수업을 적절히 섞어 각각의 장점을 살려야 한다. 셋째, 학생 스스로도 학습 계획을 세우고 지키는 습관을 길러야 한다. 이렇게 한다면 온라인 수업은 교육의 질을 높이는 좋은 도구가 될 것이다.",
+        "commentary_uz": "Uch xatboshi uchta savolga mos: 우선/또한 (afzalliklar), 그러나/무엇보다 (muammolar), 따라서/첫째·둘째·셋째 (yechimlar) va xulosa gapi. -(으)ㄹ 수 있다, -기 쉽다, -도록 하다, -(으)ㄴ다면 kabi 4급 grammatikasi ishlatilgan."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "WRT-54-0002",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "task_no": 54,
+      "level": 4,
+      "prompt_ko": "다음을 주제로 하여 자신의 생각을 600~700자로 글을 쓰십시오. 단, 문제를 그대로 옮겨 쓰지 마십시오.\n\n인공지능 기술이 빠르게 발달하고 있다. 아래의 내용을 중심으로 ‘인공지능 시대에 필요한 능력’에 대한 자신의 생각을 쓰라.\n· 인공지능의 발달로 생활은 어떻게 변하고 있는가?\n· 인공지능 시대에 사람에게 필요한 능력은 무엇인가?\n· 그 능력을 기르기 위해 어떤 노력이 필요한가?",
+      "instruction_uz": "600–700 belgilik insho yozing: hayot qanday o‘zgaryapti → qanday qobiliyatlar kerak → ularni qanday rivojlantirish mumkin.",
+      "material": {},
+      "min_chars": 600,
+      "max_chars": 700,
+      "points": 50,
+      "rubric": "RUB-W54",
+      "model_answer": {
+        "ko": "인공지능 기술이 빠르게 발달하면서 우리의 생활도 크게 변하고 있다. 휴대폰에 말만 하면 일정을 알려 주고 외국어로 된 글도 순식간에 번역해 준다. 회사에서는 인공지능이 자료를 분석하고 보고서를 작성하는 일까지 돕고 있다. 이처럼 인공지능은 사람이 하던 많은 일을 대신하고 있다. 이제 인공지능 없는 생활은 상상하기 어려울 정도이다.\n그렇다면 인공지능 시대에 사람에게 필요한 능력은 무엇일까? 첫째, 비판적으로 생각하는 능력이다. 인공지능이 제공하는 정보가 항상 정확한 것은 아니기 때문에 그 정보가 맞는지 스스로 판단할 수 있어야 한다. 둘째, 창의력이다. 정해진 규칙에 따라 일하는 것은 인공지능이 더 잘하지만 새로운 생각을 떠올리는 것은 여전히 사람의 몫이다. 셋째, 다른 사람과 소통하고 협력하는 능력이다. 인공지능은 사람의 감정을 완전히 이해하지 못하기 때문에 공감하며 함께 문제를 해결하는 능력은 더욱 중요해질 것이다.\n이러한 능력을 기르기 위해서는 교육이 달라져야 한다. 학교에서는 정답을 외우게 하기보다 학생들이 질문하고 토론하는 수업을 늘려야 한다. 또한 개인도 인공지능을 무조건 믿기보다 도구로 활용하면서 자신의 생각을 덧붙이는 연습을 해야 한다. 인공지능을 잘 활용하는 사람이 앞으로의 사회를 이끌어 갈 것이다.",
+        "commentary_uz": "Kirish misollar bilan (이처럼 …), asosiy qismda savol-gap (그렇다면 …?) va 첫째·둘째·셋째, oxirgi xatboshida yechim va xulosa. -기보다, -(으)면서, -는 것은 아니다 kabi ifodalar fikrni aniq bog‘laydi."
+      },
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    }
+  ]
+}

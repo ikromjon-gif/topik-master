@@ -7148,4 +7148,1645 @@ values ('PLN-45-TOPIK2-L4-D45-2', (select id from public.sources where key = 'SR
   'mock', 'To‘liq sinov imtihoni (tinglash, yozish, o‘qish)', null, 180, '/mock-tests', null, 'draft', null)
 on conflict (key) do update set day = excluded.day, position = excluded.position, section = excluded.section, title = excluded.title,
   title_ko = excluded.title_ko, estimated_minutes = excluded.estimated_minutes, href = excluded.href, topic_id = excluded.topic_id;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('L-04-08', 'listening', 4, 8, '이어질 수 있는 말 고르기', 'Suhbatdan keyingi gapni tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('L-09-12', 'listening', 9, 12, '이어서 할 행동 고르기', 'Keyingi harakatni tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('L-13-16', 'listening', 13, 16, '내용과 일치하는 것 고르기', 'Mazmunga mos gapni tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('L-17-20', 'listening', 17, 20, '중심 생각 고르기', 'Asosiy fikrni tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('R-01-02', 'reading', 1, 2, '빈칸에 알맞은 문법 고르기', 'Bo‘shliqqa mos grammatikani tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('R-03-04', 'reading', 3, 4, '의미가 비슷한 표현 고르기', 'Ma’nodosh ifodani tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('R-05-08', 'reading', 5, 8, '무엇에 대한 글인지 고르기', 'Matn nima haqida ekanini topish', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('R-09-12', 'reading', 9, 12, '글의 내용과 같은 것 고르기', 'Matn mazmuniga mos gapni tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('R-13-15', 'reading', 13, 15, '순서대로 배열하기', 'Gaplarni tartib bilan joylashtirish', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('R-16-18', 'reading', 16, 18, '빈칸에 들어갈 내용 고르기', 'Matndagi bo‘shliqqa mos mazmunni tanlash', 2)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('W-51-52', 'writing', 51, 52, '문장 완성하기', 'Gapni to‘ldirish', 10)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('W-53', 'writing', 53, 53, '자료를 설명하는 글 쓰기', 'Ma’lumotni tushuntiruvchi matn', 30)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.question_types (code, section, number_from, number_to, name_ko, name_uz, points_per_item)
+values ('W-54', 'writing', 54, 54, '주제에 대해 자신의 생각 쓰기', 'Mavzu bo‘yicha fikr bildirish (insho)', 50)
+on conflict (code, exam_format_version) do update set section = excluded.section, number_from = excluded.number_from,
+  number_to = excluded.number_to, name_ko = excluded.name_ko, name_uz = excluded.name_uz, points_per_item = excluded.points_per_item;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-는 바람에', 'V + -는 바람에', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-001-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-001'), 'explanation', 'uz', 'Kutilmagan sabab tufayli (ko‘pincha salbiy) natija yuz berganini bildiradi. Ikkinchi qismda buyruq yoki taklif ishlatilmaydi va gap odatda o‘tgan zamonda tugaydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-001-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-001'), '늦잠을 자는 바람에 회의에 늦었어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-001-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-001-EX1'), 'sentence', 'uz', 'Uxlab qolganim sababli majlisga kechikdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-001-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-001'), '갑자기 비가 오는 바람에 옷이 다 젖었어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-001-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-001-EX2'), 'sentence', 'uz', 'To‘satdan yomg‘ir yog‘ib, kiyimlarim butunlay ho‘l bo‘ldi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-001-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-001'), '휴대폰이 고장 나는 바람에 연락을 못 했어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-001-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-001-EX3'), 'sentence', 'uz', 'Telefonim buzilib qolgani uchun bog‘lana olmadim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄴ/는 데다가', 'A + -(으)ㄴ 데다가 / V + -는 데다가 / N + 인 데다가', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-002-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-002'), 'explanation', 'uz', 'Bir holatga ikkinchisi qo‘shilishini bildiradi: “…ustiga yana…”. Ikkala qism bir xil yo‘nalishda bo‘ladi (ikkalasi ijobiy yoki ikkalasi salbiy).', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-002-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-002'), '이 식당은 음식이 맛있는 데다가 가격도 싸요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-002-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-002-EX1'), 'sentence', 'uz', 'Bu oshxonada taom mazali, ustiga narxi ham arzon.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-002-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-002'), '어제는 비가 온 데다가 바람도 많이 불었어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-002-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-002-EX2'), 'sentence', 'uz', 'Kecha yomg‘ir yog‘di, ustiga shamol ham kuchli esdi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-002-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-002'), '그 사람은 성실한 데다가 친절해서 인기가 많아요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-002-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-002-EX3'), 'sentence', 'uz', 'U odam vijdonli, ustiga xushmuomala bo‘lgani uchun hammaga yoqadi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-003', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-더니', 'V/A + -더니', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-003-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-003'), 'explanation', 'uz', 'So‘zlovchi o‘zi kuzatgan o‘tmishdagi holatdan keyin o‘zgarish yoki natija yuz berganini bildiradi. Birinchi qism odatda boshqa shaxs yoki narsa haqida bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-003-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-003'), '아침에는 날씨가 맑더니 오후에 비가 오기 시작했어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-003-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-003-EX1'), 'sentence', 'uz', 'Ertalab havo ochiq edi, tushdan keyin esa yomg‘ir boshlandi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-003-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-003'), '동생이 열심히 공부하더니 시험에 합격했어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-003-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-003-EX2'), 'sentence', 'uz', 'Ukam qattiq o‘qidi va imtihondan o‘tdi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-003-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-003'), '친구가 아까부터 기침을 하더니 결국 병원에 갔어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-003-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-003-EX3'), 'sentence', 'uz', 'Do‘stim anchadan beri yo‘talayotgan edi, oxiri kasalxonaga bordi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-004', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-았/었더니', 'V + -았/었더니', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-004-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-004'), 'explanation', 'uz', 'So‘zlovchining o‘zi qilgan ishidan keyin nimani bilib qolgani yoki qanday natija bo‘lganini bildiradi. Birinchi qismning egasi ko‘pincha 1-shaxs (men) bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-004-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-004'), '아침을 굶었더니 배가 너무 고파요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-004-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-004-EX1'), 'sentence', 'uz', 'Nonushta qilmagan edim, endi qornim juda och.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-004-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-004'), '친구에게 전화했더니 벌써 출발했다고 했어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-004-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-004-EX2'), 'sentence', 'uz', 'Do‘stimga qo‘ng‘iroq qilsam, allaqachon yo‘lga chiqqanini aytdi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-004-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-004'), '매일 운동을 했더니 건강이 좋아졌어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-004-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-004-EX3'), 'sentence', 'uz', 'Har kuni sport bilan shug‘ullandim va sog‘lig‘im yaxshilandi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-005', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄴ/는 반면에', 'A + -(으)ㄴ 반면에 / V + -는 반면에', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-005-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-005'), 'explanation', 'uz', 'Ikki holatni qarama-qarshi qo‘yadi: “…bo‘lsa, aksincha…”. Bir narsaning ikki tomonini solishtirishda ko‘p ishlatiladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-005-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-005'), '이 집은 넓은 반면에 교통이 불편해요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-005-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-005-EX1'), 'sentence', 'uz', 'Bu uy keng, aksincha transport noqulay.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-005-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-005'), '형은 성격이 활발한 반면에 동생은 조용한 편이에요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-005-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-005-EX2'), 'sentence', 'uz', 'Akasi faol xarakterli, ukasi esa aksincha jimroq.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-005-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-005'), '도시는 편리한 반면에 공기가 좋지 않아요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-005-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-005-EX3'), 'sentence', 'uz', 'Shahar qulay, biroq havosi toza emas.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-006', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-는 대로', 'V + -는 대로 / V + -(으)ㄴ 대로', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-006-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-006'), 'explanation', 'uz', 'Ikki ma’nosi bor: (1) “…bilanoq, darhol” — bir ish tugashi bilan ikkinchisi boshlanadi; (2) “…qanday bo‘lsa, shunday” — biror narsaga mos ravishda.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-006-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-006'), '회의가 끝나는 대로 연락드리겠습니다.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-006-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-006-EX1'), 'sentence', 'uz', 'Majlis tugashi bilanoq sizga xabar beraman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-006-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-006'), '선생님이 말씀하신 대로 해 보세요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-006-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-006-EX2'), 'sentence', 'uz', 'O‘qituvchi aytganidek qilib ko‘ring.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-006-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-006'), '도착하는 대로 문자 보내 주세요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-006-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-006-EX3'), 'sentence', 'uz', 'Yetib borishingiz bilan SMS yuboring.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-007', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ 만하다', 'V + -(으)ㄹ 만하다', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-007-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-007'), 'explanation', 'uz', 'Biror ishni qilishga arziydi yoki qilsa bo‘ladigan darajada ekanini bildiradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-007-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-007'), '이 영화는 한번 볼 만해요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-007-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-007-EX1'), 'sentence', 'uz', 'Bu filmni bir marta ko‘rishga arziydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-007-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-007'), '그 식당 음식은 먹을 만했어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-007-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-007-EX2'), 'sentence', 'uz', 'U oshxonaning taomi yesa bo‘ladigan darajada edi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-007-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-007'), '서울에서 가 볼 만한 곳을 추천해 주세요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-007-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-007-EX3'), 'sentence', 'uz', 'Seulda borib ko‘rishga arziydigan joylarni tavsiya qiling.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-008', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ 뻔하다', 'V + -(으)ㄹ 뻔하다', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-008-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-008'), 'explanation', 'uz', 'Biror narsa yuz berishiga oz qolganini, lekin yuz bermaganini bildiradi. Odatda o‘tgan zamonda ishlatiladi: -(으)ㄹ 뻔했다.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-008-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-008'), '길이 미끄러워서 넘어질 뻔했어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-008-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-008-EX1'), 'sentence', 'uz', 'Yo‘l sirpanchiq bo‘lgani uchun yiqilib tushishimga oz qoldi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-008-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-008'), '버스를 놓칠 뻔했는데 겨우 탔어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-008-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-008-EX2'), 'sentence', 'uz', 'Avtobusga ulgurmay qolishimga oz qoldi, zo‘rg‘a chiqdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-008-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-008'), '너무 웃겨서 울 뻔했어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-008-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-008-EX3'), 'sentence', 'uz', 'Shunchalik kulgili ediki, yig‘lab yuborishimga oz qoldi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-009', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-느라고', 'V + -느라고', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-009-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-009'), 'explanation', 'uz', 'Bir ish bilan band bo‘lgani sababli boshqa ishni qila olmagani yoki salbiy natija bo‘lganini bildiradi. Ikkala qismning egasi bir xil bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-009-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-009'), '숙제를 하느라고 잠을 못 잤어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-009-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-009-EX1'), 'sentence', 'uz', 'Uy vazifasi bilan band bo‘lib, uxlay olmadim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-009-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-009'), '친구를 기다리느라고 점심을 못 먹었어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-009-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-009-EX2'), 'sentence', 'uz', 'Do‘stimni kutib, tushlik qila olmadim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-009-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-009'), '이사 준비를 하느라고 정신이 없어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-009-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-009-EX3'), 'sentence', 'uz', 'Ko‘chishga tayyorgarlik bilan boshim qotgan.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-010', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ수록', 'V/A + -(으)ㄹ수록 (ko‘pincha: -(으)면 -(으)ㄹ수록)', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-010-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-010'), 'explanation', 'uz', '“Qanchalik…, shunchalik…”: bir holat kuchaygan sari ikkinchisi ham o‘zgarishini bildiradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-010-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-010'), '한국어는 공부하면 할수록 재미있어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-010-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-010-EX1'), 'sentence', 'uz', 'Koreys tilini qancha ko‘p o‘rgansam, shuncha qiziqarli bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-010-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-010'), '사람은 나이가 들수록 건강에 신경을 써야 해요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-010-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-010-EX2'), 'sentence', 'uz', 'Inson yoshi ulg‘aygan sari sog‘lig‘iga e’tibor berishi kerak.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-010-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-010'), '시간이 지날수록 그때가 더 그리워요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-010-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-010-EX3'), 'sentence', 'uz', 'Vaqt o‘tgan sari o‘sha paytni ko‘proq sog‘inaman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-011', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-기 위해서', 'V + -기 위해서 / N + 을/를 위해서', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-011-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-011'), 'explanation', 'uz', 'Maqsadni bildiradi: “…uchun”. Rasmiy va yozma nutqda, ayniqsa TOPIK yozishida ko‘p uchraydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-011-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-011'), '건강을 지키기 위해서 매일 걷습니다.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-011-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-011-EX1'), 'sentence', 'uz', 'Sog‘ligimni saqlash uchun har kuni piyoda yuraman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-011-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-011'), '장학금을 받기 위해서 열심히 공부했어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-011-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-011-EX2'), 'sentence', 'uz', 'Stipendiya olish uchun qattiq o‘qidim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-011-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-011'), '환경을 위해서 일회용품 사용을 줄입시다.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-011-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-011-EX3'), 'sentence', 'uz', 'Atrof-muhit uchun bir martalik buyumlardan foydalanishni kamaytiraylik.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-012', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-도록', 'V + -도록', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-012-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-012'), 'explanation', 'uz', '(1) Maqsad yoki natija: “…uchun, …adigan qilib”; (2) daraja yoki vaqt chegarasi: “…gacha”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-012-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-012'), '감기에 걸리지 않도록 옷을 따뜻하게 입으세요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-012-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-012-EX1'), 'sentence', 'uz', 'Shamollab qolmaslik uchun issiq kiyining.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-012-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-012'), '모두 들을 수 있도록 크게 말해 주세요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-012-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-012-EX2'), 'sentence', 'uz', 'Hamma eshita oladigan qilib baland ovozda gapiring.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-012-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-012'), '밤늦도록 이야기를 나눴어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-012-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-012-EX3'), 'sentence', 'uz', 'Kech tungacha suhbatlashdik.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-013', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-아/어 봤자', 'V/A + -아/어 봤자', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-013-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-013'), 'explanation', 'uz', 'Biror ishni qilsa ham foydasi yo‘qligini yoki kutilgan natija bo‘lmasligini bildiradi: “…ganing bilan baribir”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-013-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-013'), '지금 가 봤자 이미 끝났을 거예요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-013-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-013-EX1'), 'sentence', 'uz', 'Hozir borganing bilan baribir allaqachon tugagan bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-013-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-013'), '후회해 봤자 소용없어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-013-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-013-EX2'), 'sentence', 'uz', 'Pushaymon bo‘lganing bilan foydasi yo‘q.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-013-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-013'), '비싸 봤자 만 원 정도일 거예요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-013-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-013-EX3'), 'sentence', 'uz', 'Qimmat bo‘lsa ham ko‘pi bilan o‘n ming von atrofida bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-014', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ 리가 없다', 'V/A + -(으)ㄹ 리가 없다', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-014-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-014'), 'explanation', 'uz', 'So‘zlovchining biror narsa bo‘lishi mumkin emasligiga qat’iy ishonchini bildiradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-014-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-014'), '그렇게 성실한 사람이 거짓말을 할 리가 없어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-014-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-014-EX1'), 'sentence', 'uz', 'Shunday vijdonli odam yolg‘on gapirishi mumkin emas.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-014-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-014'), '어제 확인했으니까 틀릴 리가 없어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-014-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-014-EX2'), 'sentence', 'uz', 'Kecha tekshirganim uchun xato bo‘lishi mumkin emas.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-014-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-014'), '그가 약속을 잊었을 리가 없어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-014-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-014-EX3'), 'sentence', 'uz', 'U va’dasini unutgan bo‘lishi mumkin emas.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-3-015', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-고 말다', 'V + -고 말다', 3, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-015-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-3-015'), 'explanation', 'uz', '(1) -고 말았다: istamagan holda oxir-oqibat biror narsa yuz berganini; (2) -고 말겠다: qat’iy niyatni bildiradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-015-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-015'), '조심했는데 결국 컵을 깨고 말았어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-015-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-015-EX1'), 'sentence', 'uz', 'Ehtiyot bo‘lgan edim, lekin oxiri stakanni sindirib qo‘ydim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-015-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-015'), '기다리다가 잠들고 말았어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-015-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-015-EX2'), 'sentence', 'uz', 'Kutib o‘tirib, oxiri uxlab qoldim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-3-015-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-3-015'), '이번에는 꼭 합격하고 말겠어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-3-015-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-3-015-EX3'), 'sentence', 'uz', 'Bu safar albatta imtihondan o‘taman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-016', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-는 탓에', 'A + -(으)ㄴ 탓에 / V + -는·-(으)ㄴ 탓에 / N + 탓에', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-016-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-016'), 'explanation', 'uz', 'Salbiy natijaning sababini bildiradi va ko‘pincha aybni shu sababga yuklaydi: “…tufayli, …ligi sababli”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-016-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-016'), '밤새 게임을 한 탓에 수업 시간에 졸았어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-016-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-016-EX1'), 'sentence', 'uz', 'Tun bo‘yi o‘yin o‘ynaganim sababli darsda mudrab o‘tirdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-016-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-016'), '날씨가 추운 탓에 감기 환자가 늘었습니다.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-016-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-016-EX2'), 'sentence', 'uz', 'Havo sovuq bo‘lgani tufayli shamollaganlar soni ko‘paydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-016-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-016'), '경기 침체 탓에 소비가 줄었다.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-016-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-016-EX3'), 'sentence', 'uz', 'Iqtisodiy turg‘unlik tufayli iste’mol kamaydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-017', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ 뿐만 아니라', 'V/A + -(으)ㄹ 뿐만 아니라 / N + 뿐만 아니라', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-017-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-017'), 'explanation', 'uz', '“Nafaqat…, balki…”: birinchi holatga ikkinchisi qo‘shiladi. Yozma nutq va TOPIK yozishida (53–54) juda foydali.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-017-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-017'), '운동은 건강에 좋을 뿐만 아니라 스트레스 해소에도 도움이 된다.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-017-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-017-EX1'), 'sentence', 'uz', 'Sport nafaqat sog‘liq uchun foydali, balki stressni yo‘qotishga ham yordam beradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-017-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-017'), '그 가수는 노래를 잘할 뿐만 아니라 춤도 잘 춘다.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-017-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-017-EX2'), 'sentence', 'uz', 'U qo‘shiqchi nafaqat yaxshi kuylaydi, balki yaxshi raqsga ham tushadi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-017-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-017'), '이 정책은 청년뿐만 아니라 노인에게도 혜택을 준다.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-017-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-017-EX3'), 'sentence', 'uz', 'Bu siyosat nafaqat yoshlarga, balki keksalarga ham imtiyoz beradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-018', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-기 마련이다', 'V/A + -기 마련이다', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-018-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-018'), 'explanation', 'uz', 'Biror narsa tabiiy ravishda, muqarrar shunday bo‘lishini bildiradi: “…ishi tabiiy”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-018-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-018'), '누구나 실수를 하기 마련이다.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-018-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-018-EX1'), 'sentence', 'uz', 'Har kim xato qilishi tabiiy.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-018-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-018'), '열심히 노력하면 좋은 결과가 나오기 마련이다.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-018-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-018-EX2'), 'sentence', 'uz', 'Astoydil harakat qilsa, yaxshi natija chiqishi muqarrar.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-018-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-018'), '처음에는 누구나 긴장하기 마련이에요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-018-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-018-EX3'), 'sentence', 'uz', 'Boshida har kim hayajonlanishi tabiiy.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-019', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄴ 채로', 'V + -(으)ㄴ 채로', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-019-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-019'), 'explanation', 'uz', 'Bir holat saqlangan holda boshqa ish qilinganini bildiradi: “…gan holda, …gancha”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-019-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-019'), '창문을 연 채로 잠이 들었어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-019-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-019-EX1'), 'sentence', 'uz', 'Derazani ochiq qoldirgancha uxlab qoldim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-019-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-019'), '신발을 신은 채로 들어오면 안 돼요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-019-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-019-EX2'), 'sentence', 'uz', 'Poyabzalni yechmagan holda kirish mumkin emas.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-019-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-019'), '불을 켠 채로 외출했어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-019-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-019-EX3'), 'sentence', 'uz', 'Chiroqni yoniq qoldirib tashqariga chiqib ketdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-020', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ 정도로', 'V/A + -(으)ㄹ 정도로', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-020-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-020'), 'explanation', 'uz', 'Holatning darajasini bildiradi: “…darajada, …gudek”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-020-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-020'), '눈물이 날 정도로 감동적인 영화였어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-020-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-020-EX1'), 'sentence', 'uz', 'Ko‘zdan yosh chiqadigan darajada ta’sirli film edi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-020-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-020'), '걷지 못할 정도로 다리가 아팠어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-020-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-020-EX2'), 'sentence', 'uz', 'Yura olmaydigan darajada oyog‘im og‘ridi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-020-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-020'), '믿을 수 없을 정도로 가격이 싸요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-020-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-020-EX3'), 'sentence', 'uz', 'Ishonib bo‘lmaydigan darajada narxi arzon.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-021', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-는 김에', 'V + -는 김에 / V + -(으)ㄴ 김에', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-021-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-021'), 'explanation', 'uz', 'Bir ishni qilayotgan paytdagi imkoniyatdan foydalanib, boshqa ishni ham qilishni bildiradi: “…ayotganda, shu bahona bilan”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-021-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-021'), '시장에 가는 김에 우유도 사 올게요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-021-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-021-EX1'), 'sentence', 'uz', 'Bozorga ketayotganimda sut ham olib kelaman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-021-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-021'), '청소를 하는 김에 방 정리도 했어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-021-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-021-EX2'), 'sentence', 'uz', 'Tozalash qilayotganda xonani ham tartibga keltirdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-021-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-021'), '서울에 온 김에 친구도 만났어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-021-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-021-EX3'), 'sentence', 'uz', 'Seulga kelganim bahonasida do‘stim bilan ham uchrashdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-022', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-다가는', 'V + -다가는', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-022-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-022'), 'explanation', 'uz', 'Hozirgi harakat davom etaversa, salbiy natija bo‘lishi haqida ogohlantiradi: “…averasang, …”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-022-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-022'), '이렇게 늦게 자다가는 건강이 나빠질 거예요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-022-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-022-EX1'), 'sentence', 'uz', 'Bunday kech yotaversang, sog‘lig‘ing yomonlashadi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-022-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-022'), '계속 과식하다가는 살이 찔 거야.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-022-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-022-EX2'), 'sentence', 'uz', 'Doim ko‘p yeyaversang, semirib ketasan.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-022-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-022'), '운전 중에 휴대폰을 보다가는 사고가 날 수 있어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-022-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-022-EX3'), 'sentence', 'uz', 'Haydash paytida telefonga qarayversangiz, avariya bo‘lishi mumkin.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-023', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-는 한', 'V + -는 한', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-023-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-023'), 'explanation', 'uz', 'Shartni bildiradi: shu holat saqlanib turar ekan, natija ham shunday bo‘ladi — “…ekan, …sa”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-023-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-023'), '포기하지 않는 한 기회는 있다.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-023-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-023-EX1'), 'sentence', 'uz', 'Taslim bo‘lmas ekansan, imkoniyat bor.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-023-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-023'), '제가 아는 한 그는 정직한 사람이에요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-023-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-023-EX2'), 'sentence', 'uz', 'Men bilishimcha, u halol odam.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-023-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-023'), '특별한 일이 없는 한 내일 출발할 거예요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-023-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-023-EX3'), 'sentence', 'uz', 'Alohida ish chiqmasa, ertaga yo‘lga chiqaman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-024', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄴ/는 셈이다', 'A + -(으)ㄴ 셈이다 / V + -는·-(으)ㄴ 셈이다', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-024-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-024'), 'explanation', 'uz', 'Aniq bo‘lmasa-da, natijada shunday deb hisoblash mumkinligini bildiradi: “…desa bo‘ladi, …hisob”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-024-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-024'), '일주일에 여섯 번 운동하니까 거의 매일 하는 셈이에요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-024-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-024-EX1'), 'sentence', 'uz', 'Haftada olti marta sport qilaman, deyarli har kuni qilaman desa bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-024-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-024'), '반 이상 끝났으니까 거의 다 한 셈이에요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-024-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-024-EX2'), 'sentence', 'uz', 'Yarmidan ko‘pi tugadi, deyarli hammasini qildik desa bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-024-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-024'), '10년을 살았으니 서울이 고향인 셈이다.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-024-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-024-EX3'), 'sentence', 'uz', 'O‘n yil yashadim, Seul ona shahrim desa bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-025', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-기는커녕', 'V/A + -기는커녕 / N + 은/는커녕', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-025-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-025'), 'explanation', 'uz', 'Kutilgan narsa u yoqda tursin, aksincha undan ham yomoni bo‘lganini bildiradi: “…u yoqda tursin”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-025-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-025'), '칭찬을 받기는커녕 꾸중만 들었어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-025-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-025-EX1'), 'sentence', 'uz', 'Maqtov olish u yoqda tursin, faqat tanbeh eshitdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-025-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-025'), '돈을 모으기는커녕 빚만 늘었어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-025-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-025-EX2'), 'sentence', 'uz', 'Pul yig‘ish u yoqda tursin, faqat qarzim ko‘paydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-025-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-025'), '밥은커녕 물도 못 마셨어요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-025-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-025-EX3'), 'sentence', 'uz', 'Ovqat u yoqda tursin, suv ham icha olmadim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-026', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄴ/는다고 해서', 'V/A + -(으)ㄴ/는다고 해서 (ko‘pincha: … -(으)ㄴ/는 것은 아니다)', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-026-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-026'), 'explanation', 'uz', '“…degani bilan (har doim ham) …emas”: bir sabab har doim kutilgan natijaga olib kelmasligini bildiradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-026-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-026'), '돈이 많다고 해서 행복한 것은 아니다.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-026-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-026-EX1'), 'sentence', 'uz', 'Puli ko‘p degani bilan baxtli degani emas.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-026-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-026'), '비싸다고 해서 다 좋은 물건은 아니에요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-026-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-026-EX2'), 'sentence', 'uz', 'Qimmat degani bilan hammasi yaxshi buyum emas.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-026-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-026'), '한 번 실패했다고 해서 포기하면 안 돼요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-026-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-026-EX3'), 'sentence', 'uz', 'Bir marta muvaffaqiyatsizlikka uchradim deb taslim bo‘lmaslik kerak.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-027', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄴ 나머지', 'V/A + -(으)ㄴ 나머지', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-027-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-027'), 'explanation', 'uz', 'Haddan tashqari holat oqibatida (ko‘pincha salbiy) natija yuz berganini bildiradi: “…ganidan, …likdan”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-027-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-027'), '너무 긴장한 나머지 준비한 말을 다 잊어버렸어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-027-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-027-EX1'), 'sentence', 'uz', 'Haddan tashqari hayajonlanganimdan tayyorlagan gaplarimni butunlay unutdim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-027-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-027'), '급하게 서두른 나머지 지갑을 두고 나왔어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-027-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-027-EX2'), 'sentence', 'uz', 'Juda shoshilganimdan hamyonimni unutib chiqibman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-027-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-027'), '기쁜 나머지 눈물을 흘렸다.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-027-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-027-EX3'), 'sentence', 'uz', 'Xursandligidan ko‘z yoshi to‘kdi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-028', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-는 법이다', 'V + -는 법이다 / A + -(으)ㄴ 법이다', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-028-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-028'), 'explanation', 'uz', 'Hamma uchun umumiy haqiqat yoki tabiiy qonuniyatni bildiradi: “…ishi tabiiy, doim shunday bo‘ladi”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-028-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-028'), '노력하면 결과가 따라오는 법이다.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-028-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-028-EX1'), 'sentence', 'uz', 'Harakat qilsang, natija ortidan keladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-028-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-028'), '좋은 약은 입에 쓴 법이다.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-028-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-028-EX2'), 'sentence', 'uz', 'Yaxshi dori og‘izga achchiq bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-028-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-028'), '시작이 있으면 끝이 있는 법이에요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-028-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-028-EX3'), 'sentence', 'uz', 'Boshlanishi bor narsaning oxiri ham bo‘ladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-029', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ 겸', 'V + -(으)ㄹ 겸 (ko‘pincha: -(으)ㄹ 겸 -(으)ㄹ 겸)', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-029-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-029'), 'explanation', 'uz', 'Bir ishni bir nechta maqsadda qilishni bildiradi: “ham …, ham … uchun”.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-029-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-029'), '운동도 할 겸 친구도 만날 겸 공원에 갔어요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-029-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-029-EX1'), 'sentence', 'uz', 'Ham sport qilish, ham do‘stim bilan uchrashish uchun bog‘ga bordim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-029-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-029'), '바람도 쐴 겸 산책을 했어요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-029-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-029-EX2'), 'sentence', 'uz', 'Toza havo olish uchun ham sayr qildim.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-029-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-029'), '한국어 공부도 할 겸 한국 드라마를 봐요.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-029-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-029-EX3'), 'sentence', 'uz', 'Koreys tilini ham o‘rganish uchun koreys dramalarini ko‘raman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_points (key, source_id, authored_by, pattern, formula, level, status, reviewed_by)
+values ('GRM-4-030', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', '-(으)ㄹ 뿐이다', 'V/A + -(으)ㄹ 뿐이다 / N + 일 뿐이다', 4, 'draft', null)
+on conflict (key) do update set pattern = excluded.pattern, formula = excluded.formula, level = excluded.level, source_id = excluded.source_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-030-EXPL-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_points', (select id from public.grammar_points where key = 'GRM-4-030'), 'explanation', 'uz', '“Faqat…, xolos”: holat shundan iborat ekanini, boshqa narsa yo‘qligini bildiradi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-030-EX1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-030'), '저는 제 일을 했을 뿐이에요.', 1, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-030-EX1-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-030-EX1'), 'sentence', 'uz', 'Men faqat o‘z ishimni qildim, xolos.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-030-EX2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-030'), '그냥 궁금해서 물어봤을 뿐이에요.', 2, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-030-EX2-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-030-EX2'), 'sentence', 'uz', 'Shunchaki qiziqqanim uchun so‘radim, xolos.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.grammar_examples (key, source_id, authored_by, point_id, sentence_ko, sort, status)
+values ('GRM-4-030-EX3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.grammar_points where key = 'GRM-4-030'), '그것은 소문일 뿐이다.', 3, 'draft')
+on conflict (key) do update set sentence_ko = excluded.sentence_ko, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('GRM-4-030-EX3-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'grammar_examples', (select id from public.grammar_examples where key = 'GRM-4-030-EX3'), 'sentence', 'uz', 'Bu shunchaki mish-mish, xolos.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-R-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading', 'notice', null, '제5회 새솔시 시민 마라톤 대회
+· 일시: 4월 12일(일) 오전 8시
+· 장소: 새솔 시민공원 출발
+· 코스: 5km, 10km
+· 참가비: 1만 원 (초등학생 이하 무료)
+· 신청: 3월 31일까지 홈페이지에서', '[]'::jsonb, 3, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-R-0001-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-R-0001'), 'body', 'uz', '5-Saesol shahar fuqarolar marafoni. Sana: 12-aprel (yakshanba), ertalab soat 8. Joy: Saesol fuqarolar bog‘idan start. Masofa: 5 km, 10 km. Ishtirok to‘lovi: 10 ming von (boshlang‘ich sinf o‘quvchilari va undan kichiklar uchun bepul). Ro‘yxatdan o‘tish: 31-martgacha veb-saytda.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-R-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading', 'notice', null, '새솔도서관 휴관 안내
+시설 공사로 인해 6월 1일부터 6월 14일까지 휴관합니다. 휴관 기간 중 책 반납은 정문 앞 무인 반납함을 이용해 주십시오. 전자책 서비스는 정상 운영합니다.', '[]'::jsonb, 3, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-R-0002-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-R-0002'), 'body', 'uz', 'Saesol kutubxonasi yopilishi haqida e’lon. Ta’mirlash ishlari sababli 1-iyundan 14-iyungacha kutubxona yopiq. Bu davrda kitoblarni asosiy kirish oldidagi avtomat qutiga qaytaring. Elektron kitob xizmati odatdagidek ishlaydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-R-0003', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading', 'news', null, '새솔시는 올해부터 65세 이상 시민에게 시내버스를 무료로 이용할 수 있는 교통 카드를 발급하기로 했다. 카드는 가까운 주민센터에서 신청할 수 있으며 신청 후 일주일 안에 받을 수 있다.', '[]'::jsonb, 4, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-R-0003-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-R-0003'), 'body', 'uz', 'Saesol shahri shu yildan boshlab 65 yosh va undan katta fuqarolarga shahar avtobuslarida bepul yurish imkonini beruvchi transport kartasini berishga qaror qildi. Kartaga yaqin atrofdagi aholi xizmat markazida ariza berish mumkin, ariza berilgandan keyin bir hafta ichida olinadi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-01-02' and exam_format_version = 'topik2-pbt-2014'),
+  1, 3, null, '(    )에 들어갈 가장 알맞은 것을 고르십시오.', '어제 늦잠을 자는 (    ) 회사에 지각했다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0001-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0001'), 1, '대신에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0001-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0001'), 2, '김에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0001-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0001'), 3, '바람에', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0001-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0001'), 4, '동안에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0001-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0001'), null, 'uz', 'To‘g‘ri javob ③. -는 바람에 kutilmagan sabab tufayli salbiy natija yuz berganini bildiradi: uxlab qolish → ishga kechikish. 대신에 “o‘rniga”, 김에 “shu bahona bilan”, 동안에 “davomida” ma’nosida — gapga mos emas.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-01-02' and exam_format_version = 'topik2-pbt-2014'),
+  2, 3, null, '(    )에 들어갈 가장 알맞은 것을 고르십시오.', '지금 출발해 (    ) 이미 기차는 떠났을 거예요.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0002-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0002'), 1, '보니까', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0002-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0002'), 2, '봤자', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0002-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0002'), 3, '보면', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0002-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0002'), 4, '봐서', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0002-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0002'), null, 'uz', 'To‘g‘ri javob ②. -아/어 봤자 harakat qilinsa ham foydasi yo‘qligini bildiradi: hozir yo‘lga chiqsang ham, poyezd allaqachon ketgan bo‘ladi. 보니까 “ko‘rsam”, 보면 “ko‘rsang”, 봐서 “ko‘rib” — ‘foydasiz’ ma’nosini bermaydi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0003', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-01-02' and exam_format_version = 'topik2-pbt-2014'),
+  1, 3, null, '(    )에 들어갈 가장 알맞은 것을 고르십시오.', '이 식당은 음식이 맛있는 (    ) 가격도 저렴하다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0003-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0003'), 1, '반면에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0003-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0003'), 2, '탓에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0003-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0003'), 3, '대로', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0003-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0003'), 4, '데다가', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0003-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0003'), null, 'uz', 'To‘g‘ri javob ④. -는 데다가 bir ijobiy holatga ikkinchisini qo‘shadi: taom mazali + narxi arzon. 반면에 qarama-qarshilik bildiradi, 탓에 salbiy sabab, 대로 “…ganidek / …bilanoq” — mos emas.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0004', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-01-02' and exam_format_version = 'topik2-pbt-2014'),
+  2, 3, null, '(    )에 들어갈 가장 알맞은 것을 고르십시오.', '감기에 걸리지 (    ) 따뜻한 옷을 입으세요.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0004-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0004'), 1, '않도록', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0004-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0004'), 2, '않아서', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0004-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0004'), 3, '않더니', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0004-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0004'), 4, '않느라고', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0004-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0004'), null, 'uz', 'To‘g‘ri javob ①. -도록 maqsadni bildiradi: shamollamaslik uchun issiq kiyining. -아서 sabab, -더니 kuzatilgan o‘zgarish, -느라고 band bo‘lish sababi — buyruq gapi bilan va maqsad ma’nosida ishlatilmaydi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0005', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-03-04' and exam_format_version = 'topik2-pbt-2014'),
+  3, 4, null, '다음 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.', '누구나 처음에는 [실수하기 마련이다].', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0005-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0005'), 1, '실수하는 법이다', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0005-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0005'), 2, '실수할 리가 없다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0005-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0005'), 3, '실수하는 척한다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0005-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0005'), 4, '실수할 뻔했다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0005-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0005'), null, 'uz', 'To‘g‘ri javob ①. -기 마련이다 va -는 법이다 ikkalasi ham “tabiiy, muqarrar shunday bo‘ladi” ma’nosini beradi. -(으)ㄹ 리가 없다 “bo‘lishi mumkin emas”, -는 척하다 “…dek ko‘rsatmoq”, -(으)ㄹ 뻔하다 “…ishiga oz qoldi”.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0006', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-03-04' and exam_format_version = 'topik2-pbt-2014'),
+  4, 3, null, '다음 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.', '회의가 [끝나는 대로] 바로 연락드리겠습니다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0006-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0006'), 1, '끝나더라도', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0006-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0006'), 2, '끝나는 바람에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0006-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0006'), 3, '끝나는 김에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0006-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0006'), 4, '끝나자마자', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0006-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0006'), null, 'uz', 'To‘g‘ri javob ④. -는 대로 bu yerda “…bilanoq” ma’nosida; -자마자 ham aynan shu ma’noni beradi. -더라도 “…sa ham”, -는 바람에 salbiy sabab, -는 김에 “shu bahona bilan”.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0007', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-03-04' and exam_format_version = 'topik2-pbt-2014'),
+  3, 4, null, '다음 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.', '이 방법은 시간이 적게 [걸리는 데다가] 비용도 싸다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0007-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0007'), 1, '걸리는 반면에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0007-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0007'), 2, '걸리는 탓에', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0007-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0007'), 3, '걸릴 뿐만 아니라', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0007-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0007'), 4, '걸린 채로', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0007-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0007'), null, 'uz', 'To‘g‘ri javob ③. -는 데다가 va -(으)ㄹ 뿐만 아니라 ikkalasi ham “…ustiga, nafaqat…, balki…” ma’nosida qo‘shimcha holatni bildiradi. 반면에 qarama-qarshilik, 탓에 salbiy sabab, -(으)ㄴ 채로 “…gan holda”.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0008', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-03-04' and exam_format_version = 'topik2-pbt-2014'),
+  4, 4, null, '다음 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.', '세 시간 중에 두 시간 반을 했으니 [다 한 셈이다].', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0008-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0008'), 1, '다 한 것과 마찬가지이다', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0008-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0008'), 2, '다 할 리가 없다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0008-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0008'), 3, '다 하고 말았다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0008-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0008'), 4, '다 할 만하다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0008-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0008'), null, 'uz', 'To‘g‘ri javob ①. -(으)ㄴ 셈이다 “aslida shunday deb hisoblasa bo‘ladi” degani; “-(으)ㄴ 것과 마찬가지이다” (…bilan barobar) ham shu ma’noni beradi. Qolgan variantlar: “mumkin emas”, “oxiri qilib qo‘ydi”, “qilishga arziydi”.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0009', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-05-08' and exam_format_version = 'topik2-pbt-2014'),
+  5, 3, null, '다음은 무엇에 대한 글인지 고르십시오.', '가볍고 선명한 화면!
+한 번 충전으로 하루 종일 통화하고 사진도 찍으세요.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0009-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0009'), 1, '카메라', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0009-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0009'), 2, '텔레비전', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0009-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0009'), 3, '시계', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0009-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0009'), 4, '휴대폰', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0009-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0009'), null, 'uz', 'To‘g‘ri javob ④. “Bir zaryad bilan kun bo‘yi qo‘ng‘iroq qiling va rasm ham oling” — bu telefon reklamasi. Kamera qo‘ng‘iroq qilmaydi, televizor va soat bilan esa rasm olinmaydi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0010', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-05-08' and exam_format_version = 'topik2-pbt-2014'),
+  6, 3, null, '다음은 무엇에 대한 글인지 고르십시오.', '오늘 쓴 물건, 내일은 자원입니다.
+종이, 플라스틱, 캔은 나누어서 버려 주세요.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0010-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0010'), 1, '분리수거', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0010-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0010'), 2, '물건 판매', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0010-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0010'), 3, '자원봉사', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0010-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0010'), 4, '에너지 절약', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0010-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0010'), null, 'uz', 'To‘g‘ri javob ①. Qog‘oz, plastik va bankalarni alohida tashlash so‘ralmoqda — bu chiqindilarni saralash (분리수거) haqidagi e’lon.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0011', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-05-08' and exam_format_version = 'topik2-pbt-2014'),
+  7, 3, null, '다음은 무엇에 대한 글인지 고르십시오.', '책을 빌린 날부터 14일 이내에 반납해 주십시오.
+늦게 반납하면 일주일 동안 대출이 제한됩니다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0011-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0011'), 1, '서점 할인 행사', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0011-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0011'), 2, '도서관 이용 안내', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0011-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0011'), 3, '책 구입 방법', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0011-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0011'), 4, '독서 모임 소개', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0011-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0011'), null, 'uz', 'To‘g‘ri javob ②. Kitobni 14 kun ichida qaytarish va kechiktirsa cheklov — kutubxonadan foydalanish qoidalari. Kitob sotib olish yoki chegirma haqida gap yo‘q.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0012', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-05-08' and exam_format_version = 'topik2-pbt-2014'),
+  8, 3, null, '다음은 무엇에 대한 글인지 고르십시오.', '매일 아침 10분,
+가벼운 스트레칭으로 몸과 마음을 깨우세요.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0012-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0012'), 1, '시간 약속', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0012-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0012'), 2, '교통 안전', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0012-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0012'), 3, '식사 예절', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0012-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0012'), 4, '건강 관리', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0012-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0012'), null, 'uz', 'To‘g‘ri javob ④. Har kuni ertalab 10 daqiqa yengil cho‘zilish mashqi — sog‘liqni saqlash (건강 관리) haqidagi matn.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0013', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-09-12' and exam_format_version = 'topik2-pbt-2014'),
+  9, 3, (select id from public.passages where key = 'PSG-R-0001'), '다음 글의 내용과 같은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0013-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0013'), 1, '대회는 토요일에 열린다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0013-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0013'), 2, '초등학생은 참가비를 내지 않는다.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0013-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0013'), 3, '대회 당일에 현장에서 신청할 수 있다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0013-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0013'), 4, '참가자는 20km 코스를 달릴 수 있다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0013-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0013'), null, 'uz', 'To‘g‘ri javob ②. E’londa “초등학생 이하 무료” — boshlang‘ich sinf o‘quvchilari bepul. ① musobaqa yakshanba kuni; ③ ro‘yxatdan o‘tish 31-martgacha faqat saytda; ④ faqat 5 va 10 km masofa bor.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0014', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-09-12' and exam_format_version = 'topik2-pbt-2014'),
+  10, 3, (select id from public.passages where key = 'PSG-R-0002'), '다음 글의 내용과 같은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0014-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0014'), 1, '공사는 한 달 동안 진행된다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0014-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0014'), 2, '휴관 기간에도 전자책을 빌릴 수 있다.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0014-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0014'), 3, '휴관 기간에는 책을 반납할 수 없다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0014-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0014'), 4, '도서관은 6월 15일까지 문을 닫는다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0014-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0014'), null, 'uz', 'To‘g‘ri javob ②. “전자책 서비스는 정상 운영합니다” — elektron kitoblar odatdagidek ishlaydi. ① yopilish ikki hafta; ③ kitobni avtomat qutiga qaytarish mumkin; ④ kutubxona 14-iyungacha yopiq.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0015', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-09-12' and exam_format_version = 'topik2-pbt-2014'),
+  11, 4, (select id from public.passages where key = 'PSG-R-0003'), '다음 글의 내용과 같은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0015-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0015'), 1, '카드는 은행에서 신청한다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0015-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0015'), 2, '이 제도는 작년부터 시작되었다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0015-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0015'), 3, '65세 이상 시민은 시내버스 요금을 내지 않는다.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0015-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0015'), 4, '카드는 신청한 날에 바로 받을 수 있다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0015-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0015'), null, 'uz', 'To‘g‘ri javob ③. 65 yoshdan katta fuqarolar karta bilan shahar avtobusida bepul yuradi. ① ariza aholi xizmat markazida (주민센터) beriladi; ② tizim shu yildan boshlanadi; ④ karta bir hafta ichida beriladi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0016', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-13-15' and exam_format_version = 'topik2-pbt-2014'),
+  13, 4, null, '다음을 순서대로 맞게 배열한 것을 고르십시오.', '(가) 그래서 최근에는 집에서 직접 채소를 기르는 사람이 늘고 있다.
+(나) 채소 가격이 계속 오르면서 장보기가 부담스러워졌다.
+(다) 작은 화분 하나로도 상추나 고추 정도는 충분히 키울 수 있다.
+(라) 게다가 직접 기른 채소는 안심하고 먹을 수 있다는 장점도 있다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0016-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0016'), 1, '(가)-(나)-(라)-(다)', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0016-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0016'), 2, '(나)-(다)-(가)-(라)', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0016-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0016'), 3, '(나)-(가)-(다)-(라)', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0016-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0016'), 4, '(다)-(라)-(나)-(가)', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0016-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0016'), null, 'uz', 'To‘g‘ri javob ③. (나) sabab: sabzavot narxi oshdi → (가) 그래서 “shuning uchun” uyda o‘stiruvchilar ko‘paydi → (다) kichik tuvakda ham o‘stirsa bo‘ladi → (라) 게다가 “bundan tashqari” yana bir afzallik. 그래서 va 게다가 bilan boshlangan gaplar matnning birinchi gapi bo‘la olmaydi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0017', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-13-15' and exam_format_version = 'topik2-pbt-2014'),
+  14, 4, null, '다음을 순서대로 맞게 배열한 것을 고르십시오.', '(가) 이처럼 잠은 기억력과 깊은 관계가 있다.
+(나) 잠을 자는 동안 뇌는 낮에 배운 내용을 정리한다.
+(다) 그래서 시험 전날 밤을 새우는 것은 오히려 좋지 않다.
+(라) 실제로 충분히 잔 학생들이 시험에서 더 좋은 점수를 받았다는 연구 결과도 있다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0017-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0017'), 1, '(나)-(다)-(가)-(라)', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0017-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0017'), 2, '(나)-(라)-(가)-(다)', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0017-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0017'), 3, '(라)-(나)-(다)-(가)', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0017-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0017'), 4, '(라)-(가)-(나)-(다)', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0017-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0017'), null, 'uz', 'To‘g‘ri javob ②. (나) asosiy fakt: uyqu paytida miya o‘rganganlarni tartibga soladi → (라) 실제로 “haqiqatan ham” tadqiqot dalili → (가) 이처럼 “shunday qilib” xulosa → (다) 그래서 amaliy xulosa: imtihon oldidan tun bedor o‘tirish yaxshi emas.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0018', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-16-18' and exam_format_version = 'topik2-pbt-2014'),
+  16, 4, null, '다음을 읽고 (    )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.', '사람들은 보통 화가 나면 목소리가 커지거나 표정이 굳어진다. 그런데 화가 났을 때 바로 말을 하면 (    ). 그러므로 화가 났을 때는 잠시 시간을 두고 마음을 진정시킨 후에 이야기하는 것이 좋다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0018-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0018'), 1, '나중에 후회할 말을 하기 쉽다', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0018-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0018'), 2, '상대방의 기분이 좋아진다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0018-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0018'), 3, '문제가 빨리 해결된다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0018-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0018'), 4, '목소리가 작아진다', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0018-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0018'), null, 'uz', 'To‘g‘ri javob ①. Keyingi gap “shuning uchun biroz kutib, tinchlangandan keyin gapirgan ma’qul” deydi — demak darhol gapirishning salbiy oqibati kerak: keyin pushaymon bo‘ladigan gap aytib qo‘yish oson. Qolgan variantlar ijobiy yoki mantiqqa zid.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0019', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-16-18' and exam_format_version = 'topik2-pbt-2014'),
+  17, 4, null, '다음을 읽고 (    )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.', '최근 많은 회사가 직원들이 출퇴근 시간을 스스로 정할 수 있는 제도를 도입하고 있다. 이 제도를 도입한 회사들은 직원들의 업무 만족도가 높아졌을 뿐만 아니라 (    ) 결과를 얻었다고 한다. 직원들이 자신에게 맞는 시간에 일하면서 집중력이 높아졌기 때문이다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0019-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0019'), 1, '회사 규모가 작아지는', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0019-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0019'), 2, '직원 수가 줄어드는', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0019-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0019'), 3, '업무 효율도 높아지는', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0019-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0019'), 4, '출근 시간이 늦어지는', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0019-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0019'), null, 'uz', 'To‘g‘ri javob ③. -(으)ㄹ 뿐만 아니라 “nafaqat…, balki…” ijobiy natijaga yana bir ijobiy natija qo‘shadi; oxirgi gapdagi sabab (diqqat oshdi) ish samaradorligi oshganini tushuntiradi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-R-0020', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'reading',
+  (select id from public.question_types where code = 'R-16-18' and exam_format_version = 'topik2-pbt-2014'),
+  18, 4, null, '다음을 읽고 (    )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.', '물건을 살 때 많은 사람들이 다른 사람의 후기를 참고한다. 하지만 후기 중에는 광고를 목적으로 쓴 것도 적지 않다. 따라서 후기를 읽을 때는 (    ) 태도가 필요하다.', 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0020-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0020'), 1, '내용을 그대로 믿는', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0020-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0020'), 2, '여러 정보를 비교하며 판단하는', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0020-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0020'), 3, '후기를 직접 쓰는', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-R-0020-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0020'), 4, '광고를 많이 보는', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-R-0020-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-R-0020'), null, 'uz', 'To‘g‘ri javob ②. Sharhlarning bir qismi reklama maqsadida yozilgan, 따라서 “shuning uchun” ularni ko‘r-ko‘rona ishonmay, turli ma’lumotlarni solishtirib baholash kerak. ① aksincha ma’no beradi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-L-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening', 'dialogue', null, '남자: 지난주에 빌려 간 우산 아직 가지고 있어요?
+여자: 아, 미안해요. 깜빡하고 집에 두고 왔어요.
+남자:', '[{"role":"남자","gender":"male"},{"role":"여자","gender":"female"}]'::jsonb, 3, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-L-0001-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-L-0001'), 'body', 'uz', 'Erkak: O‘tgan hafta olib ketgan soyabonim hali sizdami?
+Ayol: Voy, kechirasiz. Esimdan chiqib, uyda qoldirib keldim.
+Erkak:', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-L-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening', 'dialogue', null, '여자: 이번 주말에 같이 등산 갈래요?
+남자: 가고 싶은데 토요일에 아르바이트가 있어요.
+여자:', '[{"role":"여자","gender":"female"},{"role":"남자","gender":"male"}]'::jsonb, 3, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-L-0002-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-L-0002'), 'body', 'uz', 'Ayol: Shu dam olish kunlari birga tog‘ga chiqamizmi?
+Erkak: Borgim keladi, lekin shanba kuni yarim kunlik ishim bor.
+Ayol:', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-L-0003', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening', 'dialogue', null, '여자: 실례합니다. 이 책을 빌리고 싶은데요.
+남자: 회원증 있으세요?
+여자: 아니요, 처음 왔는데요.
+남자: 그럼 먼저 저쪽 컴퓨터에서 회원 가입을 해 주세요. 그다음에 신분증을 가지고 오시면 회원증을 만들어 드릴게요.', '[{"role":"여자","gender":"female"},{"role":"남자","gender":"male"}]'::jsonb, 3, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-L-0003-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-L-0003'), 'body', 'uz', 'Ayol: Kechirasiz, shu kitobni olmoqchi edim.
+Erkak: A’zolik kartangiz bormi?
+Ayol: Yo‘q, birinchi marta keldim.
+Erkak: Unda avval ana u kompyuterda a’zo bo‘lib ro‘yxatdan o‘ting. Keyin shaxsingizni tasdiqlovchi hujjat bilan kelsangiz, karta qilib beraman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-L-0004', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening', 'dialogue', null, '남자: 내일 발표 자료는 다 준비했어요?
+여자: 네, 거의 다 했어요. 그런데 마지막 그래프 숫자가 맞는지 모르겠어요.
+남자: 그럼 김 과장님께 확인해 보세요. 그 자료는 과장님이 만드셨거든요.
+여자: 알겠어요. 지금 바로 전화해 볼게요.', '[{"role":"남자","gender":"male"},{"role":"여자","gender":"female"}]'::jsonb, 3, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-L-0004-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-L-0004'), 'body', 'uz', 'Erkak: Ertangi taqdimot materiallarini tayyorlab bo‘ldingizmi?
+Ayol: Ha, deyarli tayyor. Lekin oxirgi grafikdagi raqamlar to‘g‘rimi, bilmayman.
+Erkak: Unda Kim bo‘lim boshlig‘idan tekshirib ko‘ring. U ma’lumotni o‘sha kishi tayyorlagan.
+Ayol: Xo‘p. Hozir darrov qo‘ng‘iroq qilaman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-L-0005', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening', 'announcement', null, '여자: 새솔백화점을 찾아 주신 고객 여러분께 안내 말씀 드립니다. 오늘 오후 3시부터 5시까지 1층 정문 앞 광장에서 어린이 그림 그리기 대회가 열립니다. 참가를 원하시는 분은 2시 30분까지 1층 안내 데스크에서 신청해 주십시오. 그림 도구는 백화점에서 무료로 드립니다.', '[{"role":"여자","gender":"female"}]'::jsonb, 4, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-L-0005-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-L-0005'), 'body', 'uz', 'Ayol: Saesol univermagiga tashrif buyurgan mijozlarga e’lon. Bugun soat 15:00 dan 17:00 gacha 1-qavat asosiy kirish oldidagi maydonda bolalar rasm chizish tanlovi o‘tadi. Qatnashmoqchi bo‘lganlar soat 14:30 gacha 1-qavatdagi ma’lumot stolida ro‘yxatdan o‘tsin. Chizish asboblari univermag tomonidan bepul beriladi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.passages (key, source_id, authored_by, section, kind, title, body_ko, speakers, level, topic_id, status)
+values ('PSG-L-0006', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening', 'dialogue', null, '남자: 요즘 사람들은 궁금한 게 있으면 바로 인터넷에서 찾아보잖아요. 편하긴 하지만 인터넷 정보가 다 정확한 건 아니에요. 그래서 저는 중요한 정보일수록 여러 자료를 비교해 보고 믿을 만한 곳에서 나온 건지 꼭 확인해야 한다고 생각해요.
+여자: 맞아요. 저도 잘못된 정보 때문에 고생한 적이 있어요.', '[{"role":"남자","gender":"male"},{"role":"여자","gender":"female"}]'::jsonb, 4, null, 'draft')
+on conflict (key) do update set section = excluded.section, kind = excluded.kind, title = excluded.title, body_ko = excluded.body_ko,
+  speakers = excluded.speakers, level = excluded.level, topic_id = excluded.topic_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('PSG-L-0006-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'passages', (select id from public.passages where key = 'PSG-L-0006'), 'body', 'uz', 'Erkak: Hozir odamlar biror narsa qiziq bo‘lsa, darrov internetdan qidiradi-ku. Qulay, lekin internetdagi hamma ma’lumot ham to‘g‘ri emas. Shuning uchun menimcha, ma’lumot qanchalik muhim bo‘lsa, shunchalik bir nechta manbani solishtirib, ishonchli joydan chiqqanini albatta tekshirish kerak.
+Ayol: To‘g‘ri. Men ham noto‘g‘ri ma’lumot tufayli qiynalganman.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-L-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening',
+  (select id from public.question_types where code = 'L-04-08' and exam_format_version = 'topik2-pbt-2014'),
+  4, 3, (select id from public.passages where key = 'PSG-L-0001'), '다음 대화를 잘 듣고 이어질 수 있는 말로 가장 알맞은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0001-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0001'), 1, '그럼 내일 가져다주세요.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0001-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0001'), 2, '우산을 새로 샀어요.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0001-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0001'), 3, '비가 올 것 같지 않아요.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0001-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0001'), 4, '어제 집에 일찍 갔어요.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-L-0001-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0001'), null, 'uz', 'To‘g‘ri javob ①. Ayol soyabonni uyda unutganini aytdi — tabiiy davomi: “Unda ertaga olib keling”. ② va ③ suhbat mantig‘iga bog‘lanmaydi, ④ boshqa mavzu.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-L-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening',
+  (select id from public.question_types where code = 'L-04-08' and exam_format_version = 'topik2-pbt-2014'),
+  5, 3, (select id from public.passages where key = 'PSG-L-0002'), '다음 대화를 잘 듣고 이어질 수 있는 말로 가장 알맞은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0002-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0002'), 1, '저는 등산을 안 좋아해요.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0002-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0002'), 2, '그럼 일요일은 어때요?', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0002-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0002'), 3, '아르바이트를 그만두세요.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0002-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0002'), 4, '토요일에 같이 가요.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-L-0002-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0002'), null, 'uz', 'To‘g‘ri javob ②. Erkak shanba kuni band — ayol boshqa kunni taklif qiladi: “Unda yakshanba qalay?” ④ shanbani taklif qiladi, bu erkakning javobiga zid.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-L-0003', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening',
+  (select id from public.question_types where code = 'L-09-12' and exam_format_version = 'topik2-pbt-2014'),
+  9, 3, (select id from public.passages where key = 'PSG-L-0003'), '다음 대화를 잘 듣고 여자가 이어서 할 행동으로 가장 알맞은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0003-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0003'), 1, '책을 반납한다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0003-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0003'), 2, '회원증을 보여 준다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0003-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0003'), 3, '컴퓨터로 회원 가입을 한다.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0003-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0003'), 4, '신분증을 새로 만든다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-L-0003-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0003'), null, 'uz', 'To‘g‘ri javob ③. Erkak “avval kompyuterda ro‘yxatdan o‘ting” dedi — ayolning keyingi harakati shu. ② ayolda karta yo‘q; hujjat esa ro‘yxatdan keyin kerak bo‘ladi.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-L-0004', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening',
+  (select id from public.question_types where code = 'L-09-12' and exam_format_version = 'topik2-pbt-2014'),
+  10, 3, (select id from public.passages where key = 'PSG-L-0004'), '다음 대화를 잘 듣고 여자가 이어서 할 행동으로 가장 알맞은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0004-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0004'), 1, '발표를 연습한다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0004-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0004'), 2, '그래프를 새로 그린다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0004-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0004'), 3, '자료를 인쇄한다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0004-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0004'), 4, '과장에게 전화를 한다.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-L-0004-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0004'), null, 'uz', 'To‘g‘ri javob ④. Ayol oxirida “hozir darrov qo‘ng‘iroq qilaman” dedi. Grafikni qayta chizish yoki chop etish haqida gap yo‘q.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-L-0005', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening',
+  (select id from public.question_types where code = 'L-13-16' and exam_format_version = 'topik2-pbt-2014'),
+  13, 4, (select id from public.passages where key = 'PSG-L-0005'), '다음을 듣고 내용과 일치하는 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0005-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0005'), 1, '대회는 오전에 열린다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0005-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0005'), 2, '그림 도구는 직접 가져와야 한다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0005-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0005'), 3, '신청은 1층 안내 데스크에서 한다.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0005-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0005'), 4, '대회는 백화점 5층에서 열린다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-L-0005-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0005'), null, 'uz', 'To‘g‘ri javob ③. E’londa ro‘yxatdan o‘tish 1-qavatdagi ma’lumot stolida ekani aytildi. ① tanlov tushdan keyin; ② asboblar bepul beriladi; ④ joy — 1-qavat kirish oldidagi maydon.', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.questions (key, source_id, authored_by, section, question_type_id, number_slot, level, passage_id, stem_ko, prompt_ko, points, status)
+values ('QST-L-0006', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'listening',
+  (select id from public.question_types where code = 'L-17-20' and exam_format_version = 'topik2-pbt-2014'),
+  17, 4, (select id from public.passages where key = 'PSG-L-0006'), '다음을 듣고 남자의 중심 생각으로 가장 알맞은 것을 고르십시오.', null, 2, 'draft')
+on conflict (key) do update set section = excluded.section, question_type_id = excluded.question_type_id, number_slot = excluded.number_slot,
+  level = excluded.level, passage_id = excluded.passage_id, stem_ko = excluded.stem_ko, prompt_ko = excluded.prompt_ko, points = excluded.points;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0006-O1', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0006'), 1, '인터넷은 사용하지 않는 것이 좋다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0006-O2', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0006'), 2, '인터넷 정보는 항상 정확하다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0006-O3', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0006'), 3, '중요한 정보는 출처를 확인해야 한다.', true, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.question_options (key, source_id, authored_by, question_id, label, text_ko, is_correct, status)
+values ('QST-L-0006-O4', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0006'), 4, '궁금한 것은 다른 사람에게 물어봐야 한다.', false, 'draft')
+on conflict (key) do update set label = excluded.label, text_ko = excluded.text_ko, is_correct = excluded.is_correct;
+insert into public.explanations (key, source_id, authored_by, question_id, option_id, locale, body_md, status)
+values ('QST-L-0006-EXP', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.questions where key = 'QST-L-0006'), null, 'uz', 'To‘g‘ri javob ③. Erkakning asosiy fikri: muhim ma’lumotni bir necha manba bilan solishtirib, ishonchli joydanligini tekshirish kerak. U internetdan voz kechishni aytmayapti (①), aksincha uning hammasi to‘g‘ri emasligini ta’kidlaydi (②).', 'draft')
+on conflict (key) do update set body_md = excluded.body_md;
+insert into public.rubrics (key, source_id, authored_by, task_no, name, max_points, status)
+values ('RUB-W51-52', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 51, '51–52: gap to‘ldirish', 10, 'draft')
+on conflict (key) do update set task_no = excluded.task_no, name = excluded.name, max_points = excluded.max_points;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W51-52-CONTENT', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W51-52'), 'content', '내용의 적절성', 6, '[{"points":"5–6","uz":"Ikkala bo‘shliq ham matn mantiqiga to‘liq mos, oldingi va keyingi gaplar bilan bog‘langan."},{"points":"3–4","uz":"Mazmun asosan mos, lekin bir bo‘shliqda ma’no to‘liq emas yoki noaniq."},{"points":"0–2","uz":"Javob matn mazmuniga mos emas yoki yozilmagan."}]'::jsonb, 1, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W51-52-CONTENT-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W51-52-CONTENT'), 'name', 'uz', 'Mazmun mosligi', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W51-52-LANGUAGE', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W51-52'), 'language', '언어 사용', 4, '[{"points":"4","uz":"Grammatika, uslub (rasmiy/norasmiy) va gap oxiri matnga mos, xatosiz."},{"points":"2–3","uz":"Kichik grammatik xatolar yoki uslub nomuvofiqligi bor."},{"points":"0–1","uz":"Ko‘p xato, gap tugallanmagan."}]'::jsonb, 2, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W51-52-LANGUAGE-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W51-52-LANGUAGE'), 'name', 'uz', 'Til ishlatilishi', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.rubrics (key, source_id, authored_by, task_no, name, max_points, status)
+values ('RUB-W53', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 53, '53: ma’lumotni tushuntiruvchi matn', 30, 'draft')
+on conflict (key) do update set task_no = excluded.task_no, name = excluded.name, max_points = excluded.max_points;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W53-CONTENT_TASK', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W53'), 'content_task', '내용 및 과제 수행', 7, '[{"points":"6–7","uz":"Berilgan barcha ma’lumot (raqamlar, sabablar, istiqbol) to‘g‘ri va to‘liq yoritilgan, 200–300 belgi."},{"points":"3–5","uz":"Ma’lumotning bir qismi tushib qolgan yoki noto‘g‘ri berilgan."},{"points":"0–2","uz":"Topshiriqqa deyarli javob berilmagan yoki o‘z fikri yozilgan (53-topshiriqda shaxsiy fikr kerak emas)."}]'::jsonb, 1, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W53-CONTENT_TASK-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W53-CONTENT_TASK'), 'name', 'uz', 'Mazmun va topshiriqni bajarish', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W53-STRUCTURE', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W53'), 'structure', '글의 전개 구조', 7, '[{"points":"6–7","uz":"Kirish (so‘rov kim tomonidan o‘tkazilgani) → natija → sabab → istiqbol tartibida, bog‘lovchilar to‘g‘ri."},{"points":"3–5","uz":"Tartib qisman buzilgan yoki bog‘lovchilar yetarli emas."},{"points":"0–2","uz":"Gaplar bir-biriga bog‘lanmagan."}]'::jsonb, 2, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W53-STRUCTURE-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W53-STRUCTURE'), 'name', 'uz', 'Matn tuzilishi', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W53-LANGUAGE', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W53'), 'language', '언어 사용', 16, '[{"points":"13–16","uz":"Yozma uslub (-ㄴ다/-았다), xilma-xil grammatika va lug‘at, xatolar deyarli yo‘q."},{"points":"7–12","uz":"Ma’no tushunarli, lekin takroriy ifodalar va grammatik xatolar bor."},{"points":"0–6","uz":"Xatolar ko‘p, og‘zaki uslub (-아요/-어요) ishlatilgan."}]'::jsonb, 3, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W53-LANGUAGE-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W53-LANGUAGE'), 'name', 'uz', 'Til ishlatilishi', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.rubrics (key, source_id, authored_by, task_no, name, max_points, status)
+values ('RUB-W54', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 54, '54: fikr bildiruvchi insho', 50, 'draft')
+on conflict (key) do update set task_no = excluded.task_no, name = excluded.name, max_points = excluded.max_points;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W54-CONTENT_TASK', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W54'), 'content_task', '내용 및 과제 수행', 12, '[{"points":"10–12","uz":"Uchala savolga ham aniq va asosli javob berilgan, 600–700 belgi."},{"points":"5–9","uz":"Savollardan biri yuzaki yoritilgan yoki dalillar yetarli emas."},{"points":"0–4","uz":"Mavzudan chetga chiqilgan yoki hajm juda kam."}]'::jsonb, 1, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W54-CONTENT_TASK-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W54-CONTENT_TASK'), 'name', 'uz', 'Mazmun va topshiriqni bajarish', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W54-STRUCTURE', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W54'), 'structure', '글의 전개 구조', 12, '[{"points":"10–12","uz":"Kirish — asosiy qism — xulosa aniq, xatboshilar va bog‘lovchilar (우선, 또한, 그러나, 따라서) to‘g‘ri."},{"points":"5–9","uz":"Tuzilish bor, lekin xatboshilar orasidagi bog‘liqlik kuchsiz."},{"points":"0–4","uz":"Tuzilish yo‘q, fikrlar tartibsiz."}]'::jsonb, 2, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W54-STRUCTURE-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W54-STRUCTURE'), 'name', 'uz', 'Matn tuzilishi', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.rubric_criteria (key, source_id, authored_by, rubric_id, code, name_ko, max_points, bands, sort, status)
+values ('RUB-W54-LANGUAGE', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.rubrics where key = 'RUB-W54'), 'language', '언어 사용', 26, '[{"points":"21–26","uz":"Yuqori darajadagi grammatika va akademik lug‘at aniq ishlatilgan, yozma uslub izchil."},{"points":"11–20","uz":"Ma’no tushunarli, lekin grammatika va lug‘at oddiy yoki takroriy, xatolar bor."},{"points":"0–10","uz":"Xatolar ma’noni tushunishga xalaqit beradi."}]'::jsonb, 3, 'draft')
+on conflict (key) do update set code = excluded.code, name_ko = excluded.name_ko, max_points = excluded.max_points, bands = excluded.bands, sort = excluded.sort;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('RUB-W54-LANGUAGE-NAME-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'rubric_criteria', (select id from public.rubric_criteria where key = 'RUB-W54-LANGUAGE'), 'name', 'uz', 'Til ishlatilishi', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-51-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 51,
+  (select id from public.question_types where code = 'W-51-52' and exam_format_version = 'topik2-pbt-2014'),
+  3, '다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.
+
+제목: 노트북을 찾습니다
+어제 오후 3시쯤 학생회관 2층 휴게실에 노트북을 두고 왔습니다. 검은색이고 뒷면에 고양이 스티커가 붙어 있습니다. 노트북 안에 (    ㉠    ). 혹시 노트북을 보신 분은 아래 번호로 (    ㉡    ). 꼭 사례하겠습니다.
+연락처: 010-0000-0000', '{}'::jsonb, null, null, 10,
+  (select id from public.rubrics where key = 'RUB-W51-52'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-51-0001-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-51-0001'), 'instruction', 'uz', 'E’londagi ㉠ va ㉡ bo‘shliqlariga mos gap yozing. Oldingi va keyingi gaplarga e’tibor bering: ㉠ — noutbuk nega muhimligi, ㉡ — topgan odamdan iltimos.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-51-0001-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-51-0001'), '㉠ 중요한 과제 파일이 들어 있어서 꼭 찾아야 합니다
+㉡ 연락해 주시기 바랍니다', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-51-0001-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-51-0001-MODEL'), 'commentary', 'uz', '㉠: “꼭 사례하겠습니다” va izlash sababi bilan bog‘lanadi — ichida muhim fayl borligi. ㉡: e’lon rasmiy uslubda, shuning uchun “연락해 주시기 바랍니다” (bog‘lanishingizni so‘rayman) mos.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-51-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 51,
+  (select id from public.question_types where code = 'W-51-52' and exam_format_version = 'topik2-pbt-2014'),
+  3, '다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.
+
+제목: 집들이에 초대합니다
+지난주에 새집으로 이사했습니다. 그동안 도와주신 분들께 감사의 마음을 전하고 싶어서 (    ㉠    ). 이번 주 토요일 저녁 6시에 저희 집으로 와 주세요. 집 주소를 잘 모르시는 분은 (    ㉡    ). 지하철역까지 마중을 나가겠습니다.', '{}'::jsonb, null, null, 10,
+  (select id from public.rubrics where key = 'RUB-W51-52'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-51-0002-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-51-0002'), 'instruction', 'uz', 'Taklifnomadagi ㉠ va ㉡ ga mos gap yozing: ㉠ — nima qilmoqchi ekani, ㉡ — manzilni bilmaganlar nima qilishi kerakligi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-51-0002-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-51-0002'), '㉠ 집들이를 하려고 합니다
+㉡ 미리 연락해 주세요', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-51-0002-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-51-0002-MODEL'), 'commentary', 'uz', '㉠: sarlavha “집들이에 초대합니다” — demak uyga chaqirib ziyofat qilmoqchi (-(으)려고 하다). ㉡: keyingi gap “bekatgacha kutib olaman” — buning uchun oldindan xabar berish kerak.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-52-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 52,
+  (select id from public.question_types where code = 'W-51-52' and exam_format_version = 'topik2-pbt-2014'),
+  4, '다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.
+
+사람들은 보통 피곤하면 커피를 마신다. 커피에 들어 있는 카페인이 잠을 깨워 주기 때문이다. 그러나 커피를 너무 많이 마시면 (    ㉠    ). 밤에 잠을 잘 자지 못하거나 가슴이 두근거릴 수 있기 때문이다. 그러므로 커피는 (    ㉡    ).', '{}'::jsonb, null, null, 10,
+  (select id from public.rubrics where key = 'RUB-W51-52'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-52-0001-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-52-0001'), 'instruction', 'uz', 'Tushuntirish matnidagi ㉠ va ㉡ ga mos gap yozing. Yozma uslubda (-ㄴ다/-는다) yozing.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-52-0001-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-52-0001'), '㉠ 오히려 건강에 해로울 수 있다
+㉡ 적당히 마시는 것이 좋다', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-52-0001-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-52-0001-MODEL'), 'commentary', 'uz', '㉠: 그러나 “biroq” — oldingi ijobiy fikrga qarama-qarshi salbiy natija kerak; keyingi gap uni tushuntiradi. ㉡: 그러므로 “shuning uchun” — xulosa: me’yorida ichish kerak. Uslub yozma (-다).', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-52-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 52,
+  (select id from public.question_types where code = 'W-51-52' and exam_format_version = 'topik2-pbt-2014'),
+  4, '다음 글의 ㉠과 ㉡에 알맞은 말을 각각 쓰십시오.
+
+칭찬은 사람을 움직이는 힘이 있다. 칭찬을 받으면 자신감이 생기고 더 잘하고 싶은 마음이 든다. 하지만 결과만 칭찬하면 아이들은 (    ㉠    ). 실패할까 봐 어려운 일에 도전하지 않게 되는 것이다. 따라서 결과보다는 (    ㉡    ).', '{}'::jsonb, null, null, 10,
+  (select id from public.rubrics where key = 'RUB-W51-52'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-52-0002-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-52-0002'), 'instruction', 'uz', 'Matndagi ㉠ va ㉡ ga mos gap yozing. ㉠ dan keyingi gap uni izohlaydi, ㉡ esa matnning xulosasi.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-52-0002-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-52-0002'), '㉠ 실패를 두려워하게 된다
+㉡ 노력하는 과정을 칭찬하는 것이 좋다', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-52-0002-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-52-0002-MODEL'), 'commentary', 'uz', '㉠: keyingi gap “muvaffaqiyatsizlikdan qo‘rqib, qiyin ishga urinmaydi” — demak muvaffaqiyatsizlikdan qo‘rqadigan bo‘ladi. ㉡: 결과보다는 “natijadan ko‘ra” — jarayonni (harakatni) maqtash kerak.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-53-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 53,
+  (select id from public.question_types where code = 'W-53' and exam_format_version = 'topik2-pbt-2014'),
+  4, '다음은 ‘성인의 연간 독서량 변화’에 대한 자료이다. 이 내용을 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오.', '{"title":"성인 1인당 연간 독서량 변화","note":"Mashq uchun o‘ylab topilgan ma’lumot","survey":"조사 기관: 새솔시 문화재단 / 조사 대상: 성인 1,000명","columns":["연도","독서량"],"rows":[["2016년","12권"],["2021년","9권"],["2026년","6권"]],"extra":["원인: 스마트폰 사용 시간 증가, 여가 시간 부족","전망: 2031년 4권 예상"]}'::jsonb, 200, 300, 30,
+  (select id from public.rubrics where key = 'RUB-W53'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-53-0001-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-53-0001'), 'instruction', 'uz', 'Quyidagi ma’lumot asosida 200–300 belgilik tushuntirish matni yozing. Shaxsiy fikr yozilmaydi: so‘rov → natija → sabablar → istiqbol tartibida, yozma uslubda (-ㄴ다/-았다).', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-53-0001-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-53-0001'), '새솔시 문화재단에서 성인 1,000명을 대상으로 연간 독서량을 조사하였다. 그 결과 성인 1인당 연간 독서량은 2016년 12권에서 2021년 9권, 2026년 6권으로 10년 사이에 절반으로 줄어든 것으로 나타났다. 이러한 변화의 원인으로는 스마트폰 사용 시간이 늘어난 것과 여가 시간이 부족한 것을 들 수 있다. 이러한 추세가 계속된다면 2031년에는 연간 독서량이 4권까지 줄어들 것으로 전망된다.', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-53-0001-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-53-0001-MODEL'), 'commentary', 'uz', 'Namuna 4 qismdan iborat: (1) so‘rovni kim, kimlar orasida o‘tkazgani; (2) raqamlar bilan natija (“…에서 …으로 줄어든 것으로 나타났다”); (3) sabablar (“원인으로는 … 을/를 들 수 있다”); (4) istiqbol (“…것으로 전망된다”). Shaxsiy fikr yo‘q.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-53-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 53,
+  (select id from public.question_types where code = 'W-53' and exam_format_version = 'topik2-pbt-2014'),
+  4, '다음은 ‘반려동물 양육 가구 비율’에 대한 자료이다. 이 내용을 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오.', '{"title":"반려동물 양육 가구 비율","note":"Mashq uchun o‘ylab topilgan ma’lumot","survey":"조사 기관: 새솔연구소 / 조사 대상: 2,000가구","columns":["연도","비율"],"rows":[["2015년","18%"],["2025년","30%"]],"extra":["양육 이유: 1인 가구 증가 45%, 정서적 안정 35%, 기타 20%"]}'::jsonb, 200, 300, 30,
+  (select id from public.rubrics where key = 'RUB-W53'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-53-0002-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-53-0002'), 'instruction', 'uz', 'Ma’lumot asosida 200–300 belgilik matn yozing: o‘zgarish raqamlari, sabablar (foizlari bilan) va ulardan kelib chiqadigan xulosa.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-53-0002-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-53-0002'), '새솔연구소에서 2,000가구를 대상으로 반려동물 양육 현황을 조사하였다. 조사 결과 반려동물을 기르는 가구의 비율은 2015년 18%에서 2025년 30%로 크게 증가하였다. 반려동물을 기르는 이유로는 ‘1인 가구 증가’가 45%로 가장 많았고, 그다음으로 ‘정서적 안정’이 35%로 나타났다. 이를 통해 혼자 사는 사람이 늘면서 반려동물을 가족처럼 여기는 사람이 많아졌다는 것을 알 수 있다.', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-53-0002-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-53-0002-MODEL'), 'commentary', 'uz', 'Ko‘tarilish “…에서 …로 크게 증가하였다”, sabablar ketma-ketligi “가장 많았고, 그다음으로…”, xulosa “이를 통해 … 알 수 있다” bilan berilgan. Barcha raqamlar ma’lumotdagidek.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-54-0001', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 54,
+  (select id from public.question_types where code = 'W-54' and exam_format_version = 'topik2-pbt-2014'),
+  4, '다음을 주제로 하여 자신의 생각을 600~700자로 글을 쓰십시오. 단, 문제를 그대로 옮겨 쓰지 마십시오.
+
+최근 많은 학교에서 온라인 수업을 활용하고 있다. 아래의 내용을 중심으로 ‘온라인 수업의 장단점과 바람직한 활용 방안’에 대한 자신의 생각을 쓰라.
+· 온라인 수업의 장점은 무엇인가?
+· 온라인 수업의 문제점은 무엇인가?
+· 온라인 수업을 효과적으로 활용하려면 어떻게 해야 하는가?', '{}'::jsonb, 600, 700, 50,
+  (select id from public.rubrics where key = 'RUB-W54'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-54-0001-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-54-0001'), 'instruction', 'uz', '600–700 belgilik insho yozing. Uchala savolga ham alohida xatboshida javob bering: afzalliklar → muammolar → samarali foydalanish yo‘llari. Savol matnini ko‘chirmang.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-54-0001-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-54-0001'), '최근 온라인 수업은 학교 교육의 중요한 방법 중 하나가 되었다. 온라인 수업에는 여러 가지 장점이 있다. 우선 시간과 장소의 제약 없이 수업을 들을 수 있다. 학생들은 이동 시간을 줄일 수 있고 이해하지 못한 부분은 녹화된 강의를 다시 보면서 복습할 수 있다. 또한 먼 지역에 사는 학생들도 질 높은 수업을 쉽게 접할 수 있다. 게다가 자신의 속도에 맞춰 공부할 수 있어서 학습 부담도 줄어든다.
+그러나 온라인 수업에는 문제점도 있다. 무엇보다 학생들의 집중력이 떨어지기 쉽다. 화면 앞에 오래 앉아 있으면 다른 일에 신경을 쓰게 되고 교사가 학생 한 명 한 명의 상태를 확인하기도 어렵다. 그리고 친구들과 직접 만나 토론하거나 함께 활동할 기회가 줄어들어 사회성을 기르기 힘들다는 지적도 있다. 또한 인터넷 환경이 좋지 않은 학생은 수업을 제대로 듣지 못하는 경우도 있다.
+따라서 온라인 수업을 효과적으로 활용하려면 다음과 같은 노력이 필요하다. 첫째, 강의를 짧게 나누고 퀴즈나 토론을 넣어 학생들이 적극적으로 참여하도록 해야 한다. 둘째, 온라인 수업과 대면 수업을 적절히 섞어 각각의 장점을 살려야 한다. 셋째, 학생 스스로도 학습 계획을 세우고 지키는 습관을 길러야 한다. 이렇게 한다면 온라인 수업은 교육의 질을 높이는 좋은 도구가 될 것이다.', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-54-0001-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-54-0001-MODEL'), 'commentary', 'uz', 'Uch xatboshi uchta savolga mos: 우선/또한 (afzalliklar), 그러나/무엇보다 (muammolar), 따라서/첫째·둘째·셋째 (yechimlar) va xulosa gapi. -(으)ㄹ 수 있다, -기 쉽다, -도록 하다, -(으)ㄴ다면 kabi 4급 grammatikasi ishlatilgan.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.writing_tasks (key, source_id, authored_by, task_no, question_type_id, level, prompt_ko, material, min_chars, max_chars, points, rubric_id, status)
+values ('WRT-54-0002', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 54,
+  (select id from public.question_types where code = 'W-54' and exam_format_version = 'topik2-pbt-2014'),
+  4, '다음을 주제로 하여 자신의 생각을 600~700자로 글을 쓰십시오. 단, 문제를 그대로 옮겨 쓰지 마십시오.
+
+인공지능 기술이 빠르게 발달하고 있다. 아래의 내용을 중심으로 ‘인공지능 시대에 필요한 능력’에 대한 자신의 생각을 쓰라.
+· 인공지능의 발달로 생활은 어떻게 변하고 있는가?
+· 인공지능 시대에 사람에게 필요한 능력은 무엇인가?
+· 그 능력을 기르기 위해 어떤 노력이 필요한가?', '{}'::jsonb, 600, 700, 50,
+  (select id from public.rubrics where key = 'RUB-W54'), 'draft')
+on conflict (key) do update set task_no = excluded.task_no, question_type_id = excluded.question_type_id, level = excluded.level,
+  prompt_ko = excluded.prompt_ko, material = excluded.material, min_chars = excluded.min_chars, max_chars = excluded.max_chars,
+  points = excluded.points, rubric_id = excluded.rubric_id;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-54-0002-INSTR-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'writing_tasks', (select id from public.writing_tasks where key = 'WRT-54-0002'), 'instruction', 'uz', '600–700 belgilik insho yozing: hayot qanday o‘zgaryapti → qanday qobiliyatlar kerak → ularni qanday rivojlantirish mumkin.', 'draft')
+on conflict (key) do update set text = excluded.text;
+insert into public.model_answers (key, source_id, authored_by, writing_task_id, body_ko, status)
+values ('WRT-54-0002-MODEL', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', (select id from public.writing_tasks where key = 'WRT-54-0002'), '인공지능 기술이 빠르게 발달하면서 우리의 생활도 크게 변하고 있다. 휴대폰에 말만 하면 일정을 알려 주고 외국어로 된 글도 순식간에 번역해 준다. 회사에서는 인공지능이 자료를 분석하고 보고서를 작성하는 일까지 돕고 있다. 이처럼 인공지능은 사람이 하던 많은 일을 대신하고 있다. 이제 인공지능 없는 생활은 상상하기 어려울 정도이다.
+그렇다면 인공지능 시대에 사람에게 필요한 능력은 무엇일까? 첫째, 비판적으로 생각하는 능력이다. 인공지능이 제공하는 정보가 항상 정확한 것은 아니기 때문에 그 정보가 맞는지 스스로 판단할 수 있어야 한다. 둘째, 창의력이다. 정해진 규칙에 따라 일하는 것은 인공지능이 더 잘하지만 새로운 생각을 떠올리는 것은 여전히 사람의 몫이다. 셋째, 다른 사람과 소통하고 협력하는 능력이다. 인공지능은 사람의 감정을 완전히 이해하지 못하기 때문에 공감하며 함께 문제를 해결하는 능력은 더욱 중요해질 것이다.
+이러한 능력을 기르기 위해서는 교육이 달라져야 한다. 학교에서는 정답을 외우게 하기보다 학생들이 질문하고 토론하는 수업을 늘려야 한다. 또한 개인도 인공지능을 무조건 믿기보다 도구로 활용하면서 자신의 생각을 덧붙이는 연습을 해야 한다. 인공지능을 잘 활용하는 사람이 앞으로의 사회를 이끌어 갈 것이다.', 'draft')
+on conflict (key) do update set body_ko = excluded.body_ko;
+insert into public.translations (key, source_id, authored_by, entity_table, entity_id, field, locale, text, status)
+values ('WRT-54-0002-MODEL-COMMENT-UZ', (select id from public.sources where key = 'SRC-SABAQ-ORIGINAL'), 'ai', 'model_answers', (select id from public.model_answers where key = 'WRT-54-0002-MODEL'), 'commentary', 'uz', 'Kirish misollar bilan (이처럼 …), asosiy qismda savol-gap (그렇다면 …?) va 첫째·둘째·셋째, oxirgi xatboshida yechim va xulosa. -기보다, -(으)면서, -는 것은 아니다 kabi ifodalar fikrni aniq bog‘laydi.', 'draft')
+on conflict (key) do update set text = excluded.text;
 commit;
