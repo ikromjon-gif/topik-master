@@ -1,0 +1,6 @@
+# Supabase CLI sozlamasi (minimal). Loyiha ref'i bu yerda saqlanmaydi:
+# ulanish GitHub Actions'da muhit secret'i (SUPABASE_DB_URL) orqali beriladi.
+project_id = "sabaq"
+
+[db]
+major_version = 17
