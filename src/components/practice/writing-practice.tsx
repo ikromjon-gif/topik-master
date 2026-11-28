@@ -12,11 +12,13 @@ export function WritingPractice({
   minChars,
   maxChars,
   modelAnswer,
+  commentary = null,
 }: {
   taskId: string;
   minChars: number | null;
   maxChars: number | null;
   modelAnswer: string | null;
+  commentary?: string | null;
 }) {
   const [text, setText] = useState("");
   const [showModel, setShowModel] = useState(false);
@@ -48,9 +50,13 @@ export function WritingPractice({
             {showModel ? "Namunaviy javobni yashirish" : "Namunaviy javobni ko‘rish"}
           </button>
           {showModel && (
-            <p lang="ko" className="mt-2 rounded-control bg-surface-muted p-3 text-body whitespace-pre-line text-foreground">
-              {modelAnswer}
-            </p>
+            <div className="mt-2 flex flex-col gap-2">
+              <p lang="ko" className="rounded-control bg-surface-muted p-3 text-body whitespace-pre-line text-foreground">
+                {modelAnswer}
+              </p>
+              <p className="text-caption text-muted tabular-nums">Namunaviy javob: {[...modelAnswer].length} belgi</p>
+              {commentary && <p className="text-caption text-foreground">{commentary}</p>}
+            </div>
           )}
         </div>
       )}

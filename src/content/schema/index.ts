@@ -15,6 +15,7 @@ export const KEY = {
   question: /^QST-[A-Z0-9-]+$/,
   writing: /^WRT-[A-Z0-9-]+$/,
   plan: /^PLN-[A-Z0-9-]+$/,
+  rubric: /^RUB-[A-Z0-9-]+$/,
 } as const;
 
 /** O‘zbek matnida ASCII apostrof va U+02BB ishlatilmaydi (docs/design-system.md). */
@@ -135,6 +136,7 @@ export const questionSchema = z.object({
   type_code: z.string().regex(/^[LR]-\d{2}(-\d{2})?$/),
   level: level.nullable(),
   passage: z.string().regex(KEY.passage).nullable(),
+  number_slot: z.number().int().min(1).max(50).nullable().default(null),
   stem_ko: koText,
   prompt_ko: z.string().nullable().default(null),
   points: z.number().int().positive().default(2),
@@ -182,9 +184,105 @@ export const planTemplateSchema = z
     }
   });
 
+// -----------------------------------------------------------------------------
+export const questionTypeSchema = z
+  .object({
+    code: z.string().regex(/^[LRW]-\d{2}(-\d{2})?$/),
+    section: z.enum(["listening", "reading", "writing"]),
+    number_from: z.number().int().min(1).max(54),
+    number_to: z.number().int().min(1).max(54),
+    name_ko: koText,
+    name_uz: uzText,
+    points_per_item: z.number().int().positive(),
+  })
+  .refine((t) => t.number_from <= t.number_to, "number_from <= number_to bo‘lishi kerak");
+
+export const passageSchema = z.object({
+  key: z.string().regex(KEY.passage),
+  source: z.string().regex(KEY.source),
+  authored_by: authoredBy,
+  section: z.enum(["listening", "reading"]),
+  kind: z.enum(["dialogue", "monologue", "lecture", "interview", "discussion", "news", "announcement", "text", "notice", "advertisement", "graph", "letter", "editorial"]),
+  title: z.string().nullable().default(null),
+  body_ko: koText,
+  speakers: z.array(z.object({ role: z.string(), gender: z.enum(["female", "male"]).nullable() })).default([]),
+  level: level.nullable().default(null),
+  topic: z.string().regex(KEY.topic).nullable().default(null),
+  translation: translation.nullable().default(null),
+  review,
+});
+
+export const grammarFileSchema = z.object({ entries: z.array(grammarPointSchema) });
+
+export const questionFileSchema = z
+  .object({ passages: z.array(passageSchema).default([]), questions: z.array(questionSchema) })
+  .superRefine((f, ctx) => {
+    const keys = new Set(f.passages.map((p) => p.key));
+    for (const q of f.questions) {
+      if (q.passage && !keys.has(q.passage)) ctx.addIssue({ code: "custom", message: `${q.key}: matn topilmadi: ${q.passage}` });
+      const p = f.passages.find((x) => x.key === q.passage);
+      if (p && p.section !== q.section) ctx.addIssue({ code: "custom", message: `${q.key}: savol va matn bo‘limi mos emas` });
+      if (q.section === "listening" && !q.passage) ctx.addIssue({ code: "custom", message: `${q.key}: tinglash savoliga transcript (passage) majburiy` });
+    }
+  });
+
+export const rubricSchema = z
+  .object({
+    key: z.string().regex(KEY.rubric),
+    source: z.string().regex(KEY.source),
+    authored_by: authoredBy,
+    task_no: z.number().int().min(51).max(54),
+    name: z.string().min(1),
+    max_points: z.number().int().positive(),
+    criteria: z
+      .array(
+        z.object({
+          code: z.string().regex(/^[a-z_]+$/),
+          name_ko: koText,
+          name_uz: uzText,
+          max_points: z.number().int().positive(),
+          bands: z.array(z.object({ points: z.string(), uz: uzText })).min(2),
+        }),
+      )
+      .min(1),
+    review,
+  })
+  .refine((r) => r.criteria.reduce((s, c) => s + c.max_points, 0) === r.max_points, "Mezonlar ballari yig‘indisi max_points ga teng bo‘lishi kerak");
+
+export const writingTaskSchema = z
+  .object({
+    key: z.string().regex(KEY.writing),
+    source: z.string().regex(KEY.source),
+    authored_by: authoredBy,
+    task_no: z.number().int().min(51).max(54),
+    level: level.nullable().default(null),
+    prompt_ko: koText,
+    instruction_uz: uzText,
+    material: z.record(z.string(), z.unknown()).default({}),
+    min_chars: z.number().int().min(0).nullable().default(null),
+    max_chars: z.number().int().min(0).nullable().default(null),
+    points: z.number().int().positive(),
+    rubric: z.string().regex(KEY.rubric).nullable().default(null),
+    model_answer: z.object({ ko: koText, commentary_uz: uzText }).nullable().default(null),
+    review,
+  })
+  .superRefine((t, ctx) => {
+    if (t.min_chars !== null && t.max_chars !== null && t.min_chars > t.max_chars) ctx.addIssue({ code: "custom", message: "min_chars > max_chars" });
+    if (t.model_answer && t.min_chars !== null && t.max_chars !== null) {
+      const n = [...t.model_answer.ko].length;
+      if (n < t.min_chars || n > t.max_chars) ctx.addIssue({ code: "custom", message: `Namunaviy javob ${n} belgi — talab ${t.min_chars}–${t.max_chars}` });
+    }
+  });
+
+export const writingFileSchema = z.object({ rubrics: z.array(rubricSchema).default([]), tasks: z.array(writingTaskSchema) });
+
 export type Source = z.infer<typeof sourceSchema>;
 export type VocabEntry = z.infer<typeof vocabEntrySchema>;
 export type VocabFile = z.infer<typeof vocabFileSchema>;
 export type PlanTemplate = z.infer<typeof planTemplateSchema>;
 export type Reviewer = z.infer<typeof reviewerSchema>;
 export type Topic = z.infer<typeof topicSchema>;
+export type GrammarFile = z.infer<typeof grammarFileSchema>;
+export type QuestionFile = z.infer<typeof questionFileSchema>;
+export type WritingFile = z.infer<typeof writingFileSchema>;
+export type QuestionType = z.infer<typeof questionTypeSchema>;

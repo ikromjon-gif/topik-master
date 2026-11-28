@@ -2,6 +2,7 @@ import { AccessNotice } from "@/components/layout/access-notice";
 import { PageContainer } from "@/components/layout/page-container";
 import { routeMetadata } from "@/components/layout/route-placeholder";
 import { ExamFormat } from "@/components/practice/exam-format";
+import { WritingMaterial } from "@/components/practice/writing-material";
 import { WritingPractice } from "@/components/practice/writing-practice";
 import { Badge, VerificationBadge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -46,11 +47,19 @@ export default async function WritingPage() {
             tasks.map((t) => (
               <Card key={t.id}>
                 <div className="mb-2 flex items-center justify-between gap-2">
-                  <Badge tone="primary">{t.task_no}-topshiriq</Badge>
+                  <Badge tone="primary">{t.task_no}-topshiriq · {t.points} ball</Badge>
                   <VerificationBadge status={t.status} />
                 </div>
                 <p lang="ko" className="text-body whitespace-pre-line text-foreground">{t.prompt_ko}</p>
-                <WritingPractice taskId={t.id} minChars={t.min_chars} maxChars={t.max_chars} modelAnswer={t.model_answer} />
+                {t.instruction_uz && <p className="mt-2 text-caption text-muted">{t.instruction_uz}</p>}
+                <WritingMaterial material={t.material} />
+                <WritingPractice
+                  taskId={t.id}
+                  minChars={t.min_chars}
+                  maxChars={t.max_chars}
+                  modelAnswer={t.model_answer}
+                  commentary={t.model_commentary_uz}
+                />
               </Card>
             ))
           )}

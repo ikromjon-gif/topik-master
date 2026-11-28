@@ -50,3 +50,25 @@ Kontent o‘quvchilarga faqat `reviewed` yoki `verified` holatida ko‘rinadi.
 Takroriy so‘zlar (bir nechta darsda uchraganlar) birinchi uchragan joyida
 saqlanadi. So‘z turkumi (`pos`) va daraja (`level`) Rebels'da ko‘rsatilmagan,
 shuning uchun `null` — tekshiruvda to‘ldiriladi.
+
+## Original kontent (Phase 8)
+
+Barcha yozuvlar `SRC-SABAQ-ORIGINAL`, `authored_by: ai`, `status: draft`. Mutaxassis ko‘rib chiqmaguncha o‘quvchiga ko‘rinmaydi.
+
+| Fayl | Tarkib |
+|---|---|
+| `content/meta/question-types.json` | 13 savol turi (tinglash 4, o‘qish 6, yozish 3), TOPIK II PBT formati bo‘yicha |
+| `content/grammar/level-3.json`, `level-4.json` | 30 grammatika (3급 15, 4급 15), har birida formula, o‘zbekcha izoh, 3 misol |
+| `content/reading/set-01.json` | 20 o‘qish savoli (1–18 raqamlari), 3 matn; joy nomi to‘qima (새솔시) |
+| `content/listening/set-01.json` | 6 tinglash ssenariysi va savoli (4, 5, 9, 10, 13, 17); audio yo‘q |
+| `content/listening/RECORDING-PLAN.md` | Native speaker yozuvi, format, nomlash va huquq tartibi |
+| `content/writing/set-01.json` | 3 rubrika (51–52, 53, 54) va 8 topshiriq namunaviy javob bilan |
+
+Qo‘shimcha tekshiruvlar (`npm run content:validate`):
+
+- har savolda 4 variant va aynan 1 to‘g‘ri javob; o‘zbekcha izoh majburiy;
+- savol raqami tur oralig‘ida; tinglash savoli ssenariysiz bo‘lmaydi;
+- rubrika mezonlari yig‘indisi = maksimal ball = topshiriq bali; 51 va 52 bitta rubrikada;
+- namunaviy javob uzunligi belgilar bo‘yicha (53: 200–300, 54: 600–700).
+
+53-topshiriq ma’lumotlari mashq uchun o‘ylab topilgan va sahifada shunday belgilanadi. Rubrikalar Sabaq’ning o‘z qoralamasi — rasmiy TOPIK baholash mezonlari bilan solishtirilishi kerak.

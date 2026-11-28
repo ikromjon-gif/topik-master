@@ -1,0 +1,679 @@
+{
+  "entries": [
+    {
+      "key": "GRM-4-016",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-는 탓에",
+      "formula": "A + -(으)ㄴ 탓에 / V + -는·-(으)ㄴ 탓에 / N + 탓에",
+      "level": 4,
+      "explanation": {
+        "text": "Salbiy natijaning sababini bildiradi va ko‘pincha aybni shu sababga yuklaydi: “…tufayli, …ligi sababli”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "밤새 게임을 한 탓에 수업 시간에 졸았어요.",
+          "uz": {
+            "text": "Tun bo‘yi o‘yin o‘ynaganim sababli darsda mudrab o‘tirdim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "날씨가 추운 탓에 감기 환자가 늘었습니다.",
+          "uz": {
+            "text": "Havo sovuq bo‘lgani tufayli shamollaganlar soni ko‘paydi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "경기 침체 탓에 소비가 줄었다.",
+          "uz": {
+            "text": "Iqtisodiy turg‘unlik tufayli iste’mol kamaydi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-017",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄹ 뿐만 아니라",
+      "formula": "V/A + -(으)ㄹ 뿐만 아니라 / N + 뿐만 아니라",
+      "level": 4,
+      "explanation": {
+        "text": "“Nafaqat…, balki…”: birinchi holatga ikkinchisi qo‘shiladi. Yozma nutq va TOPIK yozishida (53–54) juda foydali.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "운동은 건강에 좋을 뿐만 아니라 스트레스 해소에도 도움이 된다.",
+          "uz": {
+            "text": "Sport nafaqat sog‘liq uchun foydali, balki stressni yo‘qotishga ham yordam beradi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "그 가수는 노래를 잘할 뿐만 아니라 춤도 잘 춘다.",
+          "uz": {
+            "text": "U qo‘shiqchi nafaqat yaxshi kuylaydi, balki yaxshi raqsga ham tushadi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "이 정책은 청년뿐만 아니라 노인에게도 혜택을 준다.",
+          "uz": {
+            "text": "Bu siyosat nafaqat yoshlarga, balki keksalarga ham imtiyoz beradi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-018",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-기 마련이다",
+      "formula": "V/A + -기 마련이다",
+      "level": 4,
+      "explanation": {
+        "text": "Biror narsa tabiiy ravishda, muqarrar shunday bo‘lishini bildiradi: “…ishi tabiiy”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "누구나 실수를 하기 마련이다.",
+          "uz": {
+            "text": "Har kim xato qilishi tabiiy.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "열심히 노력하면 좋은 결과가 나오기 마련이다.",
+          "uz": {
+            "text": "Astoydil harakat qilsa, yaxshi natija chiqishi muqarrar.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "처음에는 누구나 긴장하기 마련이에요.",
+          "uz": {
+            "text": "Boshida har kim hayajonlanishi tabiiy.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-019",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄴ 채로",
+      "formula": "V + -(으)ㄴ 채로",
+      "level": 4,
+      "explanation": {
+        "text": "Bir holat saqlangan holda boshqa ish qilinganini bildiradi: “…gan holda, …gancha”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "창문을 연 채로 잠이 들었어요.",
+          "uz": {
+            "text": "Derazani ochiq qoldirgancha uxlab qoldim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "신발을 신은 채로 들어오면 안 돼요.",
+          "uz": {
+            "text": "Poyabzalni yechmagan holda kirish mumkin emas.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "불을 켠 채로 외출했어요.",
+          "uz": {
+            "text": "Chiroqni yoniq qoldirib tashqariga chiqib ketdim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-020",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄹ 정도로",
+      "formula": "V/A + -(으)ㄹ 정도로",
+      "level": 4,
+      "explanation": {
+        "text": "Holatning darajasini bildiradi: “…darajada, …gudek”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "눈물이 날 정도로 감동적인 영화였어요.",
+          "uz": {
+            "text": "Ko‘zdan yosh chiqadigan darajada ta’sirli film edi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "걷지 못할 정도로 다리가 아팠어요.",
+          "uz": {
+            "text": "Yura olmaydigan darajada oyog‘im og‘ridi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "믿을 수 없을 정도로 가격이 싸요.",
+          "uz": {
+            "text": "Ishonib bo‘lmaydigan darajada narxi arzon.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-021",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-는 김에",
+      "formula": "V + -는 김에 / V + -(으)ㄴ 김에",
+      "level": 4,
+      "explanation": {
+        "text": "Bir ishni qilayotgan paytdagi imkoniyatdan foydalanib, boshqa ishni ham qilishni bildiradi: “…ayotganda, shu bahona bilan”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "시장에 가는 김에 우유도 사 올게요.",
+          "uz": {
+            "text": "Bozorga ketayotganimda sut ham olib kelaman.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "청소를 하는 김에 방 정리도 했어요.",
+          "uz": {
+            "text": "Tozalash qilayotganda xonani ham tartibga keltirdim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "서울에 온 김에 친구도 만났어요.",
+          "uz": {
+            "text": "Seulga kelganim bahonasida do‘stim bilan ham uchrashdim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-022",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-다가는",
+      "formula": "V + -다가는",
+      "level": 4,
+      "explanation": {
+        "text": "Hozirgi harakat davom etaversa, salbiy natija bo‘lishi haqida ogohlantiradi: “…averasang, …”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "이렇게 늦게 자다가는 건강이 나빠질 거예요.",
+          "uz": {
+            "text": "Bunday kech yotaversang, sog‘lig‘ing yomonlashadi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "계속 과식하다가는 살이 찔 거야.",
+          "uz": {
+            "text": "Doim ko‘p yeyaversang, semirib ketasan.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "운전 중에 휴대폰을 보다가는 사고가 날 수 있어요.",
+          "uz": {
+            "text": "Haydash paytida telefonga qarayversangiz, avariya bo‘lishi mumkin.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-023",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-는 한",
+      "formula": "V + -는 한",
+      "level": 4,
+      "explanation": {
+        "text": "Shartni bildiradi: shu holat saqlanib turar ekan, natija ham shunday bo‘ladi — “…ekan, …sa”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "포기하지 않는 한 기회는 있다.",
+          "uz": {
+            "text": "Taslim bo‘lmas ekansan, imkoniyat bor.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "제가 아는 한 그는 정직한 사람이에요.",
+          "uz": {
+            "text": "Men bilishimcha, u halol odam.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "특별한 일이 없는 한 내일 출발할 거예요.",
+          "uz": {
+            "text": "Alohida ish chiqmasa, ertaga yo‘lga chiqaman.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-024",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄴ/는 셈이다",
+      "formula": "A + -(으)ㄴ 셈이다 / V + -는·-(으)ㄴ 셈이다",
+      "level": 4,
+      "explanation": {
+        "text": "Aniq bo‘lmasa-da, natijada shunday deb hisoblash mumkinligini bildiradi: “…desa bo‘ladi, …hisob”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "일주일에 여섯 번 운동하니까 거의 매일 하는 셈이에요.",
+          "uz": {
+            "text": "Haftada olti marta sport qilaman, deyarli har kuni qilaman desa bo‘ladi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "반 이상 끝났으니까 거의 다 한 셈이에요.",
+          "uz": {
+            "text": "Yarmidan ko‘pi tugadi, deyarli hammasini qildik desa bo‘ladi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "10년을 살았으니 서울이 고향인 셈이다.",
+          "uz": {
+            "text": "O‘n yil yashadim, Seul ona shahrim desa bo‘ladi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-025",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-기는커녕",
+      "formula": "V/A + -기는커녕 / N + 은/는커녕",
+      "level": 4,
+      "explanation": {
+        "text": "Kutilgan narsa u yoqda tursin, aksincha undan ham yomoni bo‘lganini bildiradi: “…u yoqda tursin”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "칭찬을 받기는커녕 꾸중만 들었어요.",
+          "uz": {
+            "text": "Maqtov olish u yoqda tursin, faqat tanbeh eshitdim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "돈을 모으기는커녕 빚만 늘었어요.",
+          "uz": {
+            "text": "Pul yig‘ish u yoqda tursin, faqat qarzim ko‘paydi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "밥은커녕 물도 못 마셨어요.",
+          "uz": {
+            "text": "Ovqat u yoqda tursin, suv ham icha olmadim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-026",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄴ/는다고 해서",
+      "formula": "V/A + -(으)ㄴ/는다고 해서 (ko‘pincha: … -(으)ㄴ/는 것은 아니다)",
+      "level": 4,
+      "explanation": {
+        "text": "“…degani bilan (har doim ham) …emas”: bir sabab har doim kutilgan natijaga olib kelmasligini bildiradi.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "돈이 많다고 해서 행복한 것은 아니다.",
+          "uz": {
+            "text": "Puli ko‘p degani bilan baxtli degani emas.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "비싸다고 해서 다 좋은 물건은 아니에요.",
+          "uz": {
+            "text": "Qimmat degani bilan hammasi yaxshi buyum emas.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "한 번 실패했다고 해서 포기하면 안 돼요.",
+          "uz": {
+            "text": "Bir marta muvaffaqiyatsizlikka uchradim deb taslim bo‘lmaslik kerak.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-027",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄴ 나머지",
+      "formula": "V/A + -(으)ㄴ 나머지",
+      "level": 4,
+      "explanation": {
+        "text": "Haddan tashqari holat oqibatida (ko‘pincha salbiy) natija yuz berganini bildiradi: “…ganidan, …likdan”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "너무 긴장한 나머지 준비한 말을 다 잊어버렸어요.",
+          "uz": {
+            "text": "Haddan tashqari hayajonlanganimdan tayyorlagan gaplarimni butunlay unutdim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "급하게 서두른 나머지 지갑을 두고 나왔어요.",
+          "uz": {
+            "text": "Juda shoshilganimdan hamyonimni unutib chiqibman.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "기쁜 나머지 눈물을 흘렸다.",
+          "uz": {
+            "text": "Xursandligidan ko‘z yoshi to‘kdi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-028",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-는 법이다",
+      "formula": "V + -는 법이다 / A + -(으)ㄴ 법이다",
+      "level": 4,
+      "explanation": {
+        "text": "Hamma uchun umumiy haqiqat yoki tabiiy qonuniyatni bildiradi: “…ishi tabiiy, doim shunday bo‘ladi”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "노력하면 결과가 따라오는 법이다.",
+          "uz": {
+            "text": "Harakat qilsang, natija ortidan keladi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "좋은 약은 입에 쓴 법이다.",
+          "uz": {
+            "text": "Yaxshi dori og‘izga achchiq bo‘ladi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "시작이 있으면 끝이 있는 법이에요.",
+          "uz": {
+            "text": "Boshlanishi bor narsaning oxiri ham bo‘ladi.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-029",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄹ 겸",
+      "formula": "V + -(으)ㄹ 겸 (ko‘pincha: -(으)ㄹ 겸 -(으)ㄹ 겸)",
+      "level": 4,
+      "explanation": {
+        "text": "Bir ishni bir nechta maqsadda qilishni bildiradi: “ham …, ham … uchun”.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "운동도 할 겸 친구도 만날 겸 공원에 갔어요.",
+          "uz": {
+            "text": "Ham sport qilish, ham do‘stim bilan uchrashish uchun bog‘ga bordim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "바람도 쐴 겸 산책을 했어요.",
+          "uz": {
+            "text": "Toza havo olish uchun ham sayr qildim.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "한국어 공부도 할 겸 한국 드라마를 봐요.",
+          "uz": {
+            "text": "Koreys tilini ham o‘rganish uchun koreys dramalarini ko‘raman.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    },
+    {
+      "key": "GRM-4-030",
+      "source": "SRC-SABAQ-ORIGINAL",
+      "authored_by": "ai",
+      "pattern": "-(으)ㄹ 뿐이다",
+      "formula": "V/A + -(으)ㄹ 뿐이다 / N + 일 뿐이다",
+      "level": 4,
+      "explanation": {
+        "text": "“Faqat…, xolos”: holat shundan iborat ekanini, boshqa narsa yo‘qligini bildiradi.",
+        "status": "draft"
+      },
+      "examples": [
+        {
+          "ko": "저는 제 일을 했을 뿐이에요.",
+          "uz": {
+            "text": "Men faqat o‘z ishimni qildim, xolos.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "그냥 궁금해서 물어봤을 뿐이에요.",
+          "uz": {
+            "text": "Shunchaki qiziqqanim uchun so‘radim, xolos.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        },
+        {
+          "ko": "그것은 소문일 뿐이다.",
+          "uz": {
+            "text": "Bu shunchaki mish-mish, xolos.",
+            "status": "draft"
+          },
+          "authored_by": "ai"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "reviewed_by": null,
+        "notes": [
+          "AI qoralama — koreys tili mutaxassisi tekshirishi kerak."
+        ]
+      }
+    }
+  ]
+}

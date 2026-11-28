@@ -1,0 +1,15 @@
+[
+  { "code": "L-04-08", "section": "listening", "number_from": 4, "number_to": 8, "name_ko": "이어질 수 있는 말 고르기", "name_uz": "Suhbatdan keyingi gapni tanlash", "points_per_item": 2 },
+  { "code": "L-09-12", "section": "listening", "number_from": 9, "number_to": 12, "name_ko": "이어서 할 행동 고르기", "name_uz": "Keyingi harakatni tanlash", "points_per_item": 2 },
+  { "code": "L-13-16", "section": "listening", "number_from": 13, "number_to": 16, "name_ko": "내용과 일치하는 것 고르기", "name_uz": "Mazmunga mos gapni tanlash", "points_per_item": 2 },
+  { "code": "L-17-20", "section": "listening", "number_from": 17, "number_to": 20, "name_ko": "중심 생각 고르기", "name_uz": "Asosiy fikrni tanlash", "points_per_item": 2 },
+  { "code": "R-01-02", "section": "reading", "number_from": 1, "number_to": 2, "name_ko": "빈칸에 알맞은 문법 고르기", "name_uz": "Bo‘shliqqa mos grammatikani tanlash", "points_per_item": 2 },
+  { "code": "R-03-04", "section": "reading", "number_from": 3, "number_to": 4, "name_ko": "의미가 비슷한 표현 고르기", "name_uz": "Ma’nodosh ifodani tanlash", "points_per_item": 2 },
+  { "code": "R-05-08", "section": "reading", "number_from": 5, "number_to": 8, "name_ko": "무엇에 대한 글인지 고르기", "name_uz": "Matn nima haqida ekanini topish", "points_per_item": 2 },
+  { "code": "R-09-12", "section": "reading", "number_from": 9, "number_to": 12, "name_ko": "글의 내용과 같은 것 고르기", "name_uz": "Matn mazmuniga mos gapni tanlash", "points_per_item": 2 },
+  { "code": "R-13-15", "section": "reading", "number_from": 13, "number_to": 15, "name_ko": "순서대로 배열하기", "name_uz": "Gaplarni tartib bilan joylashtirish", "points_per_item": 2 },
+  { "code": "R-16-18", "section": "reading", "number_from": 16, "number_to": 18, "name_ko": "빈칸에 들어갈 내용 고르기", "name_uz": "Matndagi bo‘shliqqa mos mazmunni tanlash", "points_per_item": 2 },
+  { "code": "W-51-52", "section": "writing", "number_from": 51, "number_to": 52, "name_ko": "문장 완성하기", "name_uz": "Gapni to‘ldirish", "points_per_item": 10 },
+  { "code": "W-53", "section": "writing", "number_from": 53, "number_to": 53, "name_ko": "자료를 설명하는 글 쓰기", "name_uz": "Ma’lumotni tushuntiruvchi matn", "points_per_item": 30 },
+  { "code": "W-54", "section": "writing", "number_from": 54, "number_to": 54, "name_ko": "주제에 대해 자신의 생각 쓰기", "name_uz": "Mavzu bo‘yicha fikr bildirish (insho)", "points_per_item": 50 }
+]

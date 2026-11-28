@@ -184,6 +184,15 @@ export async function getPracticeQuestions(
   return rows.slice(0, limit).map((r) => ({ ...r, options: [...r.options].sort((a, b) => a.label - b.label) }));
 }
 
+export type WritingMaterial = {
+  title?: string;
+  note?: string;
+  survey?: string;
+  columns?: string[];
+  rows?: string[][];
+  extra?: string[];
+};
+
 export type WritingTaskItem = {
   id: string;
   key: string;
@@ -193,17 +202,47 @@ export type WritingTaskItem = {
   max_chars: number | null;
   points: number;
   status: ContentStatus;
+  material: WritingMaterial;
+  instruction_uz: string | null;
   model_answer: string | null;
+  model_commentary_uz: string | null;
 };
 
 export async function getWritingTasks(supabase: SupabaseClient): Promise<WritingTaskItem[]> {
   const { data } = await supabase
     .from("writing_tasks")
-    .select("id, key, task_no, prompt_ko, min_chars, max_chars, points, status, model_answers(body_ko, status)")
+    .select("id, key, task_no, prompt_ko, material, min_chars, max_chars, points, status, model_answers(id, body_ko)")
     .order("task_no")
     .order("key");
-  type Row = Omit<WritingTaskItem, "model_answer"> & { model_answers: { body_ko: string }[] | null };
-  return ((data ?? []) as Row[]).map((r) => ({ ...r, model_answer: r.model_answers?.[0]?.body_ko ?? null }));
+  type Row = Omit<WritingTaskItem, "model_answer" | "instruction_uz" | "model_commentary_uz" | "material"> & {
+    material: WritingMaterial | null;
+    model_answers: { id: string; body_ko: string }[] | null;
+  };
+  const rows = (data ?? []) as Row[];
+  const taskIds = rows.map((r) => r.id);
+  const answerIds = rows.flatMap((r) => (r.model_answers ?? []).map((m) => m.id));
+  // Tarjimalar RLS orqali faqat nashr qilingan holatda qaytadi
+  const [instr, comm] = await Promise.all([
+    taskIds.length
+      ? supabase.from("translations").select("entity_id, text").eq("entity_table", "writing_tasks").eq("field", "instruction").eq("locale", "uz").in("entity_id", taskIds)
+      : Promise.resolve({ data: [] }),
+    answerIds.length
+      ? supabase.from("translations").select("entity_id, text").eq("entity_table", "model_answers").eq("field", "commentary").eq("locale", "uz").in("entity_id", answerIds)
+      : Promise.resolve({ data: [] }),
+  ]);
+  const toMap = (d: unknown) => new Map(((d ?? []) as { entity_id: string; text: string }[]).map((t) => [t.entity_id, t.text]));
+  const instrMap = toMap(instr.data);
+  const commMap = toMap(comm.data);
+  return rows.map(({ model_answers, material, ...r }) => {
+    const answer = model_answers?.[0] ?? null;
+    return {
+      ...r,
+      material: material ?? {},
+      instruction_uz: instrMap.get(r.id) ?? null,
+      model_answer: answer?.body_ko ?? null,
+      model_commentary_uz: answer ? (commMap.get(answer.id) ?? null) : null,
+    };
+  });
 }
 
 export async function getMockTests(supabase: SupabaseClient) {
