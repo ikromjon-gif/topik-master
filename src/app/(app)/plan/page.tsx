@@ -143,7 +143,7 @@ export default async function PlanPage() {
                     <li
                       key={day}
                       className={cn(
-                        "rounded-card border bg-surface p-4 shadow-card",
+                        "min-w-0 rounded-card border bg-surface p-4 shadow-card",
                         state === "today" ? "border-primary" : "border-border",
                       )}
                     >
@@ -160,7 +160,7 @@ export default async function PlanPage() {
                       ) : (
                         <ul className="flex flex-col gap-1.5">
                           {dayTasks.map((t) => (
-                            <li key={t.id} className="flex items-center gap-2 text-caption">
+                            <li key={t.id} className="flex min-w-0 items-center gap-2 text-caption">
                               <span
                                 className={cn(
                                   "grid size-4 shrink-0 place-items-center rounded-full border",
@@ -170,8 +170,8 @@ export default async function PlanPage() {
                                 {t.completedOn && <CheckIcon className="size-3" strokeWidth={3} />}
                               </span>
                               <span className="sr-only">{t.completedOn ? "Bajarilgan:" : "Bajarilmagan:"}</span>
-                              <span className="truncate text-foreground">
-                                {SECTION_META[t.section].short}: <span className={t.titleKo ? "ko" : undefined}>{t.titleKo ?? t.title}</span>
+                              <span className="min-w-0 truncate text-foreground">
+                                {SECTION_META[t.section].short}: {t.title}
                               </span>
                             </li>
                           ))}

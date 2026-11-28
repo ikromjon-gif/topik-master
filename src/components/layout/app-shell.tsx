@@ -27,12 +27,12 @@ export function AppShell({ children }: { children: ReactNode }) {
       <div className="flex min-w-0 flex-1 flex-col">
         <MobileHeader />
         <DesktopHeader />
-        <BackendNotice />
         <main
           id="main-content"
           tabIndex={-1}
           className="flex-1 pb-[calc(5rem+env(safe-area-inset-bottom))] outline-none md:pb-0"
         >
+          <BackendNotice />
           {children}
         </main>
       </div>

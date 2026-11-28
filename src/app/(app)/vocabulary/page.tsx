@@ -59,7 +59,7 @@ export default async function VocabularyPage({
   return (
     <PageContainer title={title} description={description}>
       <div className="flex flex-col gap-5">
-        <form action="/vocabulary" method="get" role="search" className="flex flex-col gap-3 sm:flex-row">
+        <form action="/vocabulary" method="get" role="search" aria-label="Lug‘atdan qidirish" className="flex flex-col gap-3 sm:flex-row">
           {sp.topic && <input type="hidden" name="topic" value={sp.topic} />}
           <label htmlFor="vocab-q" className="sr-only">
             So‘z qidirish

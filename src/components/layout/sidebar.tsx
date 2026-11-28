@@ -78,9 +78,7 @@ function SidebarGoalCard() {
     <div className="rounded-card border border-border bg-primary-soft/60 p-4">
       <CrownIcon className="size-6 text-grammar" />
       <p className="mt-2 text-heading font-bold text-foreground">{siteConfig.exam.name}</p>
-      <p className="text-caption text-muted">
-        <span className="ko">{siteConfig.exam.defaultTargetLevel}급</span> ga tayyorlaning
-      </p>
+      <p className="text-caption text-muted">Rejali tayyorgarlik — kuniga bir qadam</p>
       <Link
         href="/plan"
         className={buttonClasses({ size: "sm", fullWidth: true, className: "mt-3 justify-between" })}

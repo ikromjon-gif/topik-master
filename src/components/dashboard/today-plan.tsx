@@ -84,7 +84,7 @@ export function TodayPlan({
                     <button
                       type="submit"
                       aria-pressed={done}
-                      aria-label={`${section.label}: ${task.titleKo ?? task.title} — ${done ? "bajarilmagan deb belgilash" : "bajarildi deb belgilash"}`}
+                      aria-label={`${section.label}: ${task.title} — ${done ? "bajarilmagan deb belgilash" : "bajarildi deb belgilash"}`}
                       className="grid size-11 place-items-center rounded-full"
                     >
                       <StatusCircle done={done} />
@@ -104,7 +104,12 @@ export function TodayPlan({
                     {section.icon}
                   </span>
                   <span className="min-w-0 flex-1 truncate text-body text-foreground">
-                    {section.label}: <span className={task.titleKo ? "ko" : undefined}>{task.titleKo ?? task.title}</span>
+                    {section.label}: {task.title}
+                    {task.titleKo && task.titleKo !== task.title && (
+                      <span lang="ko" className="ml-1.5 text-caption text-muted">
+                        ({task.titleKo})
+                      </span>
+                    )}
                   </span>
                   {task.estimatedMinutes !== null && (
                     <span className="hidden shrink-0 items-center gap-1 text-caption text-muted sm:flex">
