@@ -16,7 +16,14 @@ import { WeeklyStats } from "./weekly-stats";
  *  - 768–1279px: bitta asosiy ustun + ikki ustunli ichki gridlar
  *  - ≥1280px: 8 + 4 ustunli grid (desktop maket)
  */
-export function DashboardView({ view }: { view: View }) {
+export function DashboardView({
+  view,
+  onToggleTask,
+}: {
+  view: View;
+  /** Server action: login va faol reja bo‘lsa beriladi. */
+  onToggleTask?: (formData: FormData) => Promise<void>;
+}) {
   const hero = (
     <HeroBanner
       targetLevel={view.targetLevel}
@@ -31,7 +38,7 @@ export function DashboardView({ view }: { view: View }) {
       <div className="flex flex-col gap-4 md:hidden">
         {hero}
         <ProgressSummary view={view} />
-        <TodayPlan view={view} compact />
+        <TodayPlan view={view} compact onToggle={onToggleTask} />
         <SectionCards />
         <PlanProgressBar view={view} />
         <MobileStats view={view} />
@@ -45,7 +52,7 @@ export function DashboardView({ view }: { view: View }) {
           {hero}
           <StatsRow view={view} />
           <div className="grid gap-5 lg:grid-cols-3">
-            <TodayPlan view={view} className="lg:col-span-2" />
+            <TodayPlan view={view} onToggle={onToggleTask} className="lg:col-span-2" />
             <PlanProgressRing view={view} />
           </div>
           <QuickAccess />
